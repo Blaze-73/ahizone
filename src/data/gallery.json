@@ -1,0 +1,18 @@
+[
+  { "id": 1, "src": "/images/gallery/echoes-medina.jpg", "alt": "Echoes of the Medina", "category": "painting", "width": 3, "height": 4 },
+  { "id": 2, "src": "/images/gallery/henna-dreams.jpg", "alt": "Henna Dreams III", "category": "painting", "width": 4, "height": 3 },
+  { "id": 3, "src": "/images/gallery/concrete-gardens.jpg", "alt": "Concrete Gardens #7", "category": "photography", "width": 4, "height": 3 },
+  { "id": 4, "src": "/images/gallery/blue-divide.jpg", "alt": "The Blue Divide", "category": "photography", "width": 3, "height": 4 },
+  { "id": 5, "src": "/images/gallery/zellij-cascade.jpg", "alt": "Zellij Cascade (detail)", "category": "sculpture", "width": 3, "height": 4 },
+  { "id": 6, "src": "/images/gallery/roots-transit.jpg", "alt": "Roots in Transit", "category": "sculpture", "width": 4, "height": 3 },
+  { "id": 7, "src": "/images/gallery/atlantic-light.jpg", "alt": "Atlantic Light", "category": "painting", "width": 4, "height": 3 },
+  { "id": 8, "src": "/images/gallery/tangier-interlude.jpg", "alt": "Tangier Interlude", "category": "photography", "width": 4, "height": 3 },
+  { "id": 9, "src": "/images/gallery/silent-geometry.jpg", "alt": "Silent Geometry", "category": "sculpture", "width": 3, "height": 4 },
+  { "id": 10, "src": "/images/gallery/street-canvas.jpg", "alt": "Street Canvas Mural", "category": "painting", "width": 3, "height": 3 },
+  { "id": 11, "src": "/images/gallery/abstract-vortex.jpg", "alt": "Abstract Vortex", "category": "painting", "width": 4, "height": 3 },
+  { "id": 12, "src": "/images/gallery/moroccan-crafts.jpg", "alt": "Moroccan Crafts Display", "category": "painting", "width": 3, "height": 4 },
+  { "id": 13, "src": "/images/gallery/mosaic-dreams.jpg", "alt": "Mosaic Dreams", "category": "photography", "width": 4, "height": 4 },
+  { "id": 14, "src": "/images/gallery/tile-mural.jpg", "alt": "Tile Mural Detail", "category": "sculpture", "width": 3, "height": 3 },
+  { "id": 15, "src": "/images/gallery/geometric-door.jpg", "alt": "Geometric Doorway", "category": "photography", "width": 4, "height": 3 },
+  { "id": 16, "src": "/images/gallery/fountain-art.jpg", "alt": "Fountain Mosaic Art", "category": "street art", "width": 3, "height": 4 }
+]

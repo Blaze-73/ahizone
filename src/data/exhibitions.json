@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Fluid Boundaries",
+    "type": "exhibition",
+    "status": "upcoming",
+    "startDate": "2026-09-15",
+    "endDate": "2026-12-30",
+    "description": "A group exhibition exploring the intersection of traditional Moroccan craftsmanship and contemporary digital art. Features works by Amina Al-Fassi, Leila Chraibi, and three international guest artists.",
+    "image": "/images/exhibitions/fluid-boundaries.jpg",
+    "artists": ["Amina Al-Fassi", "Leila Chraibi"],
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Concrete Gardens: A Retrospective",
+    "type": "exhibition",
+    "status": "current",
+    "startDate": "2026-05-01",
+    "endDate": "2026-08-30",
+    "description": "The first comprehensive retrospective of Youssef Benali's photography, spanning a decade of documenting Morocco's urban transformation.",
+    "image": "/images/exhibitions/concrete-gardens-ex.jpg",
+    "artists": ["Youssef Benali"],
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Asilah International Moussem",
+    "type": "festival",
+    "status": "upcoming",
+    "startDate": "2026-07-10",
+    "endDate": "2026-07-25",
+    "description": "The annual cultural festival transforms Asilah into a living gallery with mural painting, concerts, poetry readings, and exhibitions throughout the medina.",
+    "image": "/images/exhibitions/moussem.jpg",
+    "artists": [],
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Emerging Voices: New Moroccan Art",
+    "type": "exhibition",
+    "status": "past",
+    "startDate": "2026-02-01",
+    "endDate": "2026-04-30",
+    "description": "A showcase of twelve emerging Moroccan artists working across painting, sculpture, video, and installation art.",
+    "image": "/images/exhibitions/emerging-voices.jpg",
+    "artists": [],
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Masterclass: Ceramic Techniques",
+    "type": "workshop",
+    "status": "upcoming",
+    "startDate": "2026-10-05",
+    "endDate": "2026-10-07",
+    "description": "A three-day intensive workshop led by Leila Chraibi, exploring traditional zellij techniques and contemporary applications.",
+    "image": "/images/exhibitions/ceramic-workshop.jpg",
+    "artists": ["Leila Chraibi"],
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "The Asilah Murals: 40 Years",
+    "type": "exhibition",
+    "status": "upcoming",
+    "startDate": "2026-08-01",
+    "endDate": "2026-10-30",
+    "description": "A photographic journey through four decades of Asilah's famous mural festival, featuring images from 50 international artists who have painted the city's walls.",
+    "image": "/images/exhibitions/murals-40.jpg",
+    "artists": [],
+    "featured": false
+  }
+]

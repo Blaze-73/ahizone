@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Sophie Laurent",
+    "role": "Art Collector, Paris",
+    "quote": "AHAYZONE is not just a gallery — it is a cultural destination. The curatorial vision is world-class, and the setting in Asilah is simply magical. I discovered artists whose work I now collect passionately.",
+    "avatar": "/images/artists/amina-portrait.jpg"
+  },
+  {
+    "id": 2,
+    "name": "James Okonkwo",
+    "role": "Artist, Lagos",
+    "quote": "My exhibition at AHAYZONE was a transformative experience. The team's dedication to presenting African contemporary art with the respect and sophistication it deserves is unparalleled.",
+    "avatar": "/images/artists/youssef-portrait.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Maria Consuelo",
+    "role": "Cultural Tourism Director, Madrid",
+    "quote": "We bring groups to Asilah specifically to visit AHAYZONE. It has become an essential stop on the Moroccan cultural circuit — a gateway to understanding contemporary North African creativity.",
+    "avatar": "/images/artists/leila-portrait.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Karim El-Fassi",
+    "role": "Art Historian, University of Rabat",
+    "quote": "AHAYZONE fills a crucial gap in the Moroccan art ecosystem. It provides a platform where established and emerging artists can present their work in a context that is both locally grounded and globally relevant.",
+    "avatar": "/images/exhibitions/emerging-voices.jpg"
+  }
+]

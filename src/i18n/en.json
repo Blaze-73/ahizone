@@ -1,0 +1,252 @@
+{
+  "site": {
+    "name": "AHAYZONE",
+    "tagline": "Contemporary Art Gallery — Asilah, Morocco"
+  },
+  "nav": {
+    "home": "Home",
+    "artists": "Artists",
+    "gallery": "Gallery",
+    "collections": "Collections",
+    "exhibitions": "Exhibitions",
+    "events": "Events",
+    "magazine": "Magazine",
+    "about": "About",
+    "contact": "Contact",
+    "visit": "Visit Us"
+  },
+  "hero": {
+    "title": "Where Moroccan Contemporary Art",
+    "titleHighlight": "Comes Alive",
+    "subtitle": "Discover the intersection of tradition and modernity in the heart of Asilah",
+    "cta": "Explore the Gallery",
+    "secondaryCta": "Visit Us"
+  },
+  "about": {
+    "title": "A Cultural Beacon on the Atlantic Coast",
+    "subtitle": "Founded in the heart of Asilah's historic medina, AHAYZONE is dedicated to showcasing the finest Moroccan contemporary art and fostering cultural exchange between Africa, Europe, and beyond.",
+    "mission": "Our mission is to create a platform where Moroccan artists can present their work to the world, where collectors can discover new voices, and where visitors can experience the transformative power of contemporary art.",
+    "cta": "Discover Our Story"
+  },
+  "artists": {
+    "title": "Featured Artists",
+    "subtitle": "Discover the visionaries shaping Moroccan contemporary art",
+    "viewAll": "View All Artists",
+    "viewProfile": "View Profile",
+    "specialty": "Specialty",
+    "nationality": "Nationality",
+    "awards": "Awards",
+    "featuredArtworks": "Featured Artworks",
+    "quote": "Quote",
+    "biography": "Biography",
+    "noArtists": "No artists found",
+    "searchPlaceholder": "Search artists...",
+    "all": "All"
+  },
+  "collections": {
+    "title": "Featured Collections",
+    "subtitle": "Curated selections that tell stories of Moroccan creativity",
+    "viewAll": "View All Collections",
+    "all": "All",
+    "painting": "Paintings",
+    "photography": "Photography",
+    "sculpture": "Sculpture",
+    "streetArt": "Street Art",
+    "mixedMedia": "Mixed Media",
+    "murals": "Murals",
+    "works": "works"
+  },
+  "gallery": {
+    "title": "Artwork Showcase",
+    "subtitle": "Explore our curated collection of contemporary Moroccan art",
+    "all": "All Works",
+    "viewFullscreen": "View Fullscreen",
+    "close": "Close",
+    "previous": "Previous",
+    "next": "Next",
+    "zoom": "Zoom",
+    "noResults": "No artworks found for this category"
+  },
+  "exhibitions": {
+    "title": "Exhibitions & Events",
+    "subtitle": "Immerse yourself in the cultural calendar of AHAYZONE",
+    "current": "Current",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "exhibition": "Exhibition",
+    "festival": "Festival",
+    "workshop": "Workshop",
+    "talk": "Talk",
+    "learnMore": "Learn More",
+    "register": "Register",
+    "duration": "Duration",
+    "artists": "Artists"
+  },
+  "artwork": {
+    "title": "Artwork",
+    "medium": "Medium",
+    "dimensions": "Dimensions",
+    "year": "Year",
+    "collection": "Collection",
+    "story": "The Story Behind",
+    "relatedArtworks": "Related Artworks",
+    "inquiry": "Make an Inquiry",
+    "notAvailable": "Not Available",
+    "available": "Available",
+    "ofTheMonth": "of the Month"
+  },
+  "events": {
+    "title": "Events",
+    "subtitle": "From gallery openings to workshops and talks — there is always something happening at AHAYZONE",
+    "all": "All Events",
+    "upcoming": "Upcoming",
+    "galleryOpenings": "Gallery Openings",
+    "workshops": "Workshops",
+    "talks": "Talks",
+    "noEvents": "No upcoming events"
+  },
+  "magazine": {
+    "title": "Digital Magazine",
+    "subtitle": "Stories, interviews, and insights from the world of Moroccan contemporary art",
+    "readMore": "Read More",
+    "categories": "Categories",
+    "all": "All Articles",
+    "featured": "Featured",
+    "latest": "Latest"
+  },
+  "asilah": {
+    "title": "The Asilah Murals Festival",
+    "subtitle": "For over four decades, the small fishing town of Asilah has been transformed into one of the world's most extraordinary open-air art galleries.",
+    "history": "Founded in 1978 by artist Mohamed Melehi and writer Mohamed Benaïssa, the Asilah Cultural Moussem brings international artists to paint the whitewashed walls of the medina. What began as a vision to revitalize the historic town has become a global cultural phenomenon.",
+    "timelineTitle": "A Living Timeline",
+    "cta": "Experience the Festival",
+    "timeline": [
+      "First Moussem founded by Melehi & Bena\u00efssa",
+      "Centre Hassan II inaugurated",
+      "International artists begin mural tradition",
+      "Asilah recognized as UNESCO heritage site",
+      "Over 200 murals painted across the medina",
+      "AHAYZONE continues the legacy"
+    ]
+  },
+  "virtual": {
+    "title": "Virtual Gallery Experience",
+    "subtitle": "Walk through our exhibition spaces from anywhere in the world",
+    "instruction": "Scroll horizontally to explore"
+  },
+  "studio": {
+    "title": "Studio & Creative Process",
+    "subtitle": "Step inside the spaces where Moroccan contemporary art comes to life",
+    "cta": "Explore the Process",
+    "labels": ["Canvas & Materials", "The Artist at Work", "Painting Details", "Studio Light"]
+  },
+  "artistOfMonth": {
+    "title": "Artist of the Month",
+    "cta": "Discover Their Work"
+  },
+  "testimonials": {
+    "title": "What People Say",
+    "subtitle": "Words from collectors, artists, and visitors"
+  },
+  "instagram": {
+    "title": "Follow Us",
+    "subtitle": "Join our community on Instagram",
+    "follow": "Follow @ahayzone"
+  },
+  "newsletter": {
+    "title": "Stay Inspired",
+    "subtitle": "Subscribe to receive exhibition invitations, artist stories, and cultural news",
+    "placeholder": "Your email address",
+    "button": "Subscribe",
+    "success": "Thank you for subscribing!",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "description": "Contemporary art gallery in Asilah, Morocco. Showcasing the finest Moroccan contemporary art since 2020.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "followUs": "Follow Us",
+    "address": "Avenue Hassan II, Asilah 90000, Morocco",
+    "phone": "+212 539 91 72 00",
+    "email": "contact@ahayzone.com",
+    "rights": "All rights reserved.",
+    "openingHours": "Opening Hours",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "closed": "Closed"
+  },
+  "aboutPage": {
+    "title": "About AHAYZONE",
+    "subtitle": "A contemporary art gallery at the crossroads of cultures",
+    "history": "Founded in 2020, AHAYZONE emerged from a vision to create a world-class contemporary art space in the historic town of Asilah — a place where the Atlantic meets the Mediterranean, where Africa meets Europe, where tradition meets innovation.",
+    "vision": "We envision Asilah as a global destination for contemporary art — a town where centuries-old medina walls serve as canvases for the most exciting artistic voices of our time.",
+    "mission": "AHAYZONE is dedicated to discovering, supporting, and presenting Moroccan contemporary artists to local and international audiences. Through exhibitions, residencies, and cultural programming, we create meaningful encounters between art and its audience.",
+    "values": [
+      { "title": "Excellence", "description": "We present only the highest quality contemporary art, curated with rigorous standards." },
+      { "title": "Heritage", "description": "We honor Moroccan artistic traditions while pushing boundaries toward new forms of expression." },
+      { "title": "Dialogue", "description": "We foster exchange between cultures, generations, and artistic disciplines." },
+      { "title": "Community", "description": "We are committed to Asilah and its people, contributing to the town's cultural vitality." }
+    ],
+    "valuesTitle": "Our Values",
+    "team": "Our Team",
+    "cta": "Visit the Gallery",
+    "timelineTitle": "Our Journey",
+    "timelineEvents": [
+      "AHAYZONE founded in Asilah",
+      "First international exhibition",
+      "Artist residency program launched",
+      "Digital magazine & online gallery",
+      "Partnership with international museums",
+      "Award-winning cultural destination"
+    ]
+  },
+  "contactPage": {
+    "title": "Get in Touch",
+    "subtitle": "We would love to hear from you",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you! Your message has been sent.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": "Gallery Information",
+    "map": "Find Us",
+    "whatsapp": "Chat on WhatsApp",
+    "mapTitle": "Gallery Location",
+    "hours": {
+      "monTue": "Mon-Tue: 10:00 \u2014 18:00",
+      "wed": "Wed: Closed",
+      "thu": "Thu: 10:00 \u2014 20:00",
+      "fri": "Fri: 10:00 \u2014 18:00",
+      "sat": "Sat: 10:00 \u2014 19:00",
+      "sun": "Sun: 11:00 \u2014 17:00"
+    }
+  },
+  "theme": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "label": "Language"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "backToHome": "Back to Home",
+    "pageNotFound": "Page Not Found",
+    "notFoundDescription": "The page you are looking for does not exist or has been moved.",
+    "scrollDown": "Scroll to explore"
+  }
+}

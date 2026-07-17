@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "slug": "amina-al-fassi",
+    "name": "Amina Al-Fassi",
+    "nationality": "Moroccan",
+    "birthYear": 1978,
+    "specialty": "Mixed Media Painting",
+    "biography": "Amina Al-Fassi is a Casablanca-based contemporary artist whose work explores the intersection of traditional Moroccan craftsmanship and modern abstract expressionism. Her pieces incorporate natural pigments, henna, and handmade paper.",
+    "biographyFull": "Born in Fez in 1978, Amina Al-Fassi developed a deep appreciation for Moroccan artisan traditions from an early age. She studied at the Institut National des Beaux-Arts in Tétouan before completing her MFA in Paris. Her work has been exhibited at the Musée d'Art Moderne et Contemporain in Rabat, the Sharjah Biennial, and Art Dubai. Al-Fassi's practice spans painting, installation, and textile art, often incorporating natural materials like henna, indigo, and handmade paper from Fez. Her abstract compositions are a dialogue between the geometric precision of Islamic art and the emotional freedom of Western abstraction.",
+    "awards": ["L'oréal-UNESCO For Women in Science Award", "Grand Prix de la Biennale de Marrakech", "Prix national des arts plastiques"],
+    "quote": "My work is a prayer for the meeting of worlds—the ancient and the new, the local and the global, the hand and the heart.",
+    "featuredImage": "/images/artists/amina-hero.jpg",
+    "portrait": "/images/artists/amina-portrait.jpg",
+    "artworks": [1, 2, 3],
+    "instagram": "https://instagram.com/amina.alfassi"
+  },
+  {
+    "id": 2,
+    "slug": "youssef-benali",
+    "name": "Youssef Benali",
+    "nationality": "Moroccan",
+    "birthYear": 1985,
+    "specialty": "Photography & Digital Art",
+    "biography": "Youssef Benali captures the soul of Moroccan urban spaces through his lens. His photography documents the transformation of Moroccan cities, blending documentary realism with surrealist aesthetics.",
+    "biographyFull": "Youssef Benali discovered photography as a teenager in the medina of Marrakech, where the play of light through ancient alleyways became his first teacher. He studied visual communication at the School of Fine Arts in Barcelona and returned to Morocco to document the country's rapid urbanization. Benali's series 'Concrete Gardens' and 'The Blue Divide' have been featured in National Geographic, The Guardian, and at the Rencontres d'Arles photography festival. His work lives in the tension between documentary honesty and poetic surrealism, using long exposures and double exposures to reveal the hidden rhythms of city life.",
+    "awards": ["Hasselblad Masters Award", "ICP Infinity Award", "Prix Pictet Nomination"],
+    "quote": "A photograph is not a document. It is a question wrapped in light.",
+    "featuredImage": "/images/artists/youssef-hero.jpg",
+    "portrait": "/images/artists/youssef-portrait.jpg",
+    "artworks": [4, 5, 6],
+    "instagram": "https://instagram.com/youssef.benali"
+  },
+  {
+    "id": 3,
+    "slug": "leila-chraibi",
+    "name": "Leila Chraibi",
+    "nationality": "Moroccan-French",
+    "birthYear": 1990,
+    "specialty": "Sculpture & Installation",
+    "biography": "Leila Chraibi creates immersive installations that merge traditional Moroccan zellij tilework with contemporary sculptural forms. Her work explores themes of memory, displacement, and cultural hybridity.",
+    "biographyFull": "Leila Chraibi was raised between Casablanca and Lyon, an experience that deeply informs her artistic practice. She holds a degree from the Beaux-Arts de Paris and has undertaken residencies at the Victoria & Albert Museum in London and the Dar Al-Ma'mun in Marrakech. Her large-scale installations transform thousands of hand-cut ceramic tiles into flowing, organic forms that cascade down walls and curl across floors. Her work explores the space between architectural tradition and organic growth, between the mathematical precision of Islamic geometry and the unpredictable beauty of nature.",
+    "awards": ["Prix Marcel Duchamp Nominee", "Villa Médicis Hors Les Murs", "Sam Art Projects Award"],
+    "quote": "Every tile carries the memory of the hands that cut it. I am simply arranging memories.",
+    "featuredImage": "/images/artists/leila-hero.jpg",
+    "portrait": "/images/artists/leila-portrait.jpg",
+    "artworks": [7, 8, 9],
+    "instagram": "https://instagram.com/leila.chraibi"
+  }
+]

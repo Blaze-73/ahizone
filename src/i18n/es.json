@@ -1,0 +1,252 @@
+{
+  "site": {
+    "name": "AHAYZONE",
+    "tagline": "Galería de Arte Contemporáneo — Asilah, Marruecos"
+  },
+  "nav": {
+    "home": "Inicio",
+    "artists": "Artistas",
+    "gallery": "Galería",
+    "collections": "Colecciones",
+    "exhibitions": "Exposiciones",
+    "events": "Eventos",
+    "magazine": "Revista",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "visit": "Visítanos"
+  },
+  "hero": {
+    "title": "Donde el Arte Contemporáneo Marroquí",
+    "titleHighlight": "Cobra Vida",
+    "subtitle": "Descubre la intersección de la tradición y la modernidad en el corazón de Asilah",
+    "cta": "Explorar la Galería",
+    "secondaryCta": "Visítanos"
+  },
+  "about": {
+    "title": "Un Faro Cultural en la Costa Atlántica",
+    "subtitle": "Fundado en el corazón de la histórica medina de Asilah, AHAYZONE se dedica a mostrar lo mejor del arte contemporáneo marroquí y fomentar el intercambio cultural entre África, Europa y más allá.",
+    "mission": "Nuestra misión es crear una plataforma donde los artistas marroquíes puedan presentar su trabajo al mundo, donde los coleccionistas puedan descubrir nuevas voces, y donde los visitantes puedan experimentar el poder transformador del arte contemporáneo.",
+    "cta": "Descubre Nuestra Historia"
+  },
+  "artists": {
+    "title": "Artistas Destacados",
+    "subtitle": "Descubre los visionarios que dan forma al arte contemporáneo marroquí",
+    "viewAll": "Ver Todos los Artistas",
+    "viewProfile": "Ver Perfil",
+    "specialty": "Especialidad",
+    "nationality": "Nacionalidad",
+    "awards": "Premios",
+    "featuredArtworks": "Obras Destacadas",
+    "quote": "Cita",
+    "biography": "Biografía",
+    "noArtists": "No se encontraron artistas",
+    "searchPlaceholder": "Buscar artistas...",
+    "all": "Todos"
+  },
+  "collections": {
+    "title": "Colecciones Destacadas",
+    "subtitle": "Selecciones curadas que cuentan historias de la creatividad marroquí",
+    "viewAll": "Ver Todas las Colecciones",
+    "all": "Todos",
+    "painting": "Pinturas",
+    "photography": "Fotografía",
+    "sculpture": "Escultura",
+    "streetArt": "Arte Urbano",
+    "mixedMedia": "Técnicas Mixtas",
+    "murals": "Murales",
+    "works": "obras"
+  },
+  "gallery": {
+    "title": "Exposición de Obras",
+    "subtitle": "Explora nuestra colección curada de arte contemporáneo marroquí",
+    "all": "Todas las Obras",
+    "viewFullscreen": "Pantalla Completa",
+    "close": "Cerrar",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "zoom": "Zoom",
+    "noResults": "No se encontraron obras para esta categoría"
+  },
+  "exhibitions": {
+    "title": "Exposiciones y Eventos",
+    "subtitle": "Sumérgete en el calendario cultural de AHAYZONE",
+    "current": "Actual",
+    "upcoming": "Próximos",
+    "past": "Pasados",
+    "exhibition": "Exposición",
+    "festival": "Festival",
+    "workshop": "Taller",
+    "talk": "Charla",
+    "learnMore": "Más Información",
+    "register": "Registrarse",
+    "duration": "Duración",
+    "artists": "Artistas"
+  },
+  "artwork": {
+    "title": "Obra",
+    "medium": "Técnica",
+    "dimensions": "Dimensiones",
+    "year": "Año",
+    "collection": "Colección",
+    "story": "La Historia Detrás",
+    "relatedArtworks": "Obras Relacionadas",
+    "inquiry": "Hacer una Consulta",
+    "notAvailable": "No Disponible",
+    "available": "Disponible",
+    "ofTheMonth": "del Mes"
+  },
+  "events": {
+    "title": "Eventos",
+    "subtitle": "Desde inauguraciones hasta talleres y charlas — siempre hay algo sucediendo en AHAYZONE",
+    "all": "Todos los Eventos",
+    "upcoming": "Próximos",
+    "galleryOpenings": "Inauguraciones",
+    "workshops": "Talleres",
+    "talks": "Charlas",
+    "noEvents": "No hay eventos próximos"
+  },
+  "magazine": {
+    "title": "Revista Digital",
+    "subtitle": "Historias, entrevistas y perspectivas del mundo del arte contemporáneo marroquí",
+    "readMore": "Leer Más",
+    "categories": "Categorías",
+    "all": "Todos los Artículos",
+    "featured": "Destacados",
+    "latest": "Últimos"
+  },
+  "asilah": {
+    "title": "El Festival de Murales de Asilah",
+    "subtitle": "Durante más de cuatro décadas, el pequeño pueblo pesquero de Asilah se ha transformado en una de las galerías de arte al aire libre más extraordinarias del mundo.",
+    "history": "Fundado en 1978 por el artista Mohamed Melehi y el escritor Mohamed Benaïssa, el Moussem Cultural de Asilah invita a artistas internacionales a pintar las paredes encaladas de la medina. Lo que comenzó como una visión para revitalizar la ciudad histórica se ha convertido en un fenómeno cultural global.",
+    "timelineTitle": "Una Línea de Tiempo Viva",
+    "cta": "Vive el Festival",
+    "timeline": [
+      "Primer Moussem fundado por Melehi y Benaïssa",
+      "Centro Hassan II inaugurado",
+      "Artistas internacionales inician la tradición mural",
+      "Asilah reconocida como sitio UNESCO",
+      "Más de 200 murales pintados en la medina",
+      "AHAYZONE continúa el legado"
+    ]
+  },
+  "virtual": {
+    "title": "Experiencia de Galería Virtual",
+    "subtitle": "Recorre nuestros espacios de exposición desde cualquier lugar del mundo",
+    "instruction": "Desplázate horizontalmente para explorar"
+  },
+  "studio": {
+    "title": "Estudio y Proceso Creativo",
+    "subtitle": "Entra en los espacios donde el arte contemporáneo marroquí cobra vida",
+    "cta": "Explora el Proceso",
+    "labels": ["Lienzo y Materiales", "El Artista en Obra", "Detalles de Pintura", "Luz de Estudio"]
+  },
+  "artistOfMonth": {
+    "title": "Artista del Mes",
+    "cta": "Descubre su Obra"
+  },
+  "testimonials": {
+    "title": "Lo que Dicen",
+    "subtitle": "Palabras de coleccionistas, artistas y visitantes"
+  },
+  "instagram": {
+    "title": "Síguenos",
+    "subtitle": "Únete a nuestra comunidad en Instagram",
+    "follow": "Sigue a @ahayzone"
+  },
+  "newsletter": {
+    "title": "Mantente Inspirado",
+    "subtitle": "Suscríbete para recibir invitaciones a exposiciones, historias de artistas y noticias culturales",
+    "placeholder": "Tu correo electrónico",
+    "button": "Suscribirse",
+    "success": "¡Gracias por suscribirte!",
+    "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "footer": {
+    "description": "Galería de arte contemporáneo en Asilah, Marruecos. Mostrando lo mejor del arte contemporáneo marroquí desde 2020.",
+    "navigation": "Navegación",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "address": "Avenida Hassan II, Asilah 90000, Marruecos",
+    "phone": "+212 539 91 72 00",
+    "email": "contact@ahayzone.com",
+    "rights": "Todos los derechos reservados.",
+    "openingHours": "Horario de Apertura",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "closed": "Cerrado"
+  },
+  "aboutPage": {
+    "title": "Acerca de AHAYZONE",
+    "subtitle": "Una galería de arte contemporáneo en la encrucijada de culturas",
+    "history": "Fundada en 2020, AHAYZONE surgió de una visión: crear un espacio de arte contemporáneo de clase mundial en la histórica ciudad de Asilah — un lugar donde el Atlántico se encuentra con el Mediterráneo, donde África se encuentra con Europa, donde la tradición se encuentra con la innovación.",
+    "vision": "Imaginamos Asilah como un destino global para el arte contemporáneo — una ciudad donde los muros centenarios de la medina sirven como lienzos para las voces artísticas más emocionantes de nuestro tiempo.",
+    "mission": "AHAYZONE se dedica a descubrir, apoyar y presentar artistas contemporáneos marroquíes a audiencias locales e internacionales. A través de exposiciones, residencias y programación cultural, creamos encuentros significativos entre el arte y su público.",
+    "values": [
+      { "title": "Excelencia", "description": "Presentamos solo arte contemporáneo de la más alta calidad, curado con estándares rigurosos." },
+      { "title": "Patrimonio", "description": "Honramos las tradiciones artísticas marroquíes mientras expandimos los límites hacia nuevas formas de expresión." },
+      { "title": "Diálogo", "description": "Fomentamos el intercambio entre culturas, generaciones y disciplinas artísticas." },
+      { "title": "Comunidad", "description": "Estamos comprometidos con Asilah y su gente, contribuyendo a la vitalidad cultural de la ciudad." }
+    ],
+    "valuesTitle": "Nuestros Valores",
+    "team": "Nuestro Equipo",
+    "cta": "Visitar la Galería",
+    "timelineTitle": "Nuestro Recorrido",
+    "timelineEvents": [
+      "AHAYZONE fundada en Asilah",
+      "Primera exposición internacional",
+      "Programa de residencia artística lanzado",
+      "Revista digital y galería en línea",
+      "Asociación con museos internacionales",
+      "Destino cultural galardonado"
+    ]
+  },
+  "contactPage": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Nos encantaría saber de ti",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Tu Email",
+      "subject": "Asunto",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Gracias! Tu mensaje ha sido enviado.",
+      "error": "Algo salió mal. Por favor, inténtalo de nuevo."
+    },
+    "info": "Información",
+    "map": "Encuéntranos",
+    "whatsapp": "Chatea en WhatsApp",
+    "mapTitle": "Ubicación de la Galería",
+    "hours": {
+      "monTue": "Lun-Mar: 10:00 \u2014 18:00",
+      "wed": "Mié: Cerrado",
+      "thu": "Jue: 10:00 \u2014 20:00",
+      "fri": "Vie: 10:00 \u2014 18:00",
+      "sat": "Sáb: 10:00 \u2014 19:00",
+      "sun": "Dom: 11:00 \u2014 17:00"
+    }
+  },
+  "theme": {
+    "light": "Modo Claro",
+    "dark": "Modo Oscuro"
+  },
+  "language": {
+    "en": "English",
+    "fr": "Français",
+    "es": "Español",
+    "label": "Idioma"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Algo salió mal",
+    "retry": "Reintentar",
+    "backToHome": "Volver al Inicio",
+    "pageNotFound": "Página No Encontrada",
+    "notFoundDescription": "La página que buscas no existe o ha sido movida.",
+    "scrollDown": "Desplázate para explorar"
+  }
+}

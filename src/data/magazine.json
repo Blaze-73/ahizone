@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "The Art of Henna: Amina Al-Fassi on Tradition and Transformation",
+    "category": "Artist Spotlight",
+    "author": "AHAYZONE Editorial",
+    "date": "2026-06-15",
+    "image": "/images/magazine/henna-article.jpg",
+    "featured": true,
+    "excerpt": "We sit down with Amina Al-Fassi to discuss her celebrated Henna Series, the spiritual dimension of natural pigments, and what it means to be a Moroccan woman in contemporary art.",
+    "content": "Full article content placeholder..."
+  },
+  {
+    "id": 2,
+    "title": "Behind the Canvas: A Day in the Studio with Leila Chraibi",
+    "category": "Behind the Canvas",
+    "author": "AHAYZONE Editorial",
+    "date": "2026-06-01",
+    "image": "/images/magazine/studio-leila.jpg",
+    "featured": true,
+    "excerpt": "Step inside Leila Chraibi's sun-drenched studio in the medina of Asilah, where thousands of hand-cut ceramic tiles become cascading works of art.",
+    "content": "Full article content placeholder..."
+  },
+  {
+    "id": 3,
+    "title": "Stories from Asilah: The Town That Became a Canvas",
+    "category": "Stories from Asilah",
+    "author": "AHAYZONE Editorial",
+    "date": "2026-05-20",
+    "image": "/images/magazine/asilah-stories.jpg",
+    "featured": false,
+    "excerpt": "How a small fishing town on Morocco's Atlantic coast became one of the world's most extraordinary open-air art galleries.",
+    "content": "Full article content placeholder..."
+  },
+  {
+    "id": 4,
+    "title": "Gallery News: New Residency Program Launch",
+    "category": "Gallery News",
+    "author": "AHAYZONE Editorial",
+    "date": "2026-05-10",
+    "image": "/images/magazine/residency.jpg",
+    "featured": false,
+    "excerpt": "AHAYZONE announces a new international artist residency program, inviting eight artists to live and work in Asilah for three months.",
+    "content": "Full article content placeholder..."
+  },
+  {
+    "id": 5,
+    "title": "Exhibition Highlights: Fluid Boundaries Opens to Critical Acclaim",
+    "category": "Exhibition Highlights",
+    "author": "AHAYZONE Editorial",
+    "date": "2026-04-28",
+    "image": "/images/magazine/fluid-boundaries-review.jpg",
+    "featured": false,
+    "excerpt": "Our latest group exhibition has been praised by critics for its innovative dialogue between traditional craftsmanship and digital art.",
+    "content": "Full article content placeholder..."
+  },
+  {
+    "id": 6,
+    "title": "Moroccan Contemporary Art: A Global Movement",
+    "category": "Moroccan Contemporary Art",
+    "author": "AHAYZONE Editorial",
+    "date": "2026-04-15",
+    "image": "/images/magazine/moroccan-art.jpg",
+    "featured": false,
+    "excerpt": "An exploration of the vibrant Moroccan contemporary art scene and its growing influence on the global stage.",
+    "content": "Full article content placeholder..."
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "name": "AHAYZONE",
+  "tagline": "Contemporary Art Gallery — Asilah, Morocco",
+  "description": "AHAYZONE is a contemporary art gallery located in the historic town of Asilah, Morocco. We showcase the finest Moroccan contemporary art, hosting exhibitions, cultural events, and artist residencies.",
+  "location": {
+    "address": "Avenue Hassan II, Asilah 90000, Morocco",
+    "phone": "+212 539 91 72 00",
+    "email": "contact@ahayzone.com",
+    "whatsapp": "+212 661 234 567",
+    "coordinates": {
+      "lat": 35.4653,
+      "lng": -6.0348
+    }
+  },
+  "openingHours": {
+    "monday": "10:00 — 18:00",
+    "tuesday": "10:00 — 18:00",
+    "wednesday": "Closed",
+    "thursday": "10:00 — 20:00",
+    "friday": "10:00 — 18:00",
+    "saturday": "10:00 — 19:00",
+    "sunday": "11:00 — 17:00"
+  },
+  "social": {
+    "instagram": "https://instagram.com/ahayzone",
+    "facebook": "https://facebook.com/ahayzone",
+    "twitter": "https://twitter.com/ahayzone",
+    "pinterest": "https://pinterest.com/ahayzone"
+  },
+  "navLinks": [
+    { "key": "home", "path": "/" },
+    { "key": "artists", "path": "/artists" },
+    { "key": "gallery", "path": "/gallery" },
+    { "key": "collections", "path": "/collections" },
+    { "key": "exhibitions", "path": "/exhibitions" },
+    { "key": "events", "path": "/events" },
+    { "key": "magazine", "path": "/magazine" },
+    { "key": "about", "path": "/about" },
+    { "key": "contact", "path": "/contact" }
+  ],
+  "hero": {
+    "title": "Where Moroccan Contemporary Art",
+    "titleHighlight": "Comes Alive",
+    "subtitle": "Discover the intersection of tradition and modernity in the heart of Asilah",
+    "cta": "Explore the Gallery",
+    "secondaryCta": "Visit Us"
+  }
+}
