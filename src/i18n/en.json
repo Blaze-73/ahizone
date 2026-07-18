@@ -1,7 +1,7 @@
 {
   "site": {
-    "name": "AHAYZONE",
-    "tagline": "Contemporary Art Gallery — Asilah, Morocco"
+    "name": "AHIZOUNE",
+    "tagline": "Arabic Calligraphy Artist — Asilah, Morocco"
   },
   "nav": {
     "home": "Home",
@@ -24,7 +24,7 @@
   },
   "about": {
     "title": "A Cultural Beacon on the Atlantic Coast",
-    "subtitle": "Founded in the heart of Asilah's historic medina, AHAYZONE is dedicated to showcasing the finest Moroccan contemporary art and fostering cultural exchange between Africa, Europe, and beyond.",
+    "subtitle": "Abderrahim Ahizoune is an Arabic calligraphy artist from the historic town of Asilah, Morocco. His work is dedicated to showcasing the beauty of Arabic script and fostering cultural connection through the art of calligraphy.",
     "mission": "Our mission is to create a platform where Moroccan artists can present their work to the world, where collectors can discover new voices, and where visitors can experience the transformative power of contemporary art.",
     "cta": "Discover Our Story"
   },
@@ -48,12 +48,11 @@
     "subtitle": "Curated selections that tell stories of Moroccan creativity",
     "viewAll": "View All Collections",
     "all": "All",
-    "painting": "Paintings",
-    "photography": "Photography",
-    "sculpture": "Sculpture",
-    "streetArt": "Street Art",
-    "mixedMedia": "Mixed Media",
+    "calligraphy": "Arabic Calligraphy",
+    "portraits": "Portraits",
+    "teaching": "Teaching Workshops",
     "murals": "Murals",
+    "mixedMedia": "Mixed Media",
     "works": "works"
   },
   "gallery": {
@@ -69,7 +68,7 @@
   },
   "exhibitions": {
     "title": "Exhibitions & Events",
-    "subtitle": "Immerse yourself in the cultural calendar of AHAYZONE",
+    "subtitle": "Immerse yourself in the cultural calendar of Ahizoune",
     "current": "Current",
     "upcoming": "Upcoming",
     "past": "Past",
@@ -97,9 +96,10 @@
   },
   "events": {
     "title": "Events",
-    "subtitle": "From gallery openings to workshops and talks — there is always something happening at AHAYZONE",
+    "subtitle": "From calligraphy workshops to festivals and national gatherings — there is always something new with Ahizoune",
     "all": "All Events",
     "upcoming": "Upcoming",
+    "nationalGathering": "National Gatherings",
     "galleryOpenings": "Gallery Openings",
     "workshops": "Workshops",
     "talks": "Talks",
@@ -126,7 +126,7 @@
       "International artists begin mural tradition",
       "Asilah recognized as UNESCO heritage site",
       "Over 200 murals painted across the medina",
-      "AHAYZONE continues the legacy"
+      "Ahizoune carries the legacy forward"
     ]
   },
   "virtual": {
@@ -151,7 +151,7 @@
   "instagram": {
     "title": "Follow Us",
     "subtitle": "Join our community on Instagram",
-    "follow": "Follow @ahayzone"
+    "follow": "Follow @ahizoune_art"
   },
   "newsletter": {
     "title": "Stay Inspired",
@@ -168,7 +168,7 @@
     "followUs": "Follow Us",
     "address": "Avenue Hassan II, Asilah 90000, Morocco",
     "phone": "+212 539 91 72 00",
-    "email": "contact@ahayzone.com",
+    "email": "contact@ahizoune.art",
     "rights": "All rights reserved.",
     "openingHours": "Opening Hours",
     "monday": "Monday",
@@ -181,11 +181,11 @@
     "closed": "Closed"
   },
   "aboutPage": {
-    "title": "About AHAYZONE",
-    "subtitle": "A contemporary art gallery at the crossroads of cultures",
-    "history": "Founded in 2020, AHAYZONE emerged from a vision to create a world-class contemporary art space in the historic town of Asilah — a place where the Atlantic meets the Mediterranean, where Africa meets Europe, where tradition meets innovation.",
-    "vision": "We envision Asilah as a global destination for contemporary art — a town where centuries-old medina walls serve as canvases for the most exciting artistic voices of our time.",
-    "mission": "AHAYZONE is dedicated to discovering, supporting, and presenting Moroccan contemporary artists to local and international audiences. Through exhibitions, residencies, and cultural programming, we create meaningful encounters between art and its audience.",
+    "title": "About Ahizoune",
+    "subtitle": "An Arabic calligraphy artist at the heart of Moroccan culture",
+    "history": "Born and raised in Asilah, Abderrahim Ahizoune developed a deep passion for Arabic calligraphy and Arab culture from an early age. His journey began with a simple fascination for the beauty of the Arabic letter, evolving into a lifelong mission to preserve and promote this ancient art form.",
+    "vision": "He envisions a future where every child has the opportunity to learn and love Arabic calligraphy — where the art of the letter becomes a bridge between generations, cultures, and communities.",
+    "mission": "Ahizoune is dedicated to teaching, creating, and inspiring through Arabic calligraphy. Through national gatherings, workshops, festivals, and custom portrait work, he brings the beauty of Arabic script to life for new audiences.",
     "values": [
       { "title": "Excellence", "description": "We present only the highest quality contemporary art, curated with rigorous standards." },
       { "title": "Heritage", "description": "We honor Moroccan artistic traditions while pushing boundaries toward new forms of expression." },
@@ -197,7 +197,7 @@
     "cta": "Visit the Gallery",
     "timelineTitle": "Our Journey",
     "timelineEvents": [
-      "AHAYZONE founded in Asilah",
+      "Ahizoune began his calligraphy journey in Asilah",
       "First international exhibition",
       "Artist residency program launched",
       "Digital magazine & online gallery",

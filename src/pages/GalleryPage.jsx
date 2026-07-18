@@ -5,7 +5,7 @@ import Container from '../components/ui/Container'
 import Lightbox from '../components/ui/Lightbox'
 import galleryData from '../data/gallery.json'
 
-const categories = ['all', 'painting', 'photography', 'sculpture', 'street art']
+const categories = ['all', 'calligraphy', 'portrait', 'teaching', 'mural', 'mixedMedia']
 
 export default function GalleryPage() {
   const { t } = useTranslation()
@@ -48,7 +48,7 @@ export default function GalleryPage() {
                     : 'bg-transparent text-stone dark:text-mist border border-stone/20 dark:border-white/10 hover:border-primary/50'
                 }`}
               >
-                {t(`collections.${cat === 'street art' ? 'streetArt' : cat}`)}
+                {t(`collections.${cat}`)}
               </button>
             ))}
           </div>

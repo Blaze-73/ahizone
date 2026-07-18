@@ -4,14 +4,14 @@ const ThemeContext = createContext()
 
 export function ThemeProvider({ children }) {
   const [theme, setTheme] = useState(() => {
-    const saved = localStorage.getItem('ahayzone-theme')
+    const saved = localStorage.getItem('ahizoune-theme')
     if (saved) return saved
     return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
   })
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme)
-    localStorage.setItem('ahayzone-theme', theme)
+    localStorage.setItem('ahizoune-theme', theme)
     if (theme === 'dark') {
       document.documentElement.classList.add('dark')
     } else {

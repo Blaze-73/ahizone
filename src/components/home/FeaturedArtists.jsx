@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import Container from '../ui/Container'
 import Button from '../ui/Button'
@@ -11,9 +10,12 @@ import { memo } from 'react'
 const FeaturedArtists = memo(function FeaturedArtists() {
   const { t } = useTranslation()
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
+  const artist = artistsData[0]
+
+  if (!artist) return null
 
   return (
-    <section ref={ref} className="relative py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="relative py-32 bg-white dark:bg-eclipse overflow-hidden">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -29,45 +31,44 @@ const FeaturedArtists = memo(function FeaturedArtists() {
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {artistsData.map((artist, i) => (
-            <motion.div
-              key={artist.id}
-              initial={{ opacity: 0, y: 40 }}
-              animate={isVisible ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.6, delay: i * 0.15, ease: [0.25, 0.1, 0.25, 1] }}
-            >
-              <Link to={`/artists/${artist.slug}`} className="group block">
-                <div className="aspect-[3/4] rounded-2xl overflow-hidden relative mb-5">
-                  <div
-                    className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                    style={{ backgroundImage: `url(${artist.portrait})`, backgroundColor: '#2C1810' }}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                  <div className="absolute bottom-5 left-5 right-5 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
-                    <span className="text-white text-sm font-body">{t('artists.viewProfile')}</span>
-                  </div>
-                </div>
-                <h3 className="font-display text-xl font-semibold text-secondary dark:text-white group-hover:text-primary transition-colors">
-                  {artist.name}
-                </h3>
-                <p className="text-sm text-mist mt-1">{artist.nationality} — {artist.specialty}</p>
-                <p className="text-sm text-stone dark:text-mist mt-3 line-clamp-2 leading-relaxed">
-                  {artist.biography}
-                </p>
-              </Link>
-            </motion.div>
-          ))}
-        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            animate={isVisible ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1] }}
+            className="relative"
+          >
+            <div className="aspect-[3/4] rounded-2xl overflow-hidden">
+              <div
+                className="w-full h-full bg-cover bg-center"
+                style={{ backgroundImage: `url(${artist.portrait})`, backgroundColor: '#2C1810' }}
+              />
+            </div>
+          </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={isVisible ? { opacity: 1 } : {}}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="text-center mt-12"
-        >
-          <Button to="/artists" variant="primary">{t('artists.viewAll')}</Button>
-        </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            animate={isVisible ? { opacity: 1, x: 0 } : {}}
+            transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
+          >
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
+              {artist.name}
+            </h2>
+            <p className="mt-2 text-primary/80 font-display italic text-lg">{artist.nationality} — {artist.specialty}</p>
+            <div className="w-16 h-px bg-primary my-8" />
+            <div className="relative pl-6 border-l-2 border-primary/30">
+              <p className="text-base md:text-lg text-stone dark:text-mist leading-relaxed font-literary italic">
+                &ldquo;{artist.quoteEn}&rdquo;
+              </p>
+            </div>
+            <p className="mt-6 text-base text-stone dark:text-mist leading-relaxed font-light">
+              {artist.biographyFull}
+            </p>
+            <div className="mt-8">
+              <Button to={`/artists/${artist.slug}`} variant="primary">{t('artists.viewProfile')}</Button>
+            </div>
+          </motion.div>
+        </div>
       </Container>
     </section>
   )

@@ -32,7 +32,7 @@ export default function InstagramGallery() {
         {images.map((img, i) => (
           <motion.a
             key={img.id}
-            href="https://instagram.com/ahayzone"
+            href="https://instagram.com/ahizoune_art"
             target="_blank"
             rel="noopener noreferrer"
             initial={{ opacity: 0 }}
@@ -60,7 +60,7 @@ export default function InstagramGallery() {
           className="text-center"
         >
           <a
-            href="https://instagram.com/ahayzone"
+            href="https://instagram.com/ahizoune_art"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-body text-primary hover:text-primary-dark transition-colors"

@@ -71,7 +71,7 @@ export default function Footer() {
               {days.map((day) => (
                 <li key={day} className="flex justify-between text-sm">
                   <span className="text-mist">{t(`footer.${day}`)}</span>
-                  <span className="text-white/80">{t(`footer.${day === 'wednesday' ? 'closed' : 'openingHours'}`) === 'openingHours' ? siteData.openingHours[day] : t('footer.closed')}</span>
+                  <span className="text-white/80">{siteData.openingHours[day]}</span>
                 </li>
               ))}
             </ul>
@@ -91,7 +91,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@ahayzone.com" className="flex items-center gap-3 text-sm text-mist hover:text-primary transition-colors">
+                <a href="mailto:contact@ahizoune.art" className="flex items-center gap-3 text-sm text-mist hover:text-primary transition-colors">
                   <HiOutlineMail className="w-5 h-5 text-primary shrink-0" />
                   {t('footer.email')}
                 </a>

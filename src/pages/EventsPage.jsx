@@ -40,7 +40,7 @@ export default function EventsPage() {
       <section className="py-16 bg-white dark:bg-eclipse">
         <Container>
           <div className="flex flex-wrap gap-3 mb-12">
-            {['all', 'exhibition', 'festival', 'workshop', 'talk'].map((f) => (
+            {['all', 'exhibition', 'festival', 'workshop'].map((f) => (
               <button
                 key={f}
                 onClick={() => setFilter(f)}

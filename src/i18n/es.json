@@ -1,7 +1,7 @@
 {
   "site": {
-    "name": "AHAYZONE",
-    "tagline": "Galería de Arte Contemporáneo — Asilah, Marruecos"
+    "name": "AHIZOUNE",
+    "tagline": "Artista en Caligrafía Árabe — Asilah, Marruecos"
   },
   "nav": {
     "home": "Inicio",
@@ -24,7 +24,7 @@
   },
   "about": {
     "title": "Un Faro Cultural en la Costa Atlántica",
-    "subtitle": "Fundado en el corazón de la histórica medina de Asilah, AHAYZONE se dedica a mostrar lo mejor del arte contemporáneo marroquí y fomentar el intercambio cultural entre África, Europa y más allá.",
+    "subtitle": "Abderrahim Ahizoune es un artista de caligrafía árabe de la histórica ciudad de Asilah, Marruecos. Su trabajo está dedicado a mostrar la belleza de la escritura árabe y fomentar la conexión cultural a través del arte de la caligrafía.",
     "mission": "Nuestra misión es crear una plataforma donde los artistas marroquíes puedan presentar su trabajo al mundo, donde los coleccionistas puedan descubrir nuevas voces, y donde los visitantes puedan experimentar el poder transformador del arte contemporáneo.",
     "cta": "Descubre Nuestra Historia"
   },
@@ -69,7 +69,7 @@
   },
   "exhibitions": {
     "title": "Exposiciones y Eventos",
-    "subtitle": "Sumérgete en el calendario cultural de AHAYZONE",
+    "subtitle": "Sumérgete en el calendario cultural de Ahizoune",
     "current": "Actual",
     "upcoming": "Próximos",
     "past": "Pasados",
@@ -97,7 +97,7 @@
   },
   "events": {
     "title": "Eventos",
-    "subtitle": "Desde inauguraciones hasta talleres y charlas — siempre hay algo sucediendo en AHAYZONE",
+    "subtitle": "Desde talleres de caligrafía hasta festivales y reuniones nacionales — siempre hay algo nuevo con Ahizoune",
     "all": "Todos los Eventos",
     "upcoming": "Próximos",
     "galleryOpenings": "Inauguraciones",
@@ -126,7 +126,7 @@
       "Artistas internacionales inician la tradición mural",
       "Asilah reconocida como sitio UNESCO",
       "Más de 200 murales pintados en la medina",
-      "AHAYZONE continúa el legado"
+      "Ahizoune continúa el legado"
     ]
   },
   "virtual": {
@@ -151,7 +151,7 @@
   "instagram": {
     "title": "Síguenos",
     "subtitle": "Únete a nuestra comunidad en Instagram",
-    "follow": "Sigue a @ahayzone"
+    "follow": "Sigue a @ahizoune_art"
   },
   "newsletter": {
     "title": "Mantente Inspirado",
@@ -168,7 +168,7 @@
     "followUs": "Síguenos",
     "address": "Avenida Hassan II, Asilah 90000, Marruecos",
     "phone": "+212 539 91 72 00",
-    "email": "contact@ahayzone.com",
+    "email": "contact@ahizoune.art",
     "rights": "Todos los derechos reservados.",
     "openingHours": "Horario de Apertura",
     "monday": "Lunes",
@@ -181,11 +181,11 @@
     "closed": "Cerrado"
   },
   "aboutPage": {
-    "title": "Acerca de AHAYZONE",
-    "subtitle": "Una galería de arte contemporáneo en la encrucijada de culturas",
-    "history": "Fundada en 2020, AHAYZONE surgió de una visión: crear un espacio de arte contemporáneo de clase mundial en la histórica ciudad de Asilah — un lugar donde el Atlántico se encuentra con el Mediterráneo, donde África se encuentra con Europa, donde la tradición se encuentra con la innovación.",
-    "vision": "Imaginamos Asilah como un destino global para el arte contemporáneo — una ciudad donde los muros centenarios de la medina sirven como lienzos para las voces artísticas más emocionantes de nuestro tiempo.",
-    "mission": "AHAYZONE se dedica a descubrir, apoyar y presentar artistas contemporáneos marroquíes a audiencias locales e internacionales. A través de exposiciones, residencias y programación cultural, creamos encuentros significativos entre el arte y su público.",
+    "title": "Acerca de Ahizoune",
+    "subtitle": "Un artista de caligrafía árabe en el corazón de la cultura marroquí",
+    "history": "Nacido y criado en Asilah, Abderrahim Ahizoune desarrolló una profunda pasión por la caligrafía árabe y la cultura árabe desde temprana edad. Su viaje comenzó con una simple fascinación por la belleza de la letra árabe, evolucionando hasta convertirse en una misión de por vida para preservar y promover este antiguo arte.",
+    "vision": "Imagina un futuro donde cada niño tenga la oportunidad de aprender y amar la caligrafía árabe — donde el arte de la letra se convierta en un puente entre generaciones, culturas y comunidades.",
+    "mission": "Ahizoune se dedica a enseñar, crear e inspirar a través de la caligrafía árabe. A través de reuniones nacionales, talleres, festivales y retratos personalizados, da vida a la belleza de la escritura árabe para nuevas audiencias.",
     "values": [
       { "title": "Excelencia", "description": "Presentamos solo arte contemporáneo de la más alta calidad, curado con estándares rigurosos." },
       { "title": "Patrimonio", "description": "Honramos las tradiciones artísticas marroquíes mientras expandimos los límites hacia nuevas formas de expresión." },
@@ -197,7 +197,7 @@
     "cta": "Visitar la Galería",
     "timelineTitle": "Nuestro Recorrido",
     "timelineEvents": [
-      "AHAYZONE fundada en Asilah",
+      "Ahizoune comenzó su viaje de caligrafía en Asilah",
       "Primera exposición internacional",
       "Programa de residencia artística lanzado",
       "Revista digital y galería en línea",

@@ -140,7 +140,7 @@ export default function ContactPage() {
                       <p className="text-sm text-mist mt-0.5">{t('footer.phone')}</p>
                     </div>
                   </a>
-                  <a href="mailto:contact@ahayzone.com" className="flex items-start gap-4 group">
+                  <a href="mailto:contact@ahizoune.art" className="flex items-start gap-4 group">
                     <HiOutlineMail className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                     <div>
                       <p className="text-sm font-medium text-secondary dark:text-white group-hover:text-primary transition-colors">{t('footer.email')}</p>

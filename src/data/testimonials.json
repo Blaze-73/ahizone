@@ -1,30 +1,30 @@
 [
   {
     "id": 1,
-    "name": "Sophie Laurent",
-    "role": "Art Collector, Paris",
-    "quote": "AHAYZONE is not just a gallery — it is a cultural destination. The curatorial vision is world-class, and the setting in Asilah is simply magical. I discovered artists whose work I now collect passionately.",
-    "avatar": "/images/artists/amina-portrait.jpg"
+    "name": "فاطمة العمراني",
+    "role": "أم تلميذ، الدار البيضاء",
+    "avatar": "/images/testimonials/student1.jpg",
+    "quote": "تجربة رائعة! ابني تعلم حب الخط العربي بفضل ورشات الأستاذ أحيزون. أسلوبه في التعليم ممتع ومبتكر."
   },
   {
     "id": 2,
-    "name": "James Okonkwo",
-    "role": "Artist, Lagos",
-    "quote": "My exhibition at AHAYZONE was a transformative experience. The team's dedication to presenting African contemporary art with the respect and sophistication it deserves is unparalleled.",
-    "avatar": "/images/artists/youssef-portrait.jpg"
+    "name": "محمد بنسعيد",
+    "role": "منظم مهرجان، أصيلة",
+    "avatar": "/images/testimonials/organizer1.jpg",
+    "quote": "الأستاذ أحيزون يضفي لمسة فنية استثنائية على كل تظاهرة يشارك فيها. إبداعه في الخط العربي لا يُضاهى."
   },
   {
     "id": 3,
-    "name": "Maria Consuelo",
-    "role": "Cultural Tourism Director, Madrid",
-    "quote": "We bring groups to Asilah specifically to visit AHAYZONE. It has become an essential stop on the Moroccan cultural circuit — a gateway to understanding contemporary North African creativity.",
-    "avatar": "/images/artists/leila-portrait.jpg"
+    "name": "سارة الإدريسي",
+    "role": "زبونة، الرباط",
+    "avatar": "/images/testimonials/client1.jpg",
+    "quote": "طلبت لوحة بورتريه بالخط العربي لاسم ابنتي، والنتيجة كانت تحفة فنية. أنصح الجميع بتجربة أعماله."
   },
   {
     "id": 4,
-    "name": "Dr. Karim El-Fassi",
-    "role": "Art Historian, University of Rabat",
-    "quote": "AHAYZONE fills a crucial gap in the Moroccan art ecosystem. It provides a platform where established and emerging artists can present their work in a context that is both locally grounded and globally relevant.",
-    "avatar": "/images/exhibitions/emerging-voices.jpg"
+    "name": "أحمد القادري",
+    "role": "مدير جمعية ثقافية، فاس",
+    "avatar": "/images/testimonials/cultural1.jpg",
+    "quote": "التظاهرة الوطنية التي نظمها أحيزون لتعليم الأطفال الخط العربي كانت حدثًا استثنائيًا. مئة طفل تعلموا أساسيات الخط في جو من المتعة والإبداع."
   }
 ]

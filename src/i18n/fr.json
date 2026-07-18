@@ -1,7 +1,7 @@
 {
   "site": {
-    "name": "AHAYZONE",
-    "tagline": "Galerie d'Art Contemporain — Asilah, Maroc"
+    "name": "AHIZOUNE",
+    "tagline": "Artiste en Calligraphie Arabe — Asilah, Maroc"
   },
   "nav": {
     "home": "Accueil",
@@ -24,7 +24,7 @@
   },
   "about": {
     "title": "Un Phare Culturel sur la Côte Atlantique",
-    "subtitle": "Fondé au cœur de la médina historique d'Asilah, AHAYZONE se consacre à la présentation du meilleur de l'art contemporain marocain et à la promotion des échanges culturels entre l'Afrique, l'Europe et au-delà.",
+    "subtitle": "Abderrahim Ahizoune est un artiste calligraphe arabe de la ville historique d'Asilah, au Maroc. Son travail est dédié à la beauté de l'écriture arabe et au lien culturel à travers l'art de la calligraphie.",
     "mission": "Notre mission est de créer une plateforme où les artistes marocains peuvent présenter leur travail au monde, où les collectionneurs peuvent découvrir de nouvelles voix, et où les visiteurs peuvent expérimenter le pouvoir transformateur de l'art contemporain.",
     "cta": "Découvrir Notre Histoire"
   },
@@ -69,7 +69,7 @@
   },
   "exhibitions": {
     "title": "Expositions & Événements",
-    "subtitle": "Plongez dans le calendrier culturel d'AHAYZONE",
+    "subtitle": "Plongez dans le calendrier culturel d'Ahizoune",
     "current": "En Cours",
     "upcoming": "À Venir",
     "past": "Passées",
@@ -97,7 +97,7 @@
   },
   "events": {
     "title": "Événements",
-    "subtitle": "Des vernissages aux ateliers et conférences — il se passe toujours quelque chose à AHAYZONE",
+    "subtitle": "Des ateliers de calligraphie aux festivals et rassemblements — il se passe toujours quelque chose avec Ahizoune",
     "all": "Tous les Événements",
     "upcoming": "À Venir",
     "galleryOpenings": "Vernissages",
@@ -126,7 +126,7 @@
       "Les artistes internationaux commencent la tradition des fresques",
       "Asilah reconnue site UNESCO",
       "Plus de 200 fresques peintes dans la médina",
-      "AHAYZONE perpétue l'héritage"
+      "Ahizoune perpétue l'héritage"
     ]
   },
   "virtual": {
@@ -151,7 +151,7 @@
   "instagram": {
     "title": "Suivez-Nous",
     "subtitle": "Rejoignez notre communauté sur Instagram",
-    "follow": "Suivre @ahayzone"
+    "follow": "Suivre @ahizoune_art"
   },
   "newsletter": {
     "title": "Restez Inspiré",
@@ -168,7 +168,7 @@
     "followUs": "Suivez-Nous",
     "address": "Avenue Hassan II, Asilah 90000, Maroc",
     "phone": "+212 539 91 72 00",
-    "email": "contact@ahayzone.com",
+    "email": "contact@ahizoune.art",
     "rights": "Tous droits réservés.",
     "openingHours": "Horaires d'Ouverture",
     "monday": "Lundi",
@@ -181,11 +181,11 @@
     "closed": "Fermé"
   },
   "aboutPage": {
-    "title": "À Propos d'AHAYZONE",
-    "subtitle": "Une galerie d'art contemporain au carrefour des cultures",
-    "history": "Fondée en 2020, AHAYZONE est née d'une vision : créer un espace d'art contemporain de classe mondiale dans la ville historique d'Asilah — un lieu où l'Atlantique rencontre la Méditerranée, où l'Afrique rencontre l'Europe, où la tradition rencontre l'innovation.",
-    "vision": "Nous imaginons Asilah comme une destination mondiale pour l'art contemporain — une ville où les murs séculaires de la médina servent de toiles aux voix artistiques les plus passionnantes de notre époque.",
-    "mission": "AHAYZONE se consacre à découvrir, soutenir et présenter les artistes contemporains marocains aux publics locaux et internationaux. À travers des expositions, des résidences et des programmes culturels, nous créons des rencontres significatives entre l'art et son public.",
+    "title": "À Propos d'Ahizoune",
+    "subtitle": "Un artiste calligraphe arabe au cœur de la culture marocaine",
+    "history": "Né et élevé à Asilah, Abderrahim Ahizoune a développé une passion profonde pour la calligraphie arabe et la culture arabe dès son plus jeune âge. Son voyage a commencé par une simple fascination pour la beauté de la lettre arabe, évoluant vers une mission de toute une vie : préserver et promouvoir cet art ancien.",
+    "vision": "Il imagine un avenir où chaque enfant a l'opportunité d'apprendre et d'aimer la calligraphie arabe — où l'art de la lettre devient un pont entre les générations, les cultures et les communautés.",
+    "mission": "Ahizoune se consacre à l'enseignement, la création et l'inspiration à travers la calligraphie arabe. À travers des rassemblements nationaux, des ateliers, des festivals et des portraits personnalisés, il fait découvrir la beauté de l'écriture arabe à de nouveaux publics.",
     "values": [
       { "title": "Excellence", "description": "Nous présentons uniquement l'art contemporain de la plus haute qualité, curaté selon des normes rigoureuses." },
       { "title": "Patrimoine", "description": "Nous honorons les traditions artistiques marocaines tout en repoussant les frontières vers de nouvelles formes d'expression." },
@@ -197,7 +197,7 @@
     "cta": "Visiter la Galerie",
     "timelineTitle": "Notre Parcours",
     "timelineEvents": [
-      "AHAYZONE fondée à Asilah",
+      "Ahizoune a commencé son parcours de calligraphie à Asilah",
       "Première exposition internationale",
       "Lancement du programme de résidence d'artistes",
       "Magazine numérique et galerie en ligne",

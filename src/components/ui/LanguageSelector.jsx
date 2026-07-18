@@ -5,6 +5,7 @@ import { HiOutlineGlobeAlt } from 'react-icons/hi'
 import i18n from '../../i18n/i18n'
 
 const languages = [
+  { code: 'ar', label: 'AR' },
   { code: 'en', label: 'EN' },
   { code: 'fr', label: 'FR' },
   { code: 'es', label: 'ES' },
@@ -25,7 +26,9 @@ export default function LanguageSelector() {
 
   const changeLanguage = (code) => {
     i18n.changeLanguage(code)
-    localStorage.setItem('ahayzone-lang', code)
+    localStorage.setItem('ahizoune-lang', code)
+    document.documentElement.dir = code === 'ar' ? 'rtl' : 'ltr'
+    document.documentElement.lang = code
     setOpen(false)
   }
 

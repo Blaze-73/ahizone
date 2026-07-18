@@ -6,7 +6,7 @@ import Lightbox from '../ui/Lightbox'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import galleryData from '../../data/gallery.json'
 
-const categories = ['all', 'painting', 'photography', 'sculpture', 'street art']
+const categories = ['all', 'calligraphy', 'portrait', 'teaching', 'mural', 'mixedMedia']
 
 export default function ArtworkShowcase() {
   const { t } = useTranslation()
@@ -46,7 +46,7 @@ export default function ArtworkShowcase() {
                   : 'bg-transparent text-stone dark:text-mist border border-stone/20 dark:border-white/10 hover:border-primary/50'
               }`}
             >
-              {t(`collections.${cat === 'street art' ? 'streetArt' : cat}`)}
+              {t(`collections.${cat}`)}
             </button>
           ))}
         </div>

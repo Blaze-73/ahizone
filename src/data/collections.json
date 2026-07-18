@@ -1,50 +1,62 @@
 [
   {
     "id": 1,
-    "title": "Contemporary Masters",
-    "description": "A curated selection of works by Morocco's most influential living artists, spanning painting, sculpture, and mixed media.",
-    "image": "/images/gallery/echoes-medina.jpg",
-    "category": "painting",
-    "artworkCount": 24
-  },
-  {
-    "id": 2,
-    "title": "Concrete Gardens",
-    "description": "Youssef Benali's acclaimed photographic series documenting the unexpected beauty of Moroccan urban life.",
-    "image": "/images/gallery/concrete-gardens.jpg",
-    "category": "photography",
-    "artworkCount": 18
-  },
-  {
-    "id": 3,
-    "title": "Fluid Geometry",
-    "description": "Leila Chraibi's groundbreaking ceramic installations that transform traditional zellij into flowing contemporary forms.",
-    "image": "/images/gallery/zellij-cascade.jpg",
-    "category": "sculpture",
+    "title": "الخط الكوفي",
+    "titleEn": "Kufic Calligraphy",
+    "description": "مجموعة من روائع الخط الكوفي، أقدم أنواع الخطوط العربية، بتصميمات هندسية تجمع بين الأصالة والحداثة.",
+    "descriptionEn": "A collection of Kufic calligraphy masterpieces, the oldest Arabic script style, with geometric designs blending tradition and modernity.",
+    "image": "/images/gallery/bismillah-kufic.jpg",
+    "category": "calligraphy",
     "artworkCount": 12
   },
   {
-    "id": 4,
-    "title": "Street Canvas",
-    "description": "Bold murals and street art from Asilah's famous festival, where international artists transform the city's walls into an open-air museum.",
-    "image": "/images/gallery/street-canvas.jpg",
-    "category": "street art",
-    "artworkCount": 36
+    "id": 2,
+    "title": "بورتريهات شخصية",
+    "titleEn": "Personal Portraits",
+    "description": "مجموعة من البورتريهات الشخصية المخصصة، حيث يتحول كل اسم إلى تحفة فنية بالخط العربي.",
+    "descriptionEn": "A collection of personalized portrait canvases where every name is transformed into a calligraphic masterpiece.",
+    "image": "/images/gallery/portrait-noor.jpg",
+    "category": "portraits",
+    "artworkCount": 24
   },
   {
-    "id": 5,
-    "title": "The Blue Divide",
-    "description": "A visual meditation on color, space, and the boundaries between sea and sky, tradition and modernity.",
-    "image": "/images/gallery/blue-divide.jpg",
-    "category": "photography",
+    "id": 3,
+    "title": "الخط المغربي",
+    "titleEn": "Maghrebi Script",
+    "description": "أعمال مختارة بالخط المغربي الأصيل، وهو الخط التقليدي للمغرب العربي، يجمع بين الجمال والهوية.",
+    "descriptionEn": "Selected works in authentic Maghrebi script, the traditional script of the Maghreb region, blending beauty and identity.",
+    "image": "/images/gallery/al-amal-maghrebi.jpg",
+    "category": "calligraphy",
     "artworkCount": 15
   },
   {
+    "id": 4,
+    "title": "التظاهرات التعليمية",
+    "titleEn": "Educational Gatherings",
+    "description": "توثيق للتظاهرات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية، حيث نبني جيلًا جديدًا من عشاق الحرف العربي.",
+    "descriptionEn": "Documentation of national gatherings teaching children Arabic calligraphy and writing skills, building a new generation of Arabic script enthusiasts.",
+    "image": "/images/gallery/kids-workshop.jpg",
+    "category": "teaching",
+    "artworkCount": 18
+  },
+  {
+    "id": 5,
+    "title": "الجداريات والمهرجانات",
+    "titleEn": "Murals & Festivals",
+    "description": "مجموعة من الجداريات والأعمال الحية التي أنجزها أحيزون في المهرجانات الثقافية الوطنية والدولية.",
+    "descriptionEn": "A collection of murals and live artworks created by Ahizoune at national and international cultural festivals.",
+    "image": "/images/gallery/asilah-mural.jpg",
+    "category": "murals",
+    "artworkCount": 10
+  },
+  {
     "id": 6,
-    "title": "Henna Series",
-    "description": "Amina Al-Fassi's celebrated body of work elevating the traditional art of Mehndi to monumental contemporary painting.",
-    "image": "/images/gallery/henna-dreams.jpg",
-    "category": "painting",
-    "artworkCount": 20
+    "title": "لوحات أكريليك مخصصة",
+    "titleEn": "Custom Acrylic Canvases",
+    "description": "لوحات أكريليك على قماش بأحجام مختلفة، تحمل أسماء وعبارات مخصصة حسب طلب الزبائن.",
+    "descriptionEn": "Custom acrylic name canvases in various sizes, carrying personalized names and phrases as requested by clients.",
+    "image": "/images/gallery/acrylic-canvas.jpg",
+    "category": "mixedMedia",
+    "artworkCount": 30
   }
 ]

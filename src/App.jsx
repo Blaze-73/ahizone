@@ -1,4 +1,6 @@
+import { useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import { useLenis } from './hooks/useLenis'
 import ScrollToTop from './components/layout/ScrollToTop'
 import Navbar from './components/layout/Navbar'
@@ -18,6 +20,12 @@ import NotFoundPage from './pages/NotFoundPage'
 
 export default function App() {
   useLenis()
+  const { i18n } = useTranslation()
+
+  useEffect(() => {
+    document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr'
+    document.documentElement.lang = i18n.language
+  }, [i18n.language])
 
   return (
     <>
