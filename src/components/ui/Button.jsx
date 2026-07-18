@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
-export default function Button({ children, to, href, onClick, variant = 'primary', className = '', size = 'md' }) {
+export default function Button({ children, to, href, onClick, variant = 'primary', className = '', size = 'md', ...rest }) {
   const base = 'relative inline-flex items-center justify-center font-body font-medium tracking-wide transition-all duration-500 cursor-pointer overflow-hidden group'
 
   const sizes = {
@@ -32,7 +32,7 @@ export default function Button({ children, to, href, onClick, variant = 'primary
 
   const cls = `${base} ${sizes[size]} ${variants[variant]} ${className}`
 
-  if (to) return <Link to={to} className={cls}>{children}</Link>
-  if (href) return <a href={href} className={cls} target="_blank" rel="noopener noreferrer">{children}</a>
-  return <button onClick={onClick} className={cls}>{children}</button>
+  if (to) return <Link to={to} className={cls} {...rest}>{children}</Link>
+  if (href) return <a href={href} className={cls} target="_blank" rel="noopener noreferrer" {...rest}>{children}</a>
+  return <button onClick={onClick} className={cls} {...rest}>{children}</button>
 }

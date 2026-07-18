@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -25,6 +26,11 @@ export default function ContactPage() {
 
   return (
     <>
+      <SEO
+        title="اتصل بي"
+        description="تواصل مع عبد الرحيم أحيزون لطلب لوحة خط عربي مخصصة، بورتريه شخصي، أو لحجز ورشة تعليم الخط العربي."
+        path="/contact"
+      />
       <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

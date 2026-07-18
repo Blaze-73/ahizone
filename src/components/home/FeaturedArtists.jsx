@@ -6,6 +6,7 @@ import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import artistsData from '../../data/artists.json'
 
 import { memo } from 'react'
+import { prefetchDynamic } from '../../utils/prefetch'
 
 const FeaturedArtists = memo(function FeaturedArtists() {
   const { t } = useTranslation()
@@ -65,7 +66,7 @@ const FeaturedArtists = memo(function FeaturedArtists() {
               {artist.biographyFull}
             </p>
             <div className="mt-8">
-              <Button to={`/artists/${artist.slug}`} variant="primary">{t('artists.viewProfile')}</Button>
+              <Button to={`/artists/${artist.slug}`} onMouseEnter={() => prefetchDynamic('artist')} variant="primary">{t('artists.viewProfile')}</Button>
             </div>
           </motion.div>
         </div>

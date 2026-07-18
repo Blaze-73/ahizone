@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -20,6 +21,11 @@ export default function ExhibitionsPage() {
 
   return (
     <>
+      <SEO
+        title="المعارض"
+        description="تعرف على معارض وفعاليات عبد الرحيم أحيزون. التظاهرات الوطنية لتعليم الخط العربي، المشاركات في المهرجانات الثقافية، وورش العمل."
+        path="/exhibitions"
+      />
       <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

@@ -1,22 +1,24 @@
-import { useEffect } from 'react'
+import { lazy, Suspense, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLenis } from './hooks/useLenis'
 import ScrollToTop from './components/layout/ScrollToTop'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
-import HomePage from './pages/HomePage'
-import ArtistsPage from './pages/ArtistsPage'
-import ArtistProfilePage from './pages/ArtistProfilePage'
-import GalleryPage from './pages/GalleryPage'
-import ArtworkPage from './pages/ArtworkPage'
-import CollectionsPage from './pages/CollectionsPage'
-import ExhibitionsPage from './pages/ExhibitionsPage'
-import EventsPage from './pages/EventsPage'
-import MagazinePage from './pages/MagazinePage'
-import AboutPage from './pages/AboutPage'
-import ContactPage from './pages/ContactPage'
-import NotFoundPage from './pages/NotFoundPage'
+import LoadingSpinner from './components/ui/LoadingSpinner'
+
+const HomePage = lazy(() => import('./pages/HomePage'))
+const ArtistsPage = lazy(() => import('./pages/ArtistsPage'))
+const ArtistProfilePage = lazy(() => import('./pages/ArtistProfilePage'))
+const GalleryPage = lazy(() => import('./pages/GalleryPage'))
+const ArtworkPage = lazy(() => import('./pages/ArtworkPage'))
+const CollectionsPage = lazy(() => import('./pages/CollectionsPage'))
+const ExhibitionsPage = lazy(() => import('./pages/ExhibitionsPage'))
+const EventsPage = lazy(() => import('./pages/EventsPage'))
+const MagazinePage = lazy(() => import('./pages/MagazinePage'))
+const AboutPage = lazy(() => import('./pages/AboutPage'))
+const ContactPage = lazy(() => import('./pages/ContactPage'))
+const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 export default function App() {
   useLenis()
@@ -32,6 +34,7 @@ export default function App() {
       <ScrollToTop />
       <Navbar />
       <main>
+        <Suspense fallback={<LoadingSpinner />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/artists" element={<ArtistsPage />} />
@@ -46,6 +49,7 @@ export default function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        </Suspense>
       </main>
       <Footer />
     </>

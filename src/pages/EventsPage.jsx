@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -20,6 +21,11 @@ export default function EventsPage() {
 
   return (
     <>
+      <SEO
+        title="الفعاليات"
+        description="فعاليات عبد الرحيم أحيزون: ورش الخط العربي، التظاهرات الوطنية لتعليم الأطفال، والمشاركات في المهرجانات الثقافية."
+        path="/events"
+      />
       <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

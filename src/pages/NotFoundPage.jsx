@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../components/ui/Container'
@@ -7,7 +8,9 @@ export default function NotFoundPage() {
   const { t } = useTranslation()
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-ivory dark:bg-charcoal">
+    <>
+      <SEO title="الصفحة غير موجودة" description="الصفحة التي تبحث عنها غير موجودة أو تم نقلها." />
+      <section className="min-h-screen flex items-center justify-center bg-ivory dark:bg-charcoal">
       <Container className="text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -27,5 +30,6 @@ export default function NotFoundPage() {
         </motion.div>
       </Container>
     </section>
+    </>
   )
 }

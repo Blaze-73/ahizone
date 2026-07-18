@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../components/ui/Container'
@@ -18,6 +19,11 @@ export default function AboutPage() {
 
   return (
     <>
+      <SEO
+        title="عن أحيزون"
+        description="تعرف على قصة عبد الرحيم أحيزون، فنان الخط العربي من أصيلة. رحلته مع الحرف العربي، شغفه بتعليم الأطفال، ومشاركاته في المهرجانات الثقافية."
+        path="/about"
+      />
       <section className="relative pt-32 pb-20 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

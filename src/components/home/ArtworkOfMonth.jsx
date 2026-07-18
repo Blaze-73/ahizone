@@ -4,6 +4,7 @@ import Container from '../ui/Container'
 import Button from '../ui/Button'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import artworksData from '../../data/artworks.json'
+import { prefetchDynamic } from '../../utils/prefetch'
 
 export default function ArtworkOfMonth() {
   const { t } = useTranslation()
@@ -61,7 +62,7 @@ export default function ArtworkOfMonth() {
               </div>
             </div>
             <div className="mt-10">
-              <Button to={`/artwork/${artwork.id}`} variant="primary">{t('artwork.inquiry')}</Button>
+              <Button to={`/artwork/${artwork.id}`} onMouseEnter={() => prefetchDynamic('artwork')} variant="primary">{t('artwork.inquiry')}</Button>
             </div>
           </motion.div>
         </div>

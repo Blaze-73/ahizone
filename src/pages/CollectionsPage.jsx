@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -18,6 +19,11 @@ export default function CollectionsPage() {
 
   return (
     <>
+      <SEO
+        title="المجموعات"
+        description="مجموعات عبد الرحيم أحيزون الفنية: الخط الكوفي، الخط المغربي، البورتريهات الشخصية، لوحات الأكريليك المخصصة، والتظاهرات التعليمية."
+        path="/collections"
+      />
       <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

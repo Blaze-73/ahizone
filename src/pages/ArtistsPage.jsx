@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
@@ -6,6 +7,7 @@ import { HiOutlineSearch } from 'react-icons/hi'
 import Container from '../components/ui/Container'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import artistsData from '../data/artists.json'
+import { prefetchDynamic } from '../utils/prefetch'
 
 export default function ArtistsPage() {
   const { t } = useTranslation()
@@ -24,6 +26,11 @@ export default function ArtistsPage() {
 
   return (
     <>
+      <SEO
+        title="الخطاط"
+        description="عبد الرحيم أحيزون، فنان خط عربي من أصيلة. متخصص في الخط الكوفي والمغربي والديواني، والبورتريهات الشخصية، وتعليم الأطفال فنون الخط العربي."
+        path="/artists"
+      />
       <section className="relative pt-32 pb-20 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div
@@ -88,7 +95,7 @@ export default function ArtistsPage() {
                   animate={isVisible ? { opacity: 1, y: 0 } : {}}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
                 >
-                  <Link to={`/artists/${artist.slug}`} className="group block">
+                  <Link to={`/artists/${artist.slug}`} onMouseEnter={() => prefetchDynamic('artist')} className="group block">
                     <div className="aspect-[3/4] rounded-2xl overflow-hidden relative mb-5">
                       <div
                         className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"

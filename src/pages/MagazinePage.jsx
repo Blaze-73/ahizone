@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -20,6 +21,11 @@ export default function MagazinePage() {
 
   return (
     <>
+      <SEO
+        title="المجلة"
+        description="مجلة أحيزون: قصص، مقابلات، ورؤى من عالم الخط العربي والثقافة العربية. تعرف على رحلة الخطاط وتقنياته وإبداعاته."
+        path="/magazine"
+      />
       <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

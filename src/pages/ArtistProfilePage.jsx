@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -6,6 +7,7 @@ import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
 import artistsData from '../data/artists.json'
 import artworksData from '../data/artworks.json'
+import { prefetchDynamic } from '../utils/prefetch'
 
 export default function ArtistProfilePage() {
   const { slug } = useParams()
@@ -26,6 +28,12 @@ export default function ArtistProfilePage() {
 
   return (
     <>
+      <SEO
+        title={artist?.name || 'الخطاط'}
+        description={artist?.biography?.slice(0, 160) || 'فنان خط عربي'}
+        image={artist?.featuredImage || '/images/og-default.jpg'}
+        path={`/artists/${slug}`}
+      />
       <section className="relative min-h-[70vh] pt-32 pb-20 bg-eclipse text-white overflow-hidden">
         <div className="absolute inset-0 opacity-40">
           <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${artist.featuredImage})`, backgroundColor: '#2C1810' }} />
@@ -99,7 +107,7 @@ export default function ArtistProfilePage() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.5, delay: i * 0.1 }}
                       >
-                        <Link to={`/artwork/${aw.id}`} className="group block">
+                        <Link to={`/artwork/${aw.id}`} onMouseEnter={() => prefetchDynamic('artwork')} className="group block">
                           <div className="aspect-[4/3] rounded-xl overflow-hidden mb-3">
                             <div className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                               style={{ backgroundImage: `url(${aw.image})`, backgroundColor: '#2C1810' }} />

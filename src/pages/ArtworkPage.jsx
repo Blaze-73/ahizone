@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
@@ -6,6 +7,7 @@ import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
 import artworksData from '../data/artworks.json'
 import artistsData from '../data/artists.json'
+import { prefetchDynamic, prefetchPage } from '../utils/prefetch'
 
 export default function ArtworkPage() {
   const { id } = useParams()
@@ -25,6 +27,12 @@ export default function ArtworkPage() {
 
   return (
     <>
+      <SEO
+        title={artwork?.title || 'عمل فني'}
+        description={artwork?.story?.slice(0, 160) || 'عمل فني في الخط العربي'}
+        image={artwork?.image || '/images/og-default.jpg'}
+        path={`/artwork/${id}`}
+      />
       <section className="pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <Link to="/gallery" className="inline-flex items-center gap-2 text-stone hover:text-primary transition-colors mb-8 text-sm">
@@ -55,7 +63,7 @@ export default function ArtworkPage() {
                 {artwork.title}
               </h1>
               {artist && (
-                <Link to={`/artists/${artist.slug}`} className="mt-2 inline-block text-lg text-primary hover:text-primary-dark font-display italic transition-colors">
+                <Link to={`/artists/${artist.slug}`} onMouseEnter={() => prefetchPage(`/artists/${artist.slug}`)} className="mt-2 inline-block text-lg text-primary hover:text-primary-dark font-display italic transition-colors">
                   {artist.name}
                 </Link>
               )}
@@ -117,7 +125,7 @@ export default function ArtworkPage() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
-                <Link to={`/artwork/${related.id}`} className="group block">
+                <Link to={`/artwork/${related.id}`} onMouseEnter={() => prefetchDynamic('artwork')} className="group block">
                   <div className="aspect-[3/4] rounded-xl overflow-hidden mb-3">
                     <div className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                       style={{ backgroundImage: `url(${related.image})`, backgroundColor: '#2C1810' }} />

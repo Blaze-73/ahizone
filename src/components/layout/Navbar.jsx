@@ -7,6 +7,7 @@ import siteData from '../../data/site.json'
 import ThemeToggle from '../ui/ThemeToggle'
 import LanguageSelector from '../ui/LanguageSelector'
 import Button from '../ui/Button'
+import { prefetchPage } from '../../utils/prefetch'
 
 export default function Navbar() {
   const { t } = useTranslation()
@@ -63,6 +64,7 @@ export default function Navbar() {
               <Link
                 key={link.key}
                 to={link.path}
+                onMouseEnter={() => prefetchPage(link.path)}
                 className={`px-3 py-2 text-sm font-body tracking-wide transition-colors duration-300 hover:text-primary relative group ${
                   location.pathname === link.path ? 'text-primary' : scrolled || !isHome ? 'text-secondary dark:text-white/80' : 'text-white'
                 }`}
@@ -127,6 +129,7 @@ export default function Navbar() {
                   >
                     <Link
                       to={link.path}
+                      onMouseEnter={() => prefetchPage(link.path)}
                       onClick={() => setMobileOpen(false)}
                       className={`group flex items-center gap-4 px-4 py-3.5 rounded-xl text-lg font-body tracking-wide transition-all duration-300 ${
                         location.pathname === link.path

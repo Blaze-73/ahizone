@@ -1,3 +1,4 @@
+import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -18,6 +19,11 @@ export default function GalleryPage() {
 
   return (
     <>
+      <SEO
+        title="الأعمال"
+        description="استعرض مجموعة أعمال عبد الرحيم أحيزون في الخط العربي. لوحات الخط الكوفي، البورتريهات الشخصية، الجداريات، وأعمال المهرجانات."
+        path="/gallery"
+      />
       <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div

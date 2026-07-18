@@ -5,6 +5,7 @@ import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from 'react-ic
 import { FiInstagram, FiFacebook, FiTwitter } from 'react-icons/fi'
 import siteData from '../../data/site.json'
 import Container from '../ui/Container'
+import { prefetchPage } from '../../utils/prefetch'
 
 export default function Footer() {
   const { t } = useTranslation()
@@ -56,6 +57,7 @@ export default function Footer() {
                 <li key={link.key}>
                   <Link
                     to={link.path}
+                    onMouseEnter={() => prefetchPage(link.path)}
                     className="text-sm text-mist hover:text-primary transition-colors duration-300"
                   >
                     {t(`nav.${link.key}`)}
@@ -107,8 +109,8 @@ export default function Footer() {
             &copy; {new Date().getFullYear()} {siteData.name}. {t('footer.rights')}
           </p>
           <div className="flex gap-6 text-xs text-mist">
-            <Link to="/about" className="hover:text-primary transition-colors">{t('nav.about')}</Link>
-            <Link to="/contact" className="hover:text-primary transition-colors">{t('nav.contact')}</Link>
+            <Link to="/about" onMouseEnter={() => prefetchPage('/about')} className="hover:text-primary transition-colors">{t('nav.about')}</Link>
+            <Link to="/contact" onMouseEnter={() => prefetchPage('/contact')} className="hover:text-primary transition-colors">{t('nav.contact')}</Link>
           </div>
         </Container>
       </div>
