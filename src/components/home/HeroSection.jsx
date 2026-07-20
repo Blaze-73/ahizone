@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-t from-eclipse via-eclipse/30 to-transparent" />
       </div>
 
-      <div className="absolute inset-0 z-20 flex flex-col justify-end px-5 md:px-12 lg:px-20 pb-10 md:pb-16">
+      <div className="absolute inset-0 z-20 flex flex-col justify-end px-5 md:px-12 lg:px-20 pb-4 md:pb-16">
         <motion.div
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
