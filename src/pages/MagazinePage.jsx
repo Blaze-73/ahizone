@@ -26,7 +26,7 @@ export default function MagazinePage() {
         description="مجلة أحيزون: قصص، مقابلات، ورؤى من عالم الخط العربي والثقافة العربية. تعرف على رحلة الخطاط وتقنياته وإبداعاته."
         path="/magazine"
       />
-      <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
+      <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -35,7 +35,7 @@ export default function MagazinePage() {
             className="max-w-3xl"
           >
             <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">{t('magazine.title')}</span>
-            <h1 className="mt-4 font-display text-5xl md:text-7xl font-bold text-secondary dark:text-white">
+            <h1 className="mt-4 font-display text-4xl md:text-7xl font-bold text-secondary dark:text-white">
               {t('magazine.title')}
             </h1>
             <p className="mt-4 text-lg text-stone dark:text-mist">{t('magazine.subtitle')}</p>

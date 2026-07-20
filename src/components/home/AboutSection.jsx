@@ -11,9 +11,9 @@ const AboutSection = memo(function AboutSection() {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.15 })
 
   return (
-    <section ref={ref} className="relative py-32 md:py-40 bg-ivory dark:bg-charcoal overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-40 bg-ivory dark:bg-charcoal overflow-hidden">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-24 items-center">
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
@@ -22,10 +22,10 @@ const AboutSection = memo(function AboutSection() {
             <span className="text-xs font-body tracking-[0.3em] uppercase text-primary mb-4 block">
               {t('site.name')}
             </span>
-            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
               {t('about.title')}
             </h2>
-            <div className="w-16 h-px bg-primary my-8" />
+            <div className="w-12 md:w-16 h-px bg-primary my-6 md:my-8" />
             <p className="text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light">
               {t('about.subtitle')}
             </p>

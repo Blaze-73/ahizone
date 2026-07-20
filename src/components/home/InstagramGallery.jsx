@@ -10,7 +10,7 @@ export default function InstagramGallery() {
   const images = galleryData.slice(0, 8)
 
   return (
-    <section ref={ref} className="relative py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -21,7 +21,7 @@ export default function InstagramGallery() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('instagram.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('instagram.title')}
           </h2>
           <p className="mt-2 text-stone dark:text-mist">{t('instagram.subtitle')}</p>

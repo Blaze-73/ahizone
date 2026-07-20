@@ -20,7 +20,7 @@ const FeaturedCollections = memo(function FeaturedCollections() {
     : collectionsData.filter((c) => c.category === activeCategory)
 
   return (
-    <section ref={ref} className="relative py-32 bg-ivory dark:bg-charcoal">
+    <section ref={ref} className="relative py-20 md:py-32 bg-ivory dark:bg-charcoal">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -31,7 +31,7 @@ const FeaturedCollections = memo(function FeaturedCollections() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('collections.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('collections.subtitle')}
           </h2>
         </motion.div>
@@ -52,7 +52,7 @@ const FeaturedCollections = memo(function FeaturedCollections() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
           <AnimatePresence mode="popLayout">
             {filtered.map((collection, i) => (
               <motion.div

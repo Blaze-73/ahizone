@@ -12,7 +12,7 @@ const Testimonials = memo(function Testimonials() {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
 
   return (
-    <section ref={ref} className="relative py-32 bg-ivory dark:bg-charcoal">
+    <section ref={ref} className="relative py-20 md:py-32 bg-ivory dark:bg-charcoal">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -23,7 +23,7 @@ const Testimonials = memo(function Testimonials() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('testimonials.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('testimonials.subtitle')}
           </h2>
         </motion.div>

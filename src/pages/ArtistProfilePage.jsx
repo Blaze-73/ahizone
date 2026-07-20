@@ -34,7 +34,7 @@ export default function ArtistProfilePage() {
         image={artist?.featuredImage || '/images/og-default.jpg'}
         path={`/artists/${slug}`}
       />
-      <section className="relative min-h-[70vh] pt-32 pb-20 bg-eclipse text-white overflow-hidden">
+      <section className="relative min-h-[70vh] pt-24 md:pt-32 pb-12 md:pb-20 bg-eclipse text-white overflow-hidden">
         <div className="absolute inset-0 opacity-40">
           <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${artist.featuredImage})`, backgroundColor: '#2C1810' }} />
         </div>
@@ -50,7 +50,7 @@ export default function ArtistProfilePage() {
             transition={{ duration: 0.8 }}
             className="max-w-3xl"
           >
-            <h1 className="font-display text-5xl md:text-7xl font-bold">{artist.name}</h1>
+            <h1 className="font-display text-4xl md:text-7xl font-bold">{artist.name}</h1>
             <p className="mt-3 text-xl text-primary/80 font-display italic">{artist.nationality} — {artist.specialty}</p>
             <div className="w-16 h-px bg-primary/30 my-6" />
             <p className="text-lg text-white/70 max-w-2xl">{artist.biography}</p>

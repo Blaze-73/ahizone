@@ -31,7 +31,7 @@ export default function ArtistsPage() {
         description="عبد الرحيم أحيزون، فنان خط عربي من أصيلة. متخصص في الخط الكوفي والمغربي والديواني، والبورتريهات الشخصية، وتعليم الأطفال فنون الخط العربي."
         path="/artists"
       />
-      <section className="relative pt-32 pb-20 bg-ivory dark:bg-charcoal">
+      <section className="relative pt-24 md:pt-32 pb-12 md:pb-20 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -40,7 +40,7 @@ export default function ArtistsPage() {
             className="max-w-3xl"
           >
             <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">{t('artists.title')}</span>
-            <h1 className="mt-4 font-display text-5xl md:text-7xl font-bold text-secondary dark:text-white">
+            <h1 className="mt-4 font-display text-4xl md:text-7xl font-bold text-secondary dark:text-white">
               {t('artists.title')}
             </h1>
             <p className="mt-4 text-lg text-stone dark:text-mist">{t('artists.subtitle')}</p>

@@ -33,7 +33,7 @@ export default function ArtworkPage() {
         image={artwork?.image || '/images/og-default.jpg'}
         path={`/artwork/${id}`}
       />
-      <section className="pt-32 pb-16 bg-ivory dark:bg-charcoal">
+      <section className="pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <Link to="/gallery" className="inline-flex items-center gap-2 text-stone hover:text-primary transition-colors mb-8 text-sm">
             <HiOutlineArrowLeft className="w-4 h-4" /> {t('gallery.title')}

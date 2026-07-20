@@ -21,7 +21,7 @@ const Newsletter = memo(function Newsletter() {
   }
 
   return (
-    <section ref={ref} className="relative py-32 bg-eclipse text-white overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-32 bg-eclipse text-white overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
       <Container className="relative z-10">
         <motion.div
@@ -33,13 +33,13 @@ const Newsletter = memo(function Newsletter() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('newsletter.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold">
             {t('newsletter.title')}
           </h2>
           <p className="mt-4 text-white/60">{t('newsletter.subtitle')}</p>
 
-          <form onSubmit={handleSubmit} className="mt-10 max-w-md mx-auto">
-            <div className="flex gap-3">
+            <form onSubmit={handleSubmit} className="mt-8 md:mt-10 max-w-md mx-auto">
+            <div className="flex flex-col sm:flex-row gap-3">
               <div className="flex-1 relative">
                 <input
                   type="email"

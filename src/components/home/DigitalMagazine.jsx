@@ -16,7 +16,7 @@ const DigitalMagazine = memo(function DigitalMagazine() {
   const rest = magazineData.filter((a) => !a.featured).slice(0, 4)
 
   return (
-    <section ref={ref} className="relative py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -27,7 +27,7 @@ const DigitalMagazine = memo(function DigitalMagazine() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('magazine.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('magazine.subtitle')}
           </h2>
         </motion.div>

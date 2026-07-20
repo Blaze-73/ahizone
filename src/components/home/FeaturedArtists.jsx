@@ -16,7 +16,7 @@ const FeaturedArtists = memo(function FeaturedArtists() {
   if (!artist) return null
 
   return (
-    <section ref={ref} className="relative py-32 bg-white dark:bg-eclipse overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse overflow-hidden">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -27,12 +27,12 @@ const FeaturedArtists = memo(function FeaturedArtists() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('artists.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('artists.subtitle')}
           </h2>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">
           <motion.div
             initial={{ opacity: 0, x: -60 }}
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
@@ -52,11 +52,11 @@ const FeaturedArtists = memo(function FeaturedArtists() {
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
+            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
               {artist.name}
             </h2>
             <p className="mt-2 text-primary/80 font-display italic text-lg">{artist.nationality} — {artist.specialty}</p>
-            <div className="w-16 h-px bg-primary my-8" />
+            <div className="w-12 md:w-16 h-px bg-primary my-6 md:my-8" />
             <div className="relative pl-6 border-l-2 border-primary/30">
               <p className="text-base md:text-lg text-stone dark:text-mist leading-relaxed font-literary italic">
                 &ldquo;{artist.quoteEn}&rdquo;

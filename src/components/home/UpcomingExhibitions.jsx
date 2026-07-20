@@ -17,7 +17,7 @@ export default function UpcomingExhibitions() {
   }
 
   return (
-    <section ref={ref} className="relative py-32 bg-ivory dark:bg-charcoal">
+    <section ref={ref} className="relative py-20 md:py-32 bg-ivory dark:bg-charcoal">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -28,7 +28,7 @@ export default function UpcomingExhibitions() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('exhibitions.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('exhibitions.subtitle')}
           </h2>
         </motion.div>
@@ -49,7 +49,7 @@ export default function UpcomingExhibitions() {
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-transparent" />
               </div>
-              <div className="relative p-8 md:p-12 lg:p-16 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+              <div className="relative p-5 md:p-12 lg:p-16 flex flex-col md:flex-row md:items-center md:justify-between gap-4 md:gap-6">
                 <div className="flex-1">
                   <div className="flex items-center gap-3 mb-3">
                     <span className={`px-3 py-1 rounded-full text-xs font-body uppercase tracking-wider ${
@@ -59,7 +59,7 @@ export default function UpcomingExhibitions() {
                     </span>
                     <span className="text-xs text-white/50 uppercase tracking-wider">{t(`exhibitions.${exhibition.type}`)}</span>
                   </div>
-                  <h3 className="font-display text-2xl md:text-3xl font-semibold text-white">
+                  <h3 className="font-display text-xl md:text-3xl font-semibold text-white">
                     {exhibition.title}
                   </h3>
                   <p className="mt-2 text-sm text-white/60">

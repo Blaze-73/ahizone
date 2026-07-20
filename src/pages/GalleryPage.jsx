@@ -24,7 +24,7 @@ export default function GalleryPage() {
         description="استعرض مجموعة أعمال عبد الرحيم أحيزون في الخط العربي. لوحات الخط الكوفي، البورتريهات الشخصية، الجداريات، وأعمال المهرجانات."
         path="/gallery"
       />
-      <section className="relative pt-32 pb-16 bg-ivory dark:bg-charcoal">
+      <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">
         <Container>
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -33,7 +33,7 @@ export default function GalleryPage() {
             className="max-w-3xl"
           >
             <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">{t('gallery.title')}</span>
-            <h1 className="mt-4 font-display text-5xl md:text-7xl font-bold text-secondary dark:text-white">
+            <h1 className="mt-4 font-display text-4xl md:text-7xl font-bold text-secondary dark:text-white">
               {t('gallery.title')}
             </h1>
             <p className="mt-4 text-lg text-stone dark:text-mist">{t('gallery.subtitle')}</p>
@@ -59,7 +59,7 @@ export default function GalleryPage() {
             ))}
           </div>
 
-          <motion.div layout className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+          <motion.div layout className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
             <AnimatePresence mode="popLayout">
               {filtered.map((img, i) => (
                 <motion.div

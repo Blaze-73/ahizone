@@ -19,7 +19,7 @@ export default function ArtworkShowcase() {
     : galleryData.filter((img) => img.category === activeCategory)
 
   return (
-    <section ref={ref} className="relative py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -30,7 +30,7 @@ export default function ArtworkShowcase() {
           <span className="text-xs font-body tracking-[0.3em] uppercase text-primary">
             {t('gallery.title')}
           </span>
-          <h2 className="mt-4 font-display text-4xl md:text-5xl font-bold text-secondary dark:text-white">
+          <h2 className="mt-4 font-display text-3xl md:text-5xl font-bold text-secondary dark:text-white">
             {t('gallery.subtitle')}
           </h2>
         </motion.div>
@@ -51,7 +51,7 @@ export default function ArtworkShowcase() {
           ))}
         </div>
 
-        <motion.div layout className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+        <motion.div layout className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
           <AnimatePresence mode="popLayout">
             {filtered.map((img, i) => (
               <motion.div
