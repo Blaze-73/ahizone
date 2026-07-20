@@ -7,7 +7,6 @@ const pageImports = {
   '/collections': () => import('../pages/CollectionsPage'),
   '/exhibitions': () => import('../pages/ExhibitionsPage'),
   '/events': () => import('../pages/EventsPage'),
-  '/magazine': () => import('../pages/MagazinePage'),
   '/contact': () => import('../pages/ContactPage'),
   '/artists': () => import('../pages/ArtistsPage'),
   'artist-profile': () => import('../pages/ArtistProfilePage'),

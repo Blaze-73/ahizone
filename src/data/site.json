@@ -33,7 +33,6 @@
     { "key": "collections", "path": "/collections" },
     { "key": "exhibitions", "path": "/exhibitions" },
     { "key": "events", "path": "/events" },
-    { "key": "magazine", "path": "/magazine" },
     { "key": "about", "path": "/about" },
     { "key": "contact", "path": "/contact" }
   ],

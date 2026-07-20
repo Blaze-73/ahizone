@@ -9,7 +9,6 @@
     "collections": "المجموعات",
     "exhibitions": "المعارض",
     "events": "الفعاليات",
-    "magazine": "المجلة",
     "about": "عن الفنان",
     "contact": "اتصل بي",
     "visit": "تواصل معي",
@@ -104,15 +103,6 @@
     "workshops": "ورش عمل",
     "festivals": "مهرجانات",
     "noEvents": "لا توجد فعاليات قادمة"
-  },
-  "magazine": {
-    "title": "المجلة",
-    "subtitle": "قصص، مقابلات، ورؤى من عالم الخط العربي والثقافة العربية",
-    "readMore": "اقرأ المزيد",
-    "categories": "التصنيفات",
-    "all": "كل المقالات",
-    "featured": "مميز",
-    "latest": "الأحدث"
   },
   "calligraphy": {
     "title": "فن الخط العربي",

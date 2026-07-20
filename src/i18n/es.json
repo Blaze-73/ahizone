@@ -10,7 +10,6 @@
     "collections": "Colecciones",
     "exhibitions": "Exposiciones",
     "events": "Eventos",
-    "magazine": "Revista",
     "about": "Nosotros",
     "contact": "Contacto",
     "visit": "Visítanos"
@@ -103,15 +102,6 @@
     "workshops": "Talleres",
     "talks": "Charlas",
     "noEvents": "No hay eventos próximos"
-  },
-  "magazine": {
-    "title": "Revista Digital",
-    "subtitle": "Historias, entrevistas y perspectivas del mundo del arte contemporáneo marroquí",
-    "readMore": "Leer Más",
-    "categories": "Categorías",
-    "all": "Todos los Artículos",
-    "featured": "Destacados",
-    "latest": "Últimos"
   },
   "asilah": {
     "title": "El Festival de Murales de Asilah",
