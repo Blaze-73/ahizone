@@ -46,7 +46,7 @@ export default function LanguageSelector() {
       <button
         ref={btnRef}
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 px-3 py-2 text-sm font-body hover:text-primary transition-colors"
+        className="flex items-center gap-1.5 px-3 py-2 text-sm font-body text-stone dark:text-white/80 hover:text-primary transition-colors"
       >
         <HiOutlineGlobeAlt className="w-4 h-4 shrink-0" />
         <span>{i18n.language?.toUpperCase()}</span>
@@ -67,7 +67,7 @@ export default function LanguageSelector() {
                 key={lang.code}
                 onClick={() => changeLanguage(lang.code)}
                 className={`w-full px-4 py-3 text-left text-sm font-body transition-colors hover:bg-primary/10 ${
-                  i18n.language === lang.code ? 'text-primary font-medium' : ''
+                  i18n.language === lang.code ? 'text-primary font-medium' : 'text-stone dark:text-mist'
                 }`}
               >
                 {t(`language.${lang.code}`)}
