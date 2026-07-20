@@ -23,7 +23,7 @@ export default function ExhibitionsPage() {
     <>
       <SEO
         title="المعارض"
-        description="تعرف على معارض وفعاليات عبد الرحيم أحيزون. التظاهرات الوطنية لتعليم الخط العربي، المشاركات في المهرجانات الثقافية، وورش العمل."
+        description="تعرّف على معارض وفعاليات عبد الرحيم أحيزون: الملتقيات الوطنية لتعليم الخط العربي، المشاركات في المهرجانات الثقافية، وورش العمل."
         path="/exhibitions"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">

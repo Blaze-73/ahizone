@@ -5,7 +5,7 @@
     "category": "نافذة على الفنان",
     "author": "أحيزون",
     "date": "2026-06-15",
-    "image": "/images/magazine/calligraphy-journey.jpg",
+    "image": "/images/magazine/magazine-01.jpg",
     "featured": true,
     "excerpt": "نغوص في رحلة عبد الرحيم أحيزون مع فن الخط العربي، من البدايات الأولى إلى الإبداع الاحترافي، واكتشاف جمال الحرف العربي.",
     "content": "Full article content placeholder..."
@@ -16,7 +16,7 @@
     "category": "فعاليات",
     "author": "أحيزون",
     "date": "2026-06-01",
-    "image": "/images/magazine/teaching-event.jpg",
+    "image": "/images/magazine/magazine-02.jpg",
     "featured": true,
     "excerpt": "نظرة على التظاهرة الوطنية لتعليم الأطفال فنون الخط والكتابة العربية، حيث اجتمع أكثر من مئة طفل لتعلم أساسيات الخط العربي.",
     "content": "Full article content placeholder..."
@@ -27,7 +27,7 @@
     "category": "قصص من أصيلة",
     "author": "أحيزون",
     "date": "2026-05-20",
-    "image": "/images/magazine/asilah-calligraphy.jpg",
+    "image": "/images/magazine/magazine-01.jpg",
     "featured": false,
     "excerpt": "كيف يمكن لمدينة أصيلة التاريخية أن تكون منبع إلهام للفن العربي الأصيل، وقصة شاب قرر نشر جمال الخط العربي في كل مكان.",
     "content": "Full article content placeholder..."
@@ -38,7 +38,7 @@
     "category": "تقنيات فنية",
     "author": "أحيزون",
     "date": "2026-05-10",
-    "image": "/images/magazine/portrait-art.jpg",
+    "image": "/images/artworks/artwork-04.jpg",
     "featured": false,
     "excerpt": "البورتريه بالخط العربي فن يجمع بين جمال الخط وروح الشخص. تعرف على كيفية تحويل الأسماء إلى لوحات فنية بإبداع الخطاط أحيزون.",
     "content": "Full article content placeholder..."
@@ -49,7 +49,7 @@
     "category": "تغطيات مهرجانات",
     "author": "أحيزون",
     "date": "2026-04-28",
-    "image": "/images/magazine/festival-coverage.jpg",
+    "image": "/images/events/event-02.jpg",
     "featured": false,
     "excerpt": "مشاركة أحيزون في المهرجانات الثقافية الوطنية، حيث يجمع بين فن الخط العربي والعروض الحية التي تبهر الجمهور.",
     "content": "Full article content placeholder..."
@@ -60,7 +60,7 @@
     "category": "الخط العربي",
     "author": "أحيزون",
     "date": "2026-04-15",
-    "image": "/images/magazine/arabic-calligraphy-art.jpg",
+    "image": "/images/artworks/artwork-01.jpg",
     "featured": false,
     "excerpt": "الخط العربي ليس مجرد كتابة، بل هو فن وهوية ثقافية. استكشاف لأهمية الخط العربي في الحفاظ على التراث والهوية.",
     "content": "Full article content placeholder..."

@@ -21,7 +21,7 @@ export default function AboutPage() {
     <>
       <SEO
         title="عن أحيزون"
-        description="تعرف على قصة عبد الرحيم أحيزون، فنان الخط العربي من أصيلة. رحلته مع الحرف العربي، شغفه بتعليم الأطفال، ومشاركاته في المهرجانات الثقافية."
+        description="تعرّف على قصة عبد الرحيم أحيزون، فنان الخط العربي من أصيلة. رحلته مع الحرف العربي وشغفه بتعليم الأطفال ومشاركاته في المهرجانات الثقافية."
         path="/about"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-20 bg-ivory dark:bg-charcoal">
@@ -56,7 +56,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(/images/exhibitions/fluid-boundaries.jpg)', backgroundColor: '#2C1810' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(/images/exhibitions/exhibition-01.jpg)', backgroundColor: '#2C1810' }} />
             </div>
           </div>
 

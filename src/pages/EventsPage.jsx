@@ -23,7 +23,7 @@ export default function EventsPage() {
     <>
       <SEO
         title="الفعاليات"
-        description="فعاليات عبد الرحيم أحيزون: ورش الخط العربي، التظاهرات الوطنية لتعليم الأطفال، والمشاركات في المهرجانات الثقافية."
+        description="فعاليات عبد الرحيم أحيزون: ورش الخط العربي، الملتقيات الوطنية لتعليم الأطفال، والمشاركات في المهرجانات الثقافية."
         path="/events"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">

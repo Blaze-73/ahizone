@@ -7,10 +7,10 @@ import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 export default function StudioProcess() {
   const { t } = useTranslation()
   const studioImages = [
-    { src: '/images/gallery/calligraphy-tools.jpg', label: t('studio.labels.0') },
-    { src: '/images/gallery/workshop-action.jpg', label: t('studio.labels.1') },
-    { src: '/images/gallery/thuluth-piece.jpg', label: t('studio.labels.2') },
-    { src: '/images/gallery/acrylic-canvas.jpg', label: t('studio.labels.3') },
+    { src: '/images/gallery/gallery-08.jpg', label: t('studio.labels.0') },
+    { src: '/images/gallery/gallery-05.jpg', label: t('studio.labels.1') },
+    { src: '/images/gallery/gallery-04.jpg', label: t('studio.labels.2') },
+    { src: '/images/gallery/gallery-07.jpg', label: t('studio.labels.3') },
   ]
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
 

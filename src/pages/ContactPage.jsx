@@ -28,7 +28,7 @@ export default function ContactPage() {
     <>
       <SEO
         title="اتصل بي"
-        description="تواصل مع عبد الرحيم أحيزون لطلب لوحة خط عربي مخصصة، بورتريه شخصي، أو لحجز ورشة تعليم الخط العربي."
+        description="تواصل مع عبد الرحيم أحيزون لطلب لوحة خط عربي مخصصة أو بورتريه شخصي أو لحجز ورشة في تعليم الخط العربي."
         path="/contact"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">

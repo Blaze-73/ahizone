@@ -3,28 +3,28 @@
     "id": 1,
     "name": "فاطمة العمراني",
     "role": "أم تلميذ، الدار البيضاء",
-    "avatar": "/images/testimonials/student1.jpg",
+    "avatar": "/images/testimonials/testimonial-01.jpg",
     "quote": "تجربة رائعة! ابني تعلم حب الخط العربي بفضل ورشات الأستاذ أحيزون. أسلوبه في التعليم ممتع ومبتكر."
   },
   {
     "id": 2,
     "name": "محمد بنسعيد",
     "role": "منظم مهرجان، أصيلة",
-    "avatar": "/images/testimonials/organizer1.jpg",
+    "avatar": "/images/artworks/artwork-02.jpg",
     "quote": "الأستاذ أحيزون يضفي لمسة فنية استثنائية على كل تظاهرة يشارك فيها. إبداعه في الخط العربي لا يُضاهى."
   },
   {
     "id": 3,
     "name": "سارة الإدريسي",
     "role": "زبونة، الرباط",
-    "avatar": "/images/testimonials/client1.jpg",
+    "avatar": "/images/artworks/artwork-03.jpg",
     "quote": "طلبت لوحة بورتريه بالخط العربي لاسم ابنتي، والنتيجة كانت تحفة فنية. أنصح الجميع بتجربة أعماله."
   },
   {
     "id": 4,
     "name": "أحمد القادري",
     "role": "مدير جمعية ثقافية، فاس",
-    "avatar": "/images/testimonials/cultural1.jpg",
+    "avatar": "/images/artworks/artwork-05.jpg",
     "quote": "التظاهرة الوطنية التي نظمها أحيزون لتعليم الأطفال الخط العربي كانت حدثًا استثنائيًا. مئة طفل تعلموا أساسيات الخط في جو من المتعة والإبداع."
   }
 ]

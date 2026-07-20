@@ -21,7 +21,7 @@ export default function GalleryPage() {
     <>
       <SEO
         title="الأعمال"
-        description="استعرض مجموعة أعمال عبد الرحيم أحيزون في الخط العربي. لوحات الخط الكوفي، البورتريهات الشخصية، الجداريات، وأعمال المهرجانات."
+        description="استعرض مجموعة أعمال عبد الرحيم أحيزون في الخط العربي: لوحات الخط الكوفي والمغربي، البورتريهات الشخصية، الجداريات، وأعمال المهرجانات."
         path="/gallery"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">

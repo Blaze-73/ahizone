@@ -14,7 +14,7 @@
     "collectionEn": "Kufic Script",
     "story": "هذه اللوحة تجمع بين جمال الخط الكوفي الهندسي والروحانية العميقة للبسملة. كل حرف صمم بدقة متناهية ليعكس التوازن بين الجمال البصري والمعنى الروحي.",
     "storyEn": "This piece combines the geometric beauty of Kufic script with the deep spirituality of the Basmalah. Every letter is precisely designed to reflect the balance between visual beauty and spiritual meaning.",
-    "image": "/images/gallery/bismillah-kufic.jpg",
+    "image": "/images/artworks/artwork-01.jpg",
     "featured": true,
     "available": true
   },
@@ -33,7 +33,7 @@
     "collectionEn": "Diwani Script",
     "story": "عمل فني بالخط الديواني يظهر جمال الحرف العربي في أناقة الخط العثماني التقليدي مع لمسة عصرية.",
     "storyEn": "An artwork in Diwani script showcasing the beauty of Arabic calligraphy in elegant traditional Ottoman style with a modern touch.",
-    "image": "/images/gallery/muhammad-diwani.jpg",
+    "image": "/images/artworks/artwork-02.jpg",
     "featured": true,
     "available": true
   },
@@ -52,7 +52,7 @@
     "collectionEn": "Personal Portraits",
     "story": "لوحة بورتريه شخصية باسم 'نور'، تجمع بين الخط العربي وفن البورتريه في تصميم فريد يعبر عن شخصية صاحب الاسم.",
     "storyEn": "A personalized portrait canvas of the name 'Noor', combining Arabic calligraphy with portrait design in a unique expression of the name's personality.",
-    "image": "/images/gallery/portrait-noor.jpg",
+    "image": "/images/artworks/artwork-04.jpg",
     "featured": true,
     "available": true
   },
@@ -71,7 +71,7 @@
     "collectionEn": "Maghrebi Script",
     "story": "كلمة 'الأمل' مكتوبة بالخط المغربي الأصيل، وهو الخط التقليدي للمغرب العربي. الألوان الدافئة تعبر عن التفاؤل والحيوية.",
     "storyEn": "The word 'Hope' written in authentic Maghrebi script, the traditional script of the Maghreb region. Warm colors express optimism and vitality.",
-    "image": "/images/gallery/al-amal-maghrebi.jpg",
+    "image": "/images/artworks/artwork-05.jpg",
     "featured": true,
     "available": true
   },
@@ -90,7 +90,7 @@
     "collectionEn": "National Gatherings",
     "story": "لحظة من إحدى التظاهرات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية. أكثر من ١٠٠ طفل يتعلمون أساسيات الخط في جو من المتعة والإبداع.",
     "storyEn": "A moment from one of the national gatherings teaching children Arabic calligraphy and writing skills. Over 100 children learning the basics of calligraphy in an atmosphere of fun and creativity.",
-    "image": "/images/gallery/kids-workshop.jpg",
+    "image": "/images/artworks/artwork-04.jpg",
     "featured": true,
     "available": false
   },
@@ -109,7 +109,7 @@
     "collectionEn": "Murals",
     "story": "جدارية حية في مهرجان أصيلة الثقافي، تجمع بين الخط المغربي والزخرفة التقليدية في عمل فني يزين جدران المدينة.",
     "storyEn": "A live mural at the Asilah Cultural Festival, combining Maghrebi calligraphy with traditional ornamentation in an artwork that adorns the city's walls.",
-    "image": "/images/gallery/asilah-mural.jpg",
+    "image": "/images/artworks/artwork-03.jpg",
     "featured": false,
     "available": false
   }

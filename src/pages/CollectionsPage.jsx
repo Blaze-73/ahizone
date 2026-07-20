@@ -21,7 +21,7 @@ export default function CollectionsPage() {
     <>
       <SEO
         title="المجموعات"
-        description="مجموعات عبد الرحيم أحيزون الفنية: الخط الكوفي، الخط المغربي، البورتريهات الشخصية، لوحات الأكريليك المخصصة، والتظاهرات التعليمية."
+        description="مجموعات عبد الرحيم أحيزون الفنية: الخط الكوفي والمغربي، البورتريهات الشخصية، لوحات الأكريليك المخصصة، والملتقيات التعليمية."
         path="/collections"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">

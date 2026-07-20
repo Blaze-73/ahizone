@@ -18,7 +18,7 @@ export default function HomePage() {
     <>
       <SEO
         title="الرئيسية"
-        description="أحيزون فنان خط عربي من أصيلة، المغرب. متخصص في فن الخط العربي والرسم البورتريه وإقامة التظاهرات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية."
+        description="أحيزون فنان خط عربي من أصيلة، المغرب. متخصص في فن الخط العربي والرسم البورتريه وتنظيم الملتقيات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية."
         path="/"
       />
       <Helmet>
@@ -31,7 +31,7 @@ export default function HomePage() {
             familyName: 'أحيزون',
             description: 'فنان خط عربي من أصيلة، المغرب. متخصص في فن الخط العربي والرسم البورتريه.',
             url: 'https://ahizoune.art',
-            image: 'https://ahizoune.art/images/artists/ahizoune-portrait.jpg',
+            image: 'https://ahizoune.art/images/artists/abderrahim-ahizoune.jpg',
             jobTitle: 'فنان خط عربي',
             knowsAbout: ['الخط العربي', 'فن البورتريه', 'التعليم الفني', 'الثقافة العربية'],
             sameAs: [

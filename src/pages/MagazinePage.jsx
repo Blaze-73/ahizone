@@ -23,7 +23,7 @@ export default function MagazinePage() {
     <>
       <SEO
         title="المجلة"
-        description="مجلة أحيزون: قصص، مقابلات، ورؤى من عالم الخط العربي والثقافة العربية. تعرف على رحلة الخطاط وتقنياته وإبداعاته."
+        description="مجلة أحيزون: قصص ومقابلات ورؤى من عالم الخط العربي والثقافة العربية. تابع رحلة الخطاط وتقنياته وإبداعاته."
         path="/magazine"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-16 bg-ivory dark:bg-charcoal">

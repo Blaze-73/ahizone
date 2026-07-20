@@ -28,7 +28,7 @@ export default function ArtistsPage() {
     <>
       <SEO
         title="الخطاط"
-        description="عبد الرحيم أحيزون، فنان خط عربي من أصيلة. متخصص في الخط الكوفي والمغربي والديواني، والبورتريهات الشخصية، وتعليم الأطفال فنون الخط العربي."
+        description="عبد الرحيم أحيزون، فنان خط عربي من أصيلة. متخصص في الخط الكوفي والمغربي والديواني والبورتريهات الشخصية وتعليم الأطفال فنون الخط العربي."
         path="/artists"
       />
       <section className="relative pt-24 md:pt-32 pb-12 md:pb-20 bg-ivory dark:bg-charcoal">

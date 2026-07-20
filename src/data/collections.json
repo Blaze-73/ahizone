@@ -5,7 +5,7 @@
     "titleEn": "Kufic Calligraphy",
     "description": "مجموعة من روائع الخط الكوفي، أقدم أنواع الخطوط العربية، بتصميمات هندسية تجمع بين الأصالة والحداثة.",
     "descriptionEn": "A collection of Kufic calligraphy masterpieces, the oldest Arabic script style, with geometric designs blending tradition and modernity.",
-    "image": "/images/gallery/bismillah-kufic.jpg",
+    "image": "/images/collections/collection-01.jpg",
     "category": "calligraphy",
     "artworkCount": 12
   },
@@ -15,7 +15,7 @@
     "titleEn": "Personal Portraits",
     "description": "مجموعة من البورتريهات الشخصية المخصصة، حيث يتحول كل اسم إلى تحفة فنية بالخط العربي.",
     "descriptionEn": "A collection of personalized portrait canvases where every name is transformed into a calligraphic masterpiece.",
-    "image": "/images/gallery/portrait-noor.jpg",
+    "image": "/images/artworks/artwork-04.jpg",
     "category": "portraits",
     "artworkCount": 24
   },
@@ -25,7 +25,7 @@
     "titleEn": "Maghrebi Script",
     "description": "أعمال مختارة بالخط المغربي الأصيل، وهو الخط التقليدي للمغرب العربي، يجمع بين الجمال والهوية.",
     "descriptionEn": "Selected works in authentic Maghrebi script, the traditional script of the Maghreb region, blending beauty and identity.",
-    "image": "/images/gallery/al-amal-maghrebi.jpg",
+    "image": "/images/collections/collection-02.jpg",
     "category": "calligraphy",
     "artworkCount": 15
   },
@@ -35,7 +35,7 @@
     "titleEn": "Educational Gatherings",
     "description": "توثيق للتظاهرات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية، حيث نبني جيلًا جديدًا من عشاق الحرف العربي.",
     "descriptionEn": "Documentation of national gatherings teaching children Arabic calligraphy and writing skills, building a new generation of Arabic script enthusiasts.",
-    "image": "/images/gallery/kids-workshop.jpg",
+    "image": "/images/events/event-01.jpg",
     "category": "teaching",
     "artworkCount": 18
   },
@@ -45,7 +45,7 @@
     "titleEn": "Murals & Festivals",
     "description": "مجموعة من الجداريات والأعمال الحية التي أنجزها أحيزون في المهرجانات الثقافية الوطنية والدولية.",
     "descriptionEn": "A collection of murals and live artworks created by Ahizoune at national and international cultural festivals.",
-    "image": "/images/gallery/asilah-mural.jpg",
+    "image": "/images/artworks/artwork-03.jpg",
     "category": "murals",
     "artworkCount": 10
   },
@@ -55,7 +55,7 @@
     "titleEn": "Custom Acrylic Canvases",
     "description": "لوحات أكريليك على قماش بأحجام مختلفة، تحمل أسماء وعبارات مخصصة حسب طلب الزبائن.",
     "descriptionEn": "Custom acrylic name canvases in various sizes, carrying personalized names and phrases as requested by clients.",
-    "image": "/images/gallery/acrylic-canvas.jpg",
+    "image": "/images/artworks/artwork-06.jpg",
     "category": "mixedMedia",
     "artworkCount": 30
   }

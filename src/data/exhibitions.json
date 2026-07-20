@@ -9,7 +9,7 @@
     "endDate": "2026-09-17",
     "description": "تظاهرة وطنية لتعليم الأطفال فنون الخط والكتابة العربية. ثلاث أيام من الورش المكثفة لتعليم أساسيات الخط العربي للأطفال من مختلف الأعمار.",
     "descriptionEn": "A national gathering teaching children Arabic calligraphy and writing arts. Three days of intensive workshops teaching the basics of Arabic calligraphy to children of all ages.",
-    "image": "/images/exhibitions/national-gathering.jpg",
+    "image": "/images/events/event-01.jpg",
     "artists": [],
     "featured": true
   },
@@ -23,7 +23,7 @@
     "endDate": "2026-08-30",
     "description": "معرض شخصي لأعمال عبد الرحيم أحيزون في فن الخط العربي، يضم مجموعة مختارة من أعماله في مختلف أنواع الخطوط.",
     "descriptionEn": "A solo exhibition of Abderrahim Ahizoune's Arabic calligraphy works, featuring a curated selection of his pieces across various script styles.",
-    "image": "/images/exhibitions/calligraphy-exhibition.jpg",
+    "image": "/images/exhibitions/exhibition-01.jpg",
     "artists": [],
     "featured": true
   },
@@ -37,7 +37,7 @@
     "endDate": "2026-07-25",
     "description": "مهرجان ثقافي يجمع خطاطين من مختلف أنحاء المغرب، مع ورش حية وعروض للخط العربي ومعارض تفاعلية.",
     "descriptionEn": "A cultural festival bringing together calligraphers from across Morocco, with live workshops, Arabic calligraphy demonstrations, and interactive exhibitions.",
-    "image": "/images/exhibitions/calligraphy-festival.jpg",
+    "image": "/images/events/event-02.jpg",
     "artists": [],
     "featured": true
   },
@@ -51,7 +51,7 @@
     "endDate": "2026-04-30",
     "description": "معرض يضم مجموعة من البورتريهات الشخصية المنجزة بالخط العربي، حيث يتحول كل اسم إلى لوحة فنية فريدة.",
     "descriptionEn": "An exhibition featuring a collection of personal portraits created in Arabic calligraphy, where each name becomes a unique work of art.",
-    "image": "/images/exhibitions/portrait-exhibition.jpg",
+    "image": "/images/events/event-03.jpg",
     "artists": [],
     "featured": false
   },
@@ -65,7 +65,7 @@
     "endDate": "2026-10-07",
     "description": "ورشة مكثفة لمدة ثلاثة أيام لتعليم الأطفال أساسيات الخط العربي، من الحروف الأولى إلى تكوين الجمل الفنية.",
     "descriptionEn": "A three-day intensive workshop teaching children the basics of Arabic calligraphy, from first letters to artistic compositions.",
-    "image": "/images/exhibitions/kids-workshop-ex.jpg",
+    "image": "/images/artworks/artwork-04.jpg",
     "artists": [],
     "featured": false
   },
@@ -79,7 +79,7 @@
     "endDate": "2026-08-15",
     "description": "مشاركة في مهرجان أصيلة الثقافي السنوي، مع ورش حية للخط العربي وجداريات تزين جدران المدينة.",
     "descriptionEn": "Participation in the annual Asilah Cultural Festival, with live Arabic calligraphy workshops and murals adorning the city's walls.",
-    "image": "/images/exhibitions/asilah-festival.jpg",
+    "image": "/images/artworks/artwork-03.jpg",
     "artists": [],
     "featured": false
   }

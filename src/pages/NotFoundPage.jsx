@@ -9,7 +9,7 @@ export default function NotFoundPage() {
 
   return (
     <>
-      <SEO title="الصفحة غير موجودة" description="الصفحة التي تبحث عنها غير موجودة أو تم نقلها." />
+      <SEO title="الصفحة غير موجودة" description="عذراً، الصفحة التي تبحث عنها غير موجودة أو تم نقلها." />
       <section className="min-h-screen flex items-center justify-center bg-ivory dark:bg-charcoal">
       <Container className="text-center">
         <motion.div
