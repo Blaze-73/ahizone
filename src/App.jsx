@@ -30,10 +30,10 @@ export default function App() {
   }, [i18n.language])
 
   return (
-    <>
+    <div className="w-full max-w-full overflow-x-hidden">
       <ScrollToTop />
       <Navbar />
-      <main>
+      <main className="w-full max-w-full">
         <Suspense fallback={<LoadingSpinner />}>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -52,6 +52,6 @@ export default function App() {
         </Suspense>
       </main>
       <Footer />
-    </>
+    </div>
   )
 }
