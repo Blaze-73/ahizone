@@ -29,7 +29,7 @@ export default function StudioProcess() {
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
               {t('studio.title')}
             </h2>
-            <p className="mt-4 md:mt-6 text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light">
+            <p className="mt-4 md:mt-6 text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light break-words">
               {t('studio.subtitle')}
             </p>
             <div className="mt-10">

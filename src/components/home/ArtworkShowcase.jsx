@@ -19,7 +19,7 @@ export default function ArtworkShowcase() {
     : galleryData.filter((img) => img.category === activeCategory)
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse overflow-x-hidden">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

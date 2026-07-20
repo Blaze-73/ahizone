@@ -16,7 +16,7 @@ const FeaturedArtists = memo(function FeaturedArtists() {
   if (!artist) return null
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -62,7 +62,7 @@ const FeaturedArtists = memo(function FeaturedArtists() {
                 &ldquo;{artist.quoteEn}&rdquo;
               </p>
             </div>
-            <p className="mt-6 text-base text-stone dark:text-mist leading-relaxed font-light">
+            <p className="mt-6 text-base text-stone dark:text-mist leading-relaxed font-light break-words">
               {artist.biographyFull}
             </p>
             <div className="mt-8">

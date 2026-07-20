@@ -12,7 +12,7 @@ export default function ArtworkOfMonth() {
   const artwork = artworksData.find((a) => a.id === 1) || artworksData[0]
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-eclipse text-white overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-32 bg-eclipse text-white">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">
@@ -28,7 +28,7 @@ export default function ArtworkOfMonth() {
                 style={{ backgroundImage: `url(${artwork.image})`, backgroundColor: '#2C1810' }}
               />
             </div>
-            <div className="absolute -bottom-3 md:-bottom-4 -right-3 md:-right-4 w-full h-full border border-primary/20 rounded-2xl -z-10" />
+            <div className="hidden md:block absolute -bottom-4 -right-4 w-full h-full border border-primary/20 rounded-2xl -z-10" />
           </motion.div>
 
           <motion.div
@@ -44,7 +44,7 @@ export default function ArtworkOfMonth() {
             </h2>
             <p className="mt-2 text-lg text-primary/80 font-display italic">{artwork.artistName}</p>
             <div className="w-16 h-px bg-primary/30 my-8" />
-            <p className="text-base text-white/70 leading-relaxed font-light">
+            <p className="text-base text-white/70 leading-relaxed font-light break-words">
               {artwork.story}
             </p>
             <div className="mt-6 flex flex-wrap gap-6 text-sm">

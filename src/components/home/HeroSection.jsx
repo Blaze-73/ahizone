@@ -7,7 +7,7 @@ export default function HeroSection() {
   const { t } = useTranslation()
 
   return (
-    <section className="relative h-dvh min-h-[500px] md:min-h-[700px] overflow-hidden bg-eclipse">
+    <section className="relative h-dvh min-h-[500px] md:min-h-[700px] bg-eclipse">
       <div className="absolute inset-0">
         <div
           className="w-full h-full bg-cover bg-center"
@@ -32,7 +32,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 60 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5, ease: [0.25, 0.1, 0.25, 1] }}
-          className="font-hero text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white leading-[1.05] tracking-tight max-w-3xl"
+          className="font-hero text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black text-white leading-[1.05] tracking-tight max-w-full sm:max-w-3xl break-words"
         >
           {t('hero.title')}{' '}
           <span className="text-primary">
@@ -44,7 +44,7 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.7, ease: [0.25, 0.1, 0.25, 1] }}
-          className="mt-4 md:mt-6 text-sm md:text-lg text-white/70 max-w-xl font-body font-light leading-relaxed"
+          className="mt-4 md:mt-6 text-sm md:text-lg text-white/70 max-w-full sm:max-w-xl font-body font-light leading-relaxed"
         >
           {t('hero.subtitle')}
         </motion.p>

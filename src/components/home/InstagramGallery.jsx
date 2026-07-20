@@ -28,7 +28,7 @@ export default function InstagramGallery() {
         </motion.div>
       </Container>
 
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-0">
+      <div className="grid grid-cols-2 md:grid-cols-4">
         {images.map((img, i) => (
           <motion.a
             key={img.id}

@@ -11,7 +11,7 @@ const AboutSection = memo(function AboutSection() {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.15 })
 
   return (
-    <section ref={ref} className="relative py-20 md:py-40 bg-ivory dark:bg-charcoal overflow-hidden">
+    <section ref={ref} className="relative py-20 md:py-40 bg-ivory dark:bg-charcoal">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-24 items-center">
           <motion.div
@@ -26,10 +26,10 @@ const AboutSection = memo(function AboutSection() {
               {t('about.title')}
             </h2>
             <div className="w-12 md:w-16 h-px bg-primary my-6 md:my-8" />
-            <p className="text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light">
+            <p className="text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light break-words">
               {t('about.subtitle')}
             </p>
-            <p className="mt-6 text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light">
+            <p className="mt-6 text-base md:text-lg text-stone dark:text-mist leading-relaxed font-light break-words">
               {t('about.mission')}
             </p>
             <div className="mt-10">
@@ -49,8 +49,8 @@ const AboutSection = memo(function AboutSection() {
                 style={{ backgroundImage: 'url(/images/gallery/mosaic-dreams.jpg)', backgroundColor: '#2C1810' }}
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 w-32 h-32 border border-primary/20 rounded-2xl" />
-            <div className="absolute -top-6 -right-6 w-24 h-24 border border-primary/20 rounded-full" />
+            <div className="hidden md:block absolute -bottom-6 -left-6 w-32 h-32 border border-primary/20 rounded-2xl" />
+            <div className="hidden md:block absolute -top-6 -right-6 w-24 h-24 border border-primary/20 rounded-full" />
           </motion.div>
         </div>
       </Container>
