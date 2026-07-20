@@ -71,7 +71,7 @@ const FeaturedCollections = memo(function FeaturedCollections() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-6">
                   <span className="text-xs font-body tracking-wider uppercase text-primary/80">
-                    {collection.artworkCount} works
+                    {collection.artworkLabel}
                   </span>
                   <h3 className="mt-2 font-display text-2xl font-semibold text-white">{collection.title}</h3>
                   <p className="mt-2 text-sm text-white/70 line-clamp-2">{collection.description}</p>

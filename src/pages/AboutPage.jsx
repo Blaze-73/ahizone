@@ -46,7 +46,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 mb-24">
             <div>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-secondary dark:text-white mb-6">
-                {t('aboutPage.history')}
+                {t('aboutPage.historyTitle')}
               </h2>
               <p className="text-stone dark:text-mist leading-relaxed">
                 {t('aboutPage.history')}
@@ -62,11 +62,11 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-24">
             <div>
-              <h2 className="font-display text-3xl font-bold text-secondary dark:text-white mb-6">{t('aboutPage.vision')}</h2>
+              <h2 className="font-display text-3xl font-bold text-secondary dark:text-white mb-6">{t('aboutPage.visionTitle')}</h2>
               <p className="text-stone dark:text-mist leading-relaxed">{t('aboutPage.vision')}</p>
             </div>
             <div>
-              <h2 className="font-display text-3xl font-bold text-secondary dark:text-white mb-6">{t('aboutPage.mission')}</h2>
+              <h2 className="font-display text-3xl font-bold text-secondary dark:text-white mb-6">{t('aboutPage.missionTitle')}</h2>
               <p className="text-stone dark:text-mist leading-relaxed">{t('aboutPage.mission')}</p>
             </div>
           </div>

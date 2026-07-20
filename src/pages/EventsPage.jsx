@@ -7,7 +7,7 @@ import GlassCard from '../components/ui/GlassCard'
 import exhibitionsData from '../data/exhibitions.json'
 
 export default function EventsPage() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const [filter, setFilter] = useState('all')
 
   const filtered = filter === 'all'
@@ -16,7 +16,7 @@ export default function EventsPage() {
 
   const formatDate = (dateStr) => {
     const date = new Date(dateStr)
-    return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+    return date.toLocaleDateString(i18n.language, { month: 'long', day: 'numeric', year: 'numeric' })
   }
 
   return (
@@ -83,7 +83,7 @@ export default function EventsPage() {
                         event.status === 'upcoming' ? 'bg-primary/10 text-primary' :
                         'bg-stone/10 text-stone'
                       }`}>
-                        {event.status}
+                        {t(`exhibitions.${event.status}`)}
                       </span>
                       <span className="text-xs text-mist uppercase">{t(`exhibitions.${event.type}`)}</span>
                     </div>

@@ -48,8 +48,10 @@
     "viewAll": "Ver Todas las Colecciones",
     "all": "Todos",
     "calligraphy": "Caligrafía Árabe",
+    "portrait": "Retrato",
     "portraits": "Retratos",
     "teaching": "Talleres Educativos",
+    "mural": "Mural",
     "murals": "Murales",
     "mixedMedia": "Técnicas Mixtas",
     "works": "obras"
@@ -172,8 +174,11 @@
   "aboutPage": {
     "title": "Acerca de Ahizoune",
     "subtitle": "Un artista de caligrafía árabe en el corazón de la cultura marroquí",
+    "historyTitle": "Los Inicios",
     "history": "Nacido y criado en Asilah, Abderrahim Ahizoune desarrolló una profunda pasión por la caligrafía árabe y la cultura árabe desde temprana edad. Su viaje comenzó con una simple fascinación por la belleza de la letra árabe, evolucionando hasta convertirse en una misión de por vida para preservar y promover este antiguo arte.",
+    "visionTitle": "Visión",
     "vision": "Imagina un futuro donde cada niño tenga la oportunidad de aprender y amar la caligrafía árabe — donde el arte de la letra se convierta en un puente entre generaciones, culturas y comunidades.",
+    "missionTitle": "Misión",
     "mission": "Ahizoune se dedica a enseñar, crear e inspirar a través de la caligrafía árabe. A través de reuniones nacionales, talleres, festivales y retratos personalizados, da vida a la belleza de la escritura árabe para nuevas audiencias.",
     "values": [
       { "title": "Excelencia", "description": "Presentamos solo arte contemporáneo de la más alta calidad, curado con estándares rigurosos." },

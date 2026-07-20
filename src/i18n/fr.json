@@ -48,8 +48,10 @@
     "viewAll": "Voir Toutes les Collections",
     "all": "Tous",
     "calligraphy": "Calligraphie Arabe",
+    "portrait": "Portrait",
     "portraits": "Portraits",
     "teaching": "Ateliers Pédagogiques",
+    "mural": "Peinture Murale",
     "murals": "Peintures Murales",
     "mixedMedia": "Techniques Mixtes",
     "works": "œuvres"
@@ -172,8 +174,11 @@
   "aboutPage": {
     "title": "À Propos d'Ahizoune",
     "subtitle": "Un artiste calligraphe arabe au cœur de la culture marocaine",
+    "historyTitle": "Les Débuts",
     "history": "Né et élevé à Asilah, Abderrahim Ahizoune a développé une passion profonde pour la calligraphie arabe et la culture arabe dès son plus jeune âge. Son voyage a commencé par une simple fascination pour la beauté de la lettre arabe, évoluant vers une mission de toute une vie : préserver et promouvoir cet art ancien.",
+    "visionTitle": "Vision",
     "vision": "Il imagine un avenir où chaque enfant a l'opportunité d'apprendre et d'aimer la calligraphie arabe — où l'art de la lettre devient un pont entre les générations, les cultures et les communautés.",
+    "missionTitle": "Mission",
     "mission": "Ahizoune se consacre à l'enseignement, la création et l'inspiration à travers la calligraphie arabe. À travers des rassemblements nationaux, des ateliers, des festivals et des portraits personnalisés, il fait découvrir la beauté de l'écriture arabe à de nouveaux publics.",
     "values": [
       { "title": "Excellence", "description": "Nous présentons uniquement l'art contemporain de la plus haute qualité, curaté selon des normes rigoureuses." },

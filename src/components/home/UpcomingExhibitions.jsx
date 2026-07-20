@@ -55,7 +55,7 @@ export default function UpcomingExhibitions() {
                     <span className={`px-3 py-1 rounded-full text-xs font-body uppercase tracking-wider ${
                       exhibition.status === 'current' ? 'bg-green-500/20 text-green-400' : 'bg-primary/20 text-primary'
                     }`}>
-                      {exhibition.status}
+                      {t(`exhibitions.${exhibition.status}`)}
                     </span>
                     <span className="text-xs text-white/50 uppercase tracking-wider">{t(`exhibitions.${exhibition.type}`)}</span>
                   </div>
