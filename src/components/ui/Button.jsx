@@ -32,7 +32,7 @@ export default function Button({ children, to, href, onClick, variant = 'primary
 
   const cls = `${base} ${sizes[size]} ${variants[variant]} ${className}`
 
-  if (to) return <Link to={to} className={cls} {...rest}>{children}</Link>
-  if (href) return <a href={href} className={cls} target="_blank" rel="noopener noreferrer" {...rest}>{children}</a>
-  return <button onClick={onClick} className={cls} {...rest}>{children}</button>
+  if (to) return <Link to={to} className={cls} {...rest}>{content}</Link>
+  if (href) return <a href={href} className={cls} target="_blank" rel="noopener noreferrer" {...rest}>{content}</a>
+  return <button onClick={onClick} className={cls} {...rest}>{content}</button>
 }

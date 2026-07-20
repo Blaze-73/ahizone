@@ -9,7 +9,7 @@ import { memo } from 'react'
 import { prefetchDynamic } from '../../utils/prefetch'
 
 const FeaturedArtists = memo(function FeaturedArtists() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
   const artist = artistsData[0]
 
@@ -59,7 +59,7 @@ const FeaturedArtists = memo(function FeaturedArtists() {
             <div className="w-12 md:w-16 h-px bg-primary my-6 md:my-8" />
             <div className="relative pl-6 border-l-2 border-primary/30">
               <p className="text-base md:text-lg text-stone dark:text-mist leading-relaxed font-literary italic">
-                &ldquo;{artist.quoteEn}&rdquo;
+                &ldquo;{i18n.language.startsWith('ar') ? artist.quote : artist.quoteEn}&rdquo;
               </p>
             </div>
             <p className="mt-6 text-base text-stone dark:text-mist leading-relaxed font-light break-words">

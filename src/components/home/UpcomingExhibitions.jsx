@@ -6,14 +6,14 @@ import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import exhibitionsData from '../../data/exhibitions.json'
 
 export default function UpcomingExhibitions() {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
 
   const featured = exhibitionsData.filter((e) => e.featured).slice(0, 3)
 
   const formatDate = (dateStr) => {
     const date = new Date(dateStr)
-    return date.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+    return date.toLocaleDateString(i18n.language, { month: 'long', day: 'numeric', year: 'numeric' })
   }
 
   return (

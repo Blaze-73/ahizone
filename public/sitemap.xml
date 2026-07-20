@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ahizoune.art/</loc>
-    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/en"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/fr"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/es"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -52,7 +46,37 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://ahizoune.art/artists/abderrahim-ahizoune</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://ahizoune.art/artwork/1</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ahizoune.art/artwork/2</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ahizoune.art/artwork/3</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ahizoune.art/artwork/4</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ahizoune.art/artwork/5</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://ahizoune.art/artwork/6</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

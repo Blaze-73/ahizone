@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { motion } from 'framer-motion'
 import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi'
 import { FiInstagram, FiFacebook, FiTwitter } from 'react-icons/fi'
 import siteData from '../../data/site.json'

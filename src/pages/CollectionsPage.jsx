@@ -11,7 +11,7 @@ const categories = ['all', 'calligraphy', 'portraits', 'teaching', 'murals', 'mi
 export default function CollectionsPage() {
   const { t } = useTranslation()
   const [activeCategory, setActiveCategory] = useState('all')
-  const { ref, isVisible } = useScrollAnimation({ threshold: 0.05 })
+  const { ref } = useScrollAnimation({ threshold: 0.05 })
 
   const filtered = activeCategory === 'all'
     ? collectionsData

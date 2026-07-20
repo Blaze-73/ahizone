@@ -37,7 +37,7 @@ export default function ArtworkOfMonth() {
             transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
             <span className="text-xs font-body tracking-[0.3em] uppercase text-primary mb-4 block">
-              {t('artwork.title')} of the Month
+              {t('artwork.title')} {t('artwork.ofTheMonth')}
             </span>
             <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
               {artwork.title}
