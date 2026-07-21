@@ -8,7 +8,7 @@ import Lightbox from '../components/ui/Lightbox'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import collectionsData from '../data/collections.json'
 
-const categories = ['all', 'calligraphy', 'portraits', 'teaching', 'murals', 'mixedMedia']
+const categories = ['all', 'calligraphy', 'portraits', 'teaching', 'mixedMedia']
 
 export default function CollectionsPage() {
   const { t } = useTranslation()

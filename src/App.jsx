@@ -2,7 +2,6 @@ import { lazy, Suspense, useEffect } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLenis } from './hooks/useLenis'
-import ScrollToTop from './components/layout/ScrollToTop'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import LoadingSpinner from './components/ui/LoadingSpinner'
@@ -28,7 +27,6 @@ export default function App() {
 
   return (
     <div className="w-full max-w-full overflow-x-hidden">
-      <ScrollToTop />
       <Navbar />
       <main className="w-full max-w-full">
         <Suspense fallback={<LoadingSpinner />}>
