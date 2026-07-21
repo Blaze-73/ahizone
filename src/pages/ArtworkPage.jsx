@@ -105,7 +105,7 @@ export default function ArtworkPage() {
                 </div>
               )}
 
-              <Button variant="primary">{t('artwork.inquiry')}</Button>
+              <Button to="/contact" variant="primary">{t('artwork.inquiry')}</Button>
             </motion.div>
           </div>
         </Container>

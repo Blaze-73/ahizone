@@ -9,7 +9,7 @@ import { prefetchDynamic } from '../../utils/prefetch'
 export default function ArtworkOfMonth() {
   const { t } = useTranslation()
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
-  const artwork = artworksData.find((a) => a.id === 1) || artworksData[0]
+  const artwork = artworksData.find((a) => a.id === 7) || artworksData[0]
 
   return (
     <section ref={ref} className="relative py-20 md:py-32 bg-eclipse text-white">
@@ -62,7 +62,7 @@ export default function ArtworkOfMonth() {
               </div>
             </div>
             <div className="mt-10">
-              <Button to={`/artwork/${artwork.id}`} onMouseEnter={() => prefetchDynamic('artwork')} variant="primary">{t('artwork.inquiry')}</Button>
+              <Button to="/contact" variant="primary">{t('artwork.inquiry')}</Button>
             </div>
           </motion.div>
         </div>

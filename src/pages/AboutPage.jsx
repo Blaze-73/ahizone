@@ -56,7 +56,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(/images/exhibitions/exhibition-01.jpg)', backgroundColor: '#2C1810' }} />
+              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(/images/artworks/art1.jpg)', backgroundColor: '#2C1810' }} />
             </div>
           </div>
 

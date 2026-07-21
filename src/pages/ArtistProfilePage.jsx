@@ -124,7 +124,7 @@ export default function ArtistProfilePage() {
               )}
 
               <div className="mt-10">
-                <Button variant="primary">{t('artwork.inquiry')}</Button>
+                <Button to="/contact" variant="primary">{t('artwork.inquiry')}</Button>
               </div>
             </div>
           </div>

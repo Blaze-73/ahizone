@@ -2,14 +2,14 @@ import SEO from '../components/seo/SEO'
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker, HiOutlineClock } from 'react-icons/hi'
+import { HiOutlinePhone, HiOutlineLocationMarker, HiOutlineClock } from 'react-icons/hi'
 import { FaWhatsapp } from 'react-icons/fa'
 import Container from '../components/ui/Container'
 import siteData from '../data/site.json'
 
 export default function ContactPage() {
   const { t } = useTranslation()
-  const [formData, setFormData] = useState({ name: '', email: '', subject: '', message: '' })
+  const [formData, setFormData] = useState({ name: '', phone: '', subject: '', message: '' })
   const [status, setStatus] = useState('idle')
 
   const handleChange = (e) => {
@@ -18,9 +18,9 @@ export default function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    if (!formData.name || !formData.email || !formData.message) return
+    if (!formData.name || !formData.phone || !formData.message) return
     setStatus('success')
-    setFormData({ name: '', email: '', subject: '', message: '' })
+    setFormData({ name: '', phone: '', subject: '', message: '' })
     setTimeout(() => setStatus('idle'), 5000)
   }
 
@@ -71,11 +71,11 @@ export default function ContactPage() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.email')}</label>
+                    <label className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.phone')}</label>
                     <input
-                      type="email"
-                      name="email"
-                      value={formData.email}
+                      type="tel"
+                      name="phone"
+                      value={formData.phone}
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 bg-ivory dark:bg-charcoal text-secondary dark:text-white border border-stone/20 dark:border-white/10 rounded-xl text-sm font-body focus:outline-none focus:border-primary/50 transition-colors"
@@ -146,11 +146,11 @@ export default function ContactPage() {
                       <p className="text-sm text-mist mt-0.5">{t('footer.phone')}</p>
                     </div>
                   </a>
-                  <a href="mailto:contact@ahizoune.art" className="flex items-start gap-4 group">
-                    <HiOutlineMail className="w-5 h-5 text-primary mt-0.5 shrink-0" />
+                  <a href={`https://wa.me/${siteData.location.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer" className="flex items-start gap-4 group">
+                    <FaWhatsapp className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                     <div>
-                      <p className="text-sm font-medium text-secondary dark:text-white group-hover:text-primary transition-colors">{t('footer.email')}</p>
-                      <p className="text-sm text-mist mt-0.5">{t('footer.email')}</p>
+                      <p className="text-sm font-medium text-secondary dark:text-white group-hover:text-primary transition-colors">{t('footer.whatsapp')}</p>
+                      <p className="text-sm text-mist mt-0.5">{t('footer.whatsapp')}</p>
                     </div>
                   </a>
                   <div className="flex items-start gap-4">

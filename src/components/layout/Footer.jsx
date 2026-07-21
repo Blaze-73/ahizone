@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { HiOutlineMail, HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi'
+import { HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi'
+import { FaWhatsapp } from 'react-icons/fa'
 import { FiInstagram, FiFacebook, FiTwitter } from 'react-icons/fi'
 import siteData from '../../data/site.json'
 import Container from '../ui/Container'
@@ -92,9 +93,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:contact@ahizoune.art" className="flex items-center gap-3 text-sm text-mist hover:text-primary transition-colors">
-                  <HiOutlineMail className="w-5 h-5 text-primary shrink-0" />
-                  {t('footer.email')}
+                <a href={`https://wa.me/${siteData.location.whatsapp.replace(/\D/g, '')}`} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-sm text-mist hover:text-primary transition-colors">
+                  <FaWhatsapp className="w-5 h-5 text-primary shrink-0" />
+                  {t('footer.whatsapp')}
                 </a>
               </li>
             </ul>

@@ -159,7 +159,7 @@
     "followUs": "Suivez-Nous",
     "address": "Avenue Hassan II, Asilah 90000, Maroc",
     "phone": "+212 539 91 72 00",
-    "email": "contact@ahizoune.art",
+    "whatsapp": "+212 661 234 567",
     "rights": "Tous droits réservés.",
     "openingHours": "Horaires d'Ouverture",
     "monday": "Lundi",
@@ -204,7 +204,7 @@
     "subtitle": "Nous serions ravis de vous entendre",
     "form": {
       "name": "Votre Nom",
-      "email": "Votre Email",
+      "phone": "Votre Téléphone",
       "subject": "Sujet",
       "message": "Votre Message",
       "submit": "Envoyer le Message",
