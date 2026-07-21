@@ -81,12 +81,6 @@ export default function CollectionsPage() {
                     className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                     style={{ backgroundImage: `url(${collection.image})`, backgroundColor: '#2C1810' }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                  <div className="absolute bottom-0 left-0 right-0 p-6">
-                    <span className="text-xs font-body tracking-wider uppercase text-primary/80">{collection.artworkLabel}</span>
-                    <h3 className="mt-2 font-display text-2xl font-semibold text-white">{collection.title}</h3>
-                    <p className="mt-2 text-sm text-white/70 line-clamp-2">{collection.description}</p>
-                  </div>
                 </motion.div>
               ))}
             </AnimatePresence>
@@ -94,7 +88,7 @@ export default function CollectionsPage() {
 
           {lightboxIndex !== null && (
             <Lightbox
-              images={filtered}
+              images={filtered.map((c) => ({ src: c.image, alt: c.title }))}
               index={lightboxIndex}
               onClose={() => setLightboxIndex(null)}
             />
