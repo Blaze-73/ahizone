@@ -46,7 +46,7 @@ const AboutSection = memo(function AboutSection() {
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
               <div
                 className="w-full h-full bg-cover bg-center"
-                style={{ backgroundImage: 'url(/images/artworks/artwork-02.jpg)', backgroundColor: '#2C1810' }}
+                style={{ backgroundImage: 'url(/images/artworks/culture.png)', backgroundColor: '#2C1810' }}
               />
             </div>
             <div className="hidden md:block absolute -bottom-6 -left-6 w-32 h-32 border border-primary/20 rounded-2xl" />

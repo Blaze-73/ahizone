@@ -1,8 +1,10 @@
 import SEO from '../components/seo/SEO'
 import { useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import Container from '../components/ui/Container'
+import Lightbox from '../components/ui/Lightbox'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import collectionsData from '../data/collections.json'
 
@@ -10,7 +12,10 @@ const categories = ['all', 'calligraphy', 'portraits', 'teaching', 'murals', 'mi
 
 export default function CollectionsPage() {
   const { t } = useTranslation()
-  const [activeCategory, setActiveCategory] = useState('all')
+  const [searchParams] = useSearchParams()
+  const initialCategory = searchParams.get('category') || 'all'
+  const [activeCategory, setActiveCategory] = useState(initialCategory)
+  const [lightboxIndex, setLightboxIndex] = useState(null)
   const { ref } = useScrollAnimation({ threshold: 0.05 })
 
   const filtered = activeCategory === 'all'
@@ -69,6 +74,7 @@ export default function CollectionsPage() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
+                  onClick={() => setLightboxIndex(i)}
                   className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
                 >
                   <div
@@ -85,6 +91,14 @@ export default function CollectionsPage() {
               ))}
             </AnimatePresence>
           </div>
+
+          {lightboxIndex !== null && (
+            <Lightbox
+              images={filtered}
+              index={lightboxIndex}
+              onClose={() => setLightboxIndex(null)}
+            />
+          )}
         </Container>
       </section>
     </>

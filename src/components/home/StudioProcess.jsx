@@ -33,7 +33,7 @@ export default function StudioProcess() {
               {t('studio.subtitle')}
             </p>
             <div className="mt-10">
-              <Button variant="primary">{t('studio.cta')}</Button>
+              <Button to="/gallery" variant="primary">{t('studio.cta')}</Button>
             </div>
           </motion.div>
 
