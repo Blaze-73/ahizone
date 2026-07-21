@@ -31,8 +31,6 @@
     { "key": "home", "path": "/" },
     { "key": "gallery", "path": "/gallery" },
     { "key": "collections", "path": "/collections" },
-    { "key": "exhibitions", "path": "/exhibitions" },
-    { "key": "events", "path": "/events" },
     { "key": "about", "path": "/about" },
     { "key": "contact", "path": "/contact" }
   ],

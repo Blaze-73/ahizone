@@ -6,7 +6,6 @@ import FeaturedArtists from '../components/home/FeaturedArtists'
 import FeaturedCollections from '../components/home/FeaturedCollections'
 import ArtworkShowcase from '../components/home/ArtworkShowcase'
 import ArtworkOfMonth from '../components/home/ArtworkOfMonth'
-import UpcomingExhibitions from '../components/home/UpcomingExhibitions'
 import StudioProcess from '../components/home/StudioProcess'
 import Testimonials from '../components/home/Testimonials'
 import InstagramGallery from '../components/home/InstagramGallery'
@@ -51,7 +50,6 @@ export default function HomePage() {
       <FeaturedCollections />
       <ArtworkShowcase />
       <ArtworkOfMonth />
-      <UpcomingExhibitions />
       <StudioProcess />
       <Testimonials />
       <InstagramGallery />

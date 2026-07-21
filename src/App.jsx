@@ -13,8 +13,6 @@ const ArtistProfilePage = lazy(() => import('./pages/ArtistProfilePage'))
 const GalleryPage = lazy(() => import('./pages/GalleryPage'))
 const ArtworkPage = lazy(() => import('./pages/ArtworkPage'))
 const CollectionsPage = lazy(() => import('./pages/CollectionsPage'))
-const ExhibitionsPage = lazy(() => import('./pages/ExhibitionsPage'))
-const EventsPage = lazy(() => import('./pages/EventsPage'))
 const AboutPage = lazy(() => import('./pages/AboutPage'))
 const ContactPage = lazy(() => import('./pages/ContactPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
@@ -41,8 +39,6 @@ export default function App() {
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/artwork/:id" element={<ArtworkPage />} />
           <Route path="/collections" element={<CollectionsPage />} />
-          <Route path="/exhibitions" element={<ExhibitionsPage />} />
-          <Route path="/events" element={<EventsPage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="*" element={<NotFoundPage />} />

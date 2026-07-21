@@ -1,24 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "بسم الله الرحمن الرحيم",
-    "titleEn": "Bismillah",
-    "artistId": 1,
-    "artistName": "عبد الرحيم أحيزون",
-    "year": 2026,
-    "medium": "حبر على ورق مصنوع يدويًا",
-    "mediumEn": "Ink on handmade paper",
-    "dimensions": "80 × 120 سم",
-    "category": "calligraphy",
-    "collection": "الخط الكوفي",
-    "collectionEn": "Kufic Script",
-    "story": "هذه اللوحة تجمع بين جمال الخط الكوفي الهندسي والروحانية العميقة للبسملة. كل حرف صمم بدقة متناهية ليعكس التوازن بين الجمال البصري والمعنى الروحي.",
-    "storyEn": "This piece combines the geometric beauty of Kufic script with the deep spirituality of the Basmalah. Every letter is precisely designed to reflect the balance between visual beauty and spiritual meaning.",
-    "image": "/images/artworks/artwork-01.jpg",
-    "featured": true,
-    "available": true
-  },
-  {
     "id": 2,
     "title": "محمد رسول الله",
     "titleEn": "Muhammad Rasul Allah",
@@ -33,7 +14,7 @@
     "collectionEn": "Diwani Script",
     "story": "عمل فني بالخط الديواني يظهر جمال الحرف العربي في أناقة الخط العثماني التقليدي مع لمسة عصرية.",
     "storyEn": "An artwork in Diwani script showcasing the beauty of Arabic calligraphy in elegant traditional Ottoman style with a modern touch.",
-    "image": "/images/artworks/artwork-02.jpg",
+    "image": "/images/artworks/culture.png",
     "featured": true,
     "available": true
   },
@@ -132,25 +113,7 @@
     "featured": true,
     "available": true
   },
-  {
-    "id": 8,
-    "title": "السلام عليكم",
-    "titleEn": "As-Salamu Alaykum",
-    "artistId": 1,
-    "artistName": "عبد الرحيم أحيزون",
-    "year": 2026,
-    "medium": "أكريليك على قماش",
-    "mediumEn": "Acrylic on canvas",
-    "dimensions": "80 × 120 سم",
-    "category": "calligraphy",
-    "collection": "الخط الكوفي",
-    "collectionEn": "Kufic Script",
-    "story": "تحية السلام بأجمل حروف الخط الكوفي، عمل يجمع بين البساطة والعمق.",
-    "storyEn": "The greeting of peace in the most beautiful Kufic script, a work combining simplicity and depth.",
-    "image": "/images/artworks/art2.png",
-    "featured": false,
-    "available": true
-  },
+
   {
     "id": 9,
     "title": "بورتريه: أمينة",
