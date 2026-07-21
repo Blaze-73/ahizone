@@ -11,7 +11,7 @@ export default function HeroSection() {
       <div className="absolute inset-0">
         <div
           className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: 'url(/images/hero/hero-bg.jpg)', backgroundColor: '#2C1810' }}
+          style={{ backgroundImage: 'url(/images/artworks/culture.png)', backgroundColor: '#2C1810' }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-eclipse via-eclipse/30 to-transparent" />
       </div>

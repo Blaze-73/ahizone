@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import Container from '../ui/Container'
@@ -62,20 +63,21 @@ const FeaturedCollections = memo(function FeaturedCollections() {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
               >
-                <div
-                  className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                  style={{ backgroundImage: `url(${collection.image})`, backgroundColor: '#2C1810' }}
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
-                <div className="absolute bottom-0 left-0 right-0 p-6">
-                  <span className="text-xs font-body tracking-wider uppercase text-primary/80">
-                    {collection.artworkLabel}
-                  </span>
-                  <h3 className="mt-2 font-display text-2xl font-semibold text-white">{collection.title}</h3>
-                  <p className="mt-2 text-sm text-white/70 line-clamp-2">{collection.description}</p>
-                </div>
+                <Link to="/collections" className="group block relative aspect-[4/5] rounded-2xl overflow-hidden">
+                  <div
+                    className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                    style={{ backgroundImage: `url(${collection.image})`, backgroundColor: '#2C1810' }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <span className="text-xs font-body tracking-wider uppercase text-primary/80">
+                      {collection.artworkLabel}
+                    </span>
+                    <h3 className="mt-2 font-display text-2xl font-semibold text-white">{collection.title}</h3>
+                    <p className="mt-2 text-sm text-white/70 line-clamp-2">{collection.description}</p>
+                  </div>
+                </Link>
               </motion.div>
             ))}
           </AnimatePresence>
