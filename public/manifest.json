@@ -1,0 +1,16 @@
+{
+  "name": "أحيزون — فن الخط العربي",
+  "short_name": "أحيزون",
+  "description": "أحيزون فنان خط عربي من أصيلة، المغرب",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1A1A1A",
+  "theme_color": "#C8A46E",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

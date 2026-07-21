@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { HiOutlinePhone, HiOutlineLocationMarker } from 'react-icons/hi'
 import { FaWhatsapp } from 'react-icons/fa'
-import { FiInstagram, FiFacebook, FiTwitter } from 'react-icons/fi'
+import { FiInstagram, FiFacebook } from 'react-icons/fi'
 import siteData from '../../data/site.json'
 import Container from '../ui/Container'
 import { prefetchPage } from '../../utils/prefetch'
@@ -13,8 +13,6 @@ export default function Footer() {
   const socialIcons = {
     instagram: FiInstagram,
     facebook: FiFacebook,
-    twitter: FiTwitter,
-    pinterest: () => <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.95-.2-2.404.042-3.42.218-.913 1.409-5.964 1.409-5.964s-.36-.722-.36-1.786c0-1.675.971-2.927 2.179-2.927 1.027 0 1.523.77 1.523 1.694 0 1.032-.657 2.576-.997 4.007-.284 1.198.6 2.176 1.783 2.176 2.14 0 3.785-2.254 3.785-5.507 0-2.88-2.07-4.893-5.026-4.893-3.422 0-5.43 2.566-5.43 5.221 0 1.034.398 2.142.895 2.745a.36.36 0 01.083.345c-.091.38-.294 1.182-.333 1.343-.053.22-.174.266-.402.16-1.499-.698-2.436-2.889-2.436-4.648 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.358-.632-2.748-1.38l-.748 2.853c-.27 1.042-1.002 2.346-1.492 3.142C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg>,
   }
 
   const days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -41,6 +39,7 @@ export default function Footer() {
                     href={url}
                     target="_blank"
                     rel="noopener noreferrer"
+                    aria-label={key === 'instagram' ? 'Instagram' : 'Facebook'}
                     className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-mist hover:text-primary hover:border-primary/30 transition-all duration-300"
                   >
                     {Icon && <Icon className="w-4 h-4" />}

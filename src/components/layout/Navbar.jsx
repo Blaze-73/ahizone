@@ -87,6 +87,9 @@ export default function Navbar() {
 
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
+            aria-label={mobileOpen ? 'إغلاق القائمة' : 'فتح القائمة'}
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-menu"
             className={`lg:hidden p-2 ml-auto mr-2 transition-colors ${scrolled || !isHome ? 'text-secondary dark:text-white' : 'text-white'}`}
           >
             {mobileOpen ? <HiOutlineX className="w-6 h-6" /> : <HiOutlineMenuAlt3 className="w-6 h-6" />}
@@ -110,6 +113,7 @@ export default function Navbar() {
               exit={{ x: '100%' }}
               transition={{ duration: 0.4, ease: [0.25, 0.1, 0.25, 1] }}
               onClick={(e) => e.stopPropagation()}
+              id="mobile-menu"
               className="absolute right-0 top-0 bottom-0 w-full max-w-sm bg-eclipse border-l border-white/5 flex flex-col"
             >
               <div className="flex items-center justify-between px-6 py-5 border-b border-white/5">

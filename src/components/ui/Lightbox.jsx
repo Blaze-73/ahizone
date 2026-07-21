@@ -40,24 +40,29 @@ export default function Lightbox({ images, index, onClose }) {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
         className="fixed inset-0 z-[9998] bg-black/95 flex items-center justify-center"
+        role="dialog"
+        aria-modal="true"
+        aria-label={current?.alt || 'معرض الصور'}
       >
         <button
           onClick={onClose}
+          aria-label="إغلاق"
           className="absolute top-6 right-6 z-10 text-white/70 hover:text-white transition-colors"
         >
           <HiOutlineX className="w-8 h-8" />
         </button>
 
-        <button onClick={goPrev} className="absolute left-6 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition-colors z-10">
+        <button onClick={goPrev} aria-label="السابق" className="absolute left-6 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition-colors z-10">
           <HiOutlineChevronLeft className="w-8 h-8" />
         </button>
 
-        <button onClick={goNext} className="absolute right-6 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition-colors z-10">
+        <button onClick={goNext} aria-label="التالي" className="absolute right-6 top-1/2 -translate-y-1/2 text-white/70 hover:text-white transition-colors z-10">
           <HiOutlineChevronRight className="w-8 h-8" />
         </button>
 
         <button
           onClick={() => setZoomed(!zoomed)}
+          aria-label={zoomed ? 'تصغير' : 'تكبير'}
           className="absolute bottom-6 right-6 text-white/70 hover:text-white transition-colors z-10"
         >
           {zoomed ? <HiOutlineZoomOut className="w-6 h-6" /> : <HiOutlineZoomIn className="w-6 h-6" />}

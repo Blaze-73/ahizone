@@ -1,77 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ahizoune.art/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://ahizoune.art/gallery</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/gallery" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/gallery" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/gallery" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/gallery" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/gallery" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://ahizoune.art/collections</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/collections" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/collections" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/collections" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/collections" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/collections" />
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ahizoune.art/exhibitions</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/events</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://ahizoune.art/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/about" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ahizoune.art/contact</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/contact" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://ahizoune.art/artists</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/artists" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/artists" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/artists" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/artists" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/artists" />
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://ahizoune.art/artists/abderrahim-ahizoune</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/artwork/1</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/artwork/2</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/artwork/3</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/artwork/4</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/artwork/5</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://ahizoune.art/artwork/6</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://ahizoune.art/artists/abderrahim-ahizoune" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ahizoune.art/artists/abderrahim-ahizoune" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://ahizoune.art/artists/abderrahim-ahizoune" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://ahizoune.art/artists/abderrahim-ahizoune" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ahizoune.art/artists/abderrahim-ahizoune" />
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>

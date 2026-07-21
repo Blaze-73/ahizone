@@ -1,9 +1,10 @@
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
 import Lenis from 'lenis'
 
 export function useLenis() {
   const { pathname } = useLocation()
+  const rafRef = useRef()
 
   useEffect(() => {
     const lenis = new Lenis({
@@ -15,12 +16,15 @@ export function useLenis() {
 
     function raf(time) {
       lenis.raf(time)
-      requestAnimationFrame(raf)
+      rafRef.current = requestAnimationFrame(raf)
     }
 
-    requestAnimationFrame(raf)
+    rafRef.current = requestAnimationFrame(raf)
 
-    return () => lenis.destroy()
+    return () => {
+      cancelAnimationFrame(rafRef.current)
+      lenis.destroy()
+    }
   }, [])
 
   useEffect(() => {

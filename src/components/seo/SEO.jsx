@@ -67,6 +67,22 @@ export default function SEO({
           })}
         </script>
       )}
+
+      {/* Person JSON-LD — homepage only */}
+      {path === '/' && (
+        <script type="application/ld+json">
+          {JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            name: 'عبد الرحيم أحيزون',
+            givenName: 'Abderrahim Ahizoune',
+            jobTitle: 'فنان خط عربي',
+            description: 'فنان خط عربي من مدينة أصيلة، المغرب، متخصص في فن الخط العربي والبورتريهات وتعليم الفنون.',
+            url: SITE_URL,
+            address: { '@type': 'PostalAddress', addressLocality: 'أصيلة', addressCountry: 'المغرب' },
+          })}
+        </script>
+      )}
     </Helmet>
   )
 }

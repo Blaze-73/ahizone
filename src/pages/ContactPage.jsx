@@ -19,6 +19,8 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault()
     if (!formData.name || !formData.phone || !formData.message) return
+    const text = encodeURIComponent(`الاسم: ${formData.name}\nالهاتف: ${formData.phone}\nالموضوع: ${formData.subject}\nالرسالة: ${formData.message}`)
+    window.open(`https://wa.me/${siteData.location.whatsapp.replace(/\D/g, '')}?text=${text}`, '_blank')
     setStatus('success')
     setFormData({ name: '', phone: '', subject: '', message: '' })
     setTimeout(() => setStatus('idle'), 5000)
@@ -60,8 +62,9 @@ export default function ContactPage() {
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.name')}</label>
+                    <label htmlFor="contact-name" className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.name')}</label>
                     <input
+                      id="contact-name"
                       type="text"
                       name="name"
                       value={formData.name}
@@ -71,8 +74,9 @@ export default function ContactPage() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.phone')}</label>
+                    <label htmlFor="contact-phone" className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.phone')}</label>
                     <input
+                      id="contact-phone"
                       type="tel"
                       name="phone"
                       value={formData.phone}
@@ -83,8 +87,9 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.subject')}</label>
+                  <label htmlFor="contact-subject" className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.subject')}</label>
                   <input
+                    id="contact-subject"
                     type="text"
                     name="subject"
                     value={formData.subject}
@@ -93,8 +98,9 @@ export default function ContactPage() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.message')}</label>
+                  <label htmlFor="contact-message" className="block text-sm font-body text-secondary dark:text-white mb-2">{t('contactPage.form.message')}</label>
                   <textarea
+                    id="contact-message"
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
@@ -182,7 +188,7 @@ export default function ContactPage() {
 
               <div className="rounded-2xl overflow-hidden h-[200px]">
                 <iframe
-                  src={`https://www.google.com/maps/embed/v1/place?key=&q=Asilah+Morocco`}
+                  src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3317.4!2d-6.0348!3d35.4653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd0b8d4e8c8b5c6b%3A0x8f8f8f8f8f8f8f8f!2sAsilah%2C%20Morocco!5e0!3m2!1sen!2s`}
                   width="100%"
                   height="100%"
                   style={{ border: 0, filter: 'invert(90%)' }}

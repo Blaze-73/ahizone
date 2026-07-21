@@ -23,9 +23,7 @@
   },
   "social": {
     "instagram": "https://instagram.com/ahizoune_art",
-    "facebook": "https://facebook.com/ahizoune.art",
-    "twitter": "https://twitter.com/ahizoune_art",
-    "pinterest": "https://pinterest.com/ahizoune"
+    "facebook": "https://facebook.com/ahizoune.art"
   },
   "navLinks": [
     { "key": "home", "path": "/" },
