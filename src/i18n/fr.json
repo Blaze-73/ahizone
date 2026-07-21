@@ -137,7 +137,29 @@
   },
   "testimonials": {
     "title": "Ce qu'ils Disent",
-    "subtitle": "Témoignages de collectionneurs, artistes et visiteurs"
+    "subtitle": "Témoignages de collectionneurs, artistes et visiteurs",
+    "items": [
+      {
+        "name": "Fatima Al-Amrani",
+        "role": "Mère d'élève, Casablanca",
+        "quote": "Une expérience merveilleuse ! Mon fils a appris à aimer la calligraphie arabe grâce aux ateliers de M. Ahizoune. Sa méthode d'enseignement est captivante et innovante."
+      },
+      {
+        "name": "Karima Cherkaoui",
+        "role": "Collectionneuse d'art, Marrakech",
+        "quote": "Le portrait que j'ai commandé a dépassé mes attentes. La façon dont Ahizoune mêle calligraphie arabe et composition moderne est à couper le souffle."
+      },
+      {
+        "name": "Sara Al-Idrissi",
+        "role": "Cliente, Rabat",
+        "quote": "J'ai commandé un portrait calligraphié pour le nom de ma fille — le résultat était un chef-d'œuvre. Je recommande son travail à tous."
+      },
+      {
+        "name": "Ahmed Al-Qadiri",
+        "role": "Directeur d'association culturelle, Fès",
+        "quote": "L'événement national organisé par Ahizoune pour enseigner la calligraphie aux enfants était extraordinaire. Cent enfants ont appris les bases dans une ambiance de plaisir et de créativité."
+      }
+    ]
   },
   "instagram": {
     "title": "Suivez-Nous",

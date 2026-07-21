@@ -3,9 +3,10 @@ import { motion } from 'framer-motion'
 import Container from '../ui/Container'
 import GlassCard from '../ui/GlassCard'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
-import testimonialsData from '../../data/testimonials.json'
 
 import { memo } from 'react'
+
+const testimonialIds = [0, 1, 2, 3]
 
 const Testimonials = memo(function Testimonials() {
   const { t } = useTranslation()
@@ -29,9 +30,9 @@ const Testimonials = memo(function Testimonials() {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {testimonialsData.map((testimonial, i) => (
+          {testimonialIds.map((id, i) => (
             <motion.div
-              key={testimonial.id}
+              key={id}
               initial={{ opacity: 0, y: 30 }}
               animate={isVisible ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.6, delay: i * 0.15, ease: [0.25, 0.1, 0.25, 1] }}
@@ -43,11 +44,11 @@ const Testimonials = memo(function Testimonials() {
                   ))}
                 </div>
                 <p className="text-base text-stone dark:text-mist leading-relaxed font-literary italic flex-1">
-                  &ldquo;{testimonial.quote}&rdquo;
+                  &ldquo;{t(`testimonials.items.${id}.quote`)}&rdquo;
                 </p>
                 <div className="mt-6 pt-6 border-t border-black/5 dark:border-white/5">
-                  <p className="font-display font-semibold text-secondary dark:text-white">{testimonial.name}</p>
-                  <p className="text-sm text-mist">{testimonial.role}</p>
+                  <p className="font-display font-semibold text-secondary dark:text-white">{t(`testimonials.items.${id}.name`)}</p>
+                  <p className="text-sm text-mist">{t(`testimonials.items.${id}.role`)}</p>
                 </div>
               </GlassCard>
             </motion.div>

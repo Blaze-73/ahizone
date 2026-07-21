@@ -137,7 +137,29 @@
   },
   "testimonials": {
     "title": "Lo que Dicen",
-    "subtitle": "Palabras de coleccionistas, artistas y visitantes"
+    "subtitle": "Palabras de coleccionistas, artistas y visitantes",
+    "items": [
+      {
+        "name": "Fátima Al-Amrani",
+        "role": "Madre de estudiante, Casablanca",
+        "quote": "¡Una experiencia maravillosa! Mi hijo aprendió a amar la caligrafía árabe gracias a los talleres del Sr. Ahizoune. Su estilo de enseñanza es atractivo e innovador."
+      },
+      {
+        "name": "Karima Cherkaoui",
+        "role": "Coleccionista de arte, Marrakech",
+        "quote": "El retrato que encargó superó mis expectativas. La capacidad de Ahizoune para combinar la caligrafía árabe con la composición moderna es impresionante."
+      },
+      {
+        "name": "Sara Al-Idrissi",
+        "role": "Cliente, Rabat",
+        "quote": "Encargué un retrato en caligrafía árabe con el nombre de mi hija — el resultado fue una obra maestra. Recomiendo su trabajo a todos."
+      },
+      {
+        "name": "Ahmed Al-Qadiri",
+        "role": "Director de asociación cultural, Fez",
+        "quote": "El evento nacional que organizó Ahizoune para enseñar caligrafía a los niños fue extraordinario. Cien niños aprendieron los conceptos básicos en un ambiente de diversión y creatividad."
+      }
+    ]
   },
   "instagram": {
     "title": "Síguenos",
