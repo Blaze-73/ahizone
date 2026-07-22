@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import Container from '../components/ui/Container'
 import Lightbox from '../components/ui/Lightbox'
+import { useLazyImage } from '../hooks/useLazyImage'
 import galleryData from '../data/gallery.json'
 
 const categories = ['all', 'calligraphy', 'portrait', 'teaching', 'mural', 'mixedMedia']
@@ -72,14 +73,10 @@ export default function GalleryPage() {
                   className="break-inside-avoid group relative overflow-hidden rounded-xl cursor-pointer"
                   onClick={() => setLightboxIndex(i)}
                 >
-                  <div
+                  <LazyBackground
+                    src={img.src}
                     className="w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                    style={{
-                      backgroundImage: `url(${img.src})`,
-                      backgroundColor: '#2C1810',
-                      aspectRatio: `${img.width}/${img.height}`,
-                      backgroundSize: 'cover',
-                    }}
+                    style={{ backgroundColor: '#2C1810', aspectRatio: `${img.width}/${img.height}`, backgroundSize: 'cover' }}
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-500 flex items-center justify-center">
                     <span className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-body">

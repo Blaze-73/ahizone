@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../ui/Container'
 import Button from '../ui/Button'
+import LazyBackground from '../ui/LazyBackground'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 
 import { memo } from 'react'
@@ -44,9 +45,10 @@ const AboutSection = memo(function AboutSection() {
             className="relative"
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-              <div
+              <LazyBackground
+                src="/images/artworks/culture.png"
                 className="w-full h-full bg-cover bg-center"
-                style={{ backgroundImage: 'url(/images/artworks/culture.png)', backgroundColor: '#2C1810' }}
+                style={{ backgroundColor: '#2C1810' }}
               />
             </div>
             <div className="hidden md:block absolute -bottom-6 -left-6 w-32 h-32 border border-primary/20 rounded-2xl" />

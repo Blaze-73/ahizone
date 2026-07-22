@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../ui/Container'
 import Button from '../ui/Button'
+import LazyBackground from '../ui/LazyBackground'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import artistsData from '../../data/artists.json'
 
@@ -40,9 +41,10 @@ const FeaturedArtists = memo(function FeaturedArtists() {
             className="relative"
           >
             <div className="aspect-[3/4] rounded-2xl overflow-hidden">
-              <div
+              <LazyBackground
+                src={artist.portrait}
                 className="w-full h-full bg-cover bg-center"
-                style={{ backgroundImage: `url(${artist.portrait})`, backgroundColor: '#2C1810' }}
+                style={{ backgroundColor: '#2C1810' }}
               />
             </div>
           </motion.div>

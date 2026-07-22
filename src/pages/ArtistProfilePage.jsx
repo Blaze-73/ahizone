@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { HiOutlineArrowLeft } from 'react-icons/hi'
 import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
+import LazyBackground from '../components/ui/LazyBackground'
 import artistsData from '../data/artists.json'
 import artworksData from '../data/artworks.json'
 import { prefetchDynamic } from '../utils/prefetch'
@@ -36,7 +37,7 @@ export default function ArtistProfilePage() {
       />
       <section className="relative min-h-[70vh] pt-24 md:pt-32 pb-12 md:pb-20 bg-eclipse text-white overflow-hidden">
         <div className="absolute inset-0 opacity-40">
-          <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${artist.featuredImage})`, backgroundColor: '#2C1810' }} />
+          <LazyBackground src={artist.featuredImage} className="w-full h-full bg-cover bg-center" style={{ backgroundColor: '#2C1810' }} />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-eclipse via-eclipse/60 to-eclipse" />
 
@@ -63,7 +64,7 @@ export default function ArtistProfilePage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
             <div className="lg:col-span-1">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden mb-6 sticky top-24">
-                <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${artist.portrait})`, backgroundColor: '#2C1810' }} />
+                <LazyBackground src={artist.portrait} className="w-full h-full bg-cover bg-center" style={{ backgroundColor: '#2C1810' }} />
               </div>
             </div>
 
@@ -109,8 +110,9 @@ export default function ArtistProfilePage() {
                       >
                         <Link to={`/artwork/${aw.id}`} onMouseEnter={() => prefetchDynamic('artwork')} className="group block">
                           <div className="aspect-[4/3] rounded-xl overflow-hidden mb-3">
-                            <div className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                              style={{ backgroundImage: `url(${aw.image})`, backgroundColor: '#2C1810' }} />
+                            <LazyBackground src={aw.image}
+                              className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                              style={{ backgroundColor: '#2C1810' }} />
                           </div>
                           <h3 className="font-display text-lg font-semibold text-secondary dark:text-white group-hover:text-primary transition-colors">
                             {aw.title}

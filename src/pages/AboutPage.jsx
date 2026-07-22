@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
+import LazyBackground from '../components/ui/LazyBackground'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 export default function AboutPage() {
@@ -56,7 +57,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-              <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: 'url(/images/exhibitions/exhibition-01.jpg)', backgroundColor: '#2C1810' }} />
+              <LazyBackground src="/images/exhibitions/exhibition-01.jpg" className="w-full h-full bg-cover bg-center" style={{ backgroundColor: '#2C1810' }} />
             </div>
           </div>
 

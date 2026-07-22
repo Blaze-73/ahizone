@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Button from '../ui/Button'
@@ -8,6 +9,9 @@ export default function HeroSection() {
 
   return (
     <section className="relative h-dvh min-h-[500px] md:min-h-[700px] bg-eclipse">
+      <Helmet>
+        <link rel="preload" as="image" href="/images/hero/hero-bg.jpg" />
+      </Helmet>
       <div className="absolute inset-0">
         <div
           className="w-full h-full bg-cover bg-center"

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import Container from '../ui/Container'
 import Button from '../ui/Button'
+import LazyBackground from '../ui/LazyBackground'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import collectionsData from '../../data/collections.json'
 
@@ -68,9 +69,10 @@ const FeaturedCollections = memo(function FeaturedCollections() {
                   to={`/collections?category=${collection.category}`}
                   className="group block relative aspect-[4/5] rounded-2xl overflow-hidden"
                 >
-                  <div
+                  <LazyBackground
+                    src={collection.image}
                     className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                    style={{ backgroundImage: `url(${collection.image})`, backgroundColor: '#2C1810' }}
+                    style={{ backgroundColor: '#2C1810' }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6">

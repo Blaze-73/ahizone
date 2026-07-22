@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../ui/Container'
+import LazyBackground from '../ui/LazyBackground'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 import galleryData from '../../data/gallery.json'
 
@@ -40,9 +41,10 @@ export default function InstagramGallery() {
             transition={{ duration: 0.5, delay: i * 0.05 }}
             className="group relative aspect-square overflow-hidden"
           >
-            <div
+            <LazyBackground
+              src={img.src}
               className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
-              style={{ backgroundImage: `url(${img.src})`, backgroundColor: '#2C1810' }}
+              style={{ backgroundColor: '#2C1810' }}
             />
             <div className="absolute inset-0 bg-black/0 group-hover:bg-black/50 transition-all duration-500 flex items-center justify-center">
               <span className="text-white text-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500">

@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 import { HiOutlineArrowLeft } from 'react-icons/hi'
 import Container from '../components/ui/Container'
 import Button from '../components/ui/Button'
+import LazyBackground from '../components/ui/LazyBackground'
 import artworksData from '../data/artworks.json'
 import artistsData from '../data/artists.json'
 import { prefetchDynamic, prefetchPage } from '../utils/prefetch'
@@ -50,7 +51,7 @@ export default function ArtworkPage() {
               transition={{ duration: 0.8 }}
             >
               <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-                <div className="w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${artwork.image})`, backgroundColor: '#2C1810' }} />
+                <LazyBackground src={artwork.image} className="w-full h-full bg-cover bg-center" style={{ backgroundColor: '#2C1810' }} />
               </div>
             </motion.div>
 
@@ -127,8 +128,11 @@ export default function ArtworkPage() {
               >
                 <Link to={`/artwork/${related.id}`} onMouseEnter={() => prefetchDynamic('artwork')} className="group block">
                   <div className="aspect-[3/4] rounded-xl overflow-hidden mb-3">
-                    <div className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                      style={{ backgroundImage: `url(${related.image})`, backgroundColor: '#2C1810' }} />
+                    <LazyBackground
+                      src={related.image}
+                      className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
+                      style={{ backgroundColor: '#2C1810' }}
+                    />
                   </div>
                   <h3 className="font-display text-sm font-semibold text-secondary dark:text-white group-hover:text-primary transition-colors">
                     {related.title}

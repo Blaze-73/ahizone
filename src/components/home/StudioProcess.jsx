@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import Container from '../ui/Container'
 import Button from '../ui/Button'
+import LazyBackground from '../ui/LazyBackground'
 import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 
 export default function StudioProcess() {
@@ -48,9 +49,10 @@ export default function StudioProcess() {
                 key={i}
                 className={`aspect-square rounded-xl overflow-hidden relative group ${i === 0 || i === 3 ? 'mt-8' : ''}`}
               >
-                <div
+                <LazyBackground
+                  src={img.src}
                   className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                  style={{ backgroundImage: `url(${img.src})`, backgroundColor: '#2C1810' }}
+                  style={{ backgroundColor: '#2C1810' }}
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-500 flex items-end p-4">
                   <span className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-body">

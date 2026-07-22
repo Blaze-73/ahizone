@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import Container from '../components/ui/Container'
 import Lightbox from '../components/ui/Lightbox'
+import LazyBackground from '../components/ui/LazyBackground'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import collectionsData from '../data/collections.json'
 
@@ -77,9 +78,10 @@ export default function CollectionsPage() {
                   onClick={() => setLightboxIndex(i)}
                   className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
                 >
-                  <div
+                  <LazyBackground
+                    src={collection.image}
                     className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                    style={{ backgroundImage: `url(${collection.image})`, backgroundColor: '#2C1810' }}
+                    style={{ backgroundColor: '#2C1810' }}
                   />
                 </motion.div>
               ))}

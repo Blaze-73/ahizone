@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { HiOutlineSearch } from 'react-icons/hi'
 import Container from '../components/ui/Container'
+import LazyBackground from '../components/ui/LazyBackground'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import artistsData from '../data/artists.json'
 import { prefetchDynamic } from '../utils/prefetch'
@@ -97,9 +98,10 @@ export default function ArtistsPage() {
                 >
                   <Link to={`/artists/${artist.slug}`} onMouseEnter={() => prefetchDynamic('artist')} className="group block">
                     <div className="aspect-[3/4] rounded-2xl overflow-hidden relative mb-5">
-                      <div
+                      <LazyBackground
+                        src={artist.portrait}
                         className="w-full h-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
-                        style={{ backgroundImage: `url(${artist.portrait})`, backgroundColor: '#2C1810' }}
+                        style={{ backgroundColor: '#2C1810' }}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                       <div className="absolute bottom-5 left-5 right-5 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
