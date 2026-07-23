@@ -52,12 +52,11 @@ export default function ArtworkShowcase() {
           ))}
         </div>
 
-        <motion.div layout className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
-          <AnimatePresence mode="popLayout">
+        <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
+          <AnimatePresence >
             {filtered.map((img, i) => (
               <motion.div
                 key={img.id}
-                layout
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
@@ -73,7 +72,7 @@ export default function ArtworkShowcase() {
                   className="w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                   style={{ backgroundColor: '#2C1810', aspectRatio: `${img.width}/${img.height}`, backgroundSize: 'cover' }}
                 />
-                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-500 flex items-center justify-center">
+                <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                   <span className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-body">
                     {t('gallery.viewFullscreen')}
                   </span>
@@ -81,7 +80,7 @@ export default function ArtworkShowcase() {
               </motion.div>
             ))}
           </AnimatePresence>
-        </motion.div>
+        </div>
 
         {filtered.length === 0 && (
           <p className="text-center text-mist mt-12">{t('gallery.noResults')}</p>

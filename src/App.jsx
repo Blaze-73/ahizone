@@ -1,7 +1,6 @@
 import { lazy, Suspense, useEffect } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { useLenis } from './hooks/useLenis'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import LoadingSpinner from './components/ui/LoadingSpinner'
@@ -17,8 +16,12 @@ const ContactPage = lazy(() => import('./pages/ContactPage'))
 const NotFoundPage = lazy(() => import('./pages/NotFoundPage'))
 
 export default function App() {
-  useLenis()
   const { i18n } = useTranslation()
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [pathname])
 
   useEffect(() => {
     document.documentElement.dir = i18n.language === 'ar' ? 'rtl' : 'ltr'

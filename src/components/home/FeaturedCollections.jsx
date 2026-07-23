@@ -43,7 +43,7 @@ const FeaturedCollections = memo(function FeaturedCollections() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat)}
-              className={`px-5 py-2 rounded-full text-sm font-body transition-all duration-300 ${
+              className={`px-5 py-2 rounded-full text-sm font-body transition-colors duration-300 ${
                 activeCategory === cat
                   ? 'bg-primary text-secondary font-medium'
                   : 'bg-transparent text-stone dark:text-mist border border-stone/20 dark:border-white/10 hover:border-primary/50'
@@ -55,11 +55,10 @@ const FeaturedCollections = memo(function FeaturedCollections() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
-          <AnimatePresence mode="popLayout">
+          <AnimatePresence >
             {filtered.map((collection, i) => (
               <motion.div
                 key={collection.id}
-                layout
                 initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}

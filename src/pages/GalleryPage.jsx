@@ -50,7 +50,7 @@ export default function GalleryPage() {
               <button
                 key={cat}
                 onClick={() => setActiveCategory(cat)}
-                className={`px-5 py-2 rounded-full text-sm font-body transition-all duration-300 ${
+                className={`px-5 py-2 rounded-full text-sm font-body transition-colors duration-300 ${
                   activeCategory === cat
                     ? 'bg-primary text-secondary font-medium'
                     : 'bg-transparent text-stone dark:text-mist border border-stone/20 dark:border-white/10 hover:border-primary/50'
@@ -61,12 +61,11 @@ export default function GalleryPage() {
             ))}
           </div>
 
-          <motion.div layout className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
-            <AnimatePresence mode="popLayout">
+          <div className="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-3 md:gap-4 space-y-3 md:space-y-4">
+            <AnimatePresence >
               {filtered.map((img, i) => (
                 <motion.div
                   key={img.id}
-                  layout
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   exit={{ opacity: 0 }}
@@ -82,7 +81,7 @@ export default function GalleryPage() {
                     className="w-full bg-cover bg-center transition-transform duration-700 group-hover:scale-105"
                     style={{ backgroundColor: '#2C1810', aspectRatio: `${img.width}/${img.height}`, backgroundSize: 'cover' }}
                   />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-500 flex items-center justify-center">
+                  <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center">
                     <span className="text-white text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500 font-body">
                       {t('gallery.viewFullscreen')}
                     </span>
@@ -90,7 +89,7 @@ export default function GalleryPage() {
                 </motion.div>
               ))}
             </AnimatePresence>
-          </motion.div>
+          </div>
 
           {filtered.length === 0 && (
             <p className="text-center text-mist py-20">{t('gallery.noResults')}</p>

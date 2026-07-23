@@ -40,7 +40,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={key === 'instagram' ? 'Instagram' : 'Facebook'}
-                    className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-mist hover:text-primary hover:border-primary/30 transition-all duration-300"
+                    className="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-mist hover:text-primary hover:border-primary/30 transition-colors duration-300"
                   >
                     {Icon && <Icon className="w-4 h-4" />}
                   </a>

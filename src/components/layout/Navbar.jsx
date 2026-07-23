@@ -42,7 +42,7 @@ export default function Navbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.8, ease: [0.25, 0.1, 0.25, 1] }}
-        className={`fixed top-0 left-0 right-0 z-[999] transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-[999] transition-[background,backdrop-filter,box-shadow,padding] duration-500 ${
           scrolled
             ? 'glass-light dark:glass-dark py-3'
             : isHome
@@ -135,13 +135,13 @@ export default function Navbar() {
                       to={link.path}
                       onMouseEnter={() => prefetchPage(link.path)}
                       onClick={() => setMobileOpen(false)}
-                      className={`group flex items-center gap-4 px-4 py-3.5 rounded-xl text-lg font-body tracking-wide transition-all duration-300 ${
+                      className={`group flex items-center gap-4 px-4 py-3.5 rounded-xl text-lg font-body tracking-wide transition-colors duration-300 ${
                         location.pathname === link.path
                           ? 'text-primary bg-primary/10'
                           : 'text-white/70 hover:text-white hover:bg-white/5'
                       }`}
                     >
-                      <span className={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${
+                      <span className={`w-1.5 h-1.5 rounded-full transition-[transform,background] duration-300 ${
                         location.pathname === link.path ? 'bg-primary scale-100' : 'bg-white/20 scale-0 group-hover:scale-100'
                       }`} />
                       {t(`nav.${link.key}`)}

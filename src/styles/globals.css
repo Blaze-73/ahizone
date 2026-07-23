@@ -27,27 +27,6 @@
   --font-literary: 'Cormorant Garamond', Georgia, serif;
   --font-hero: 'Muslimah', 'Tajawal', 'Noto Naskh Arabic', sans-serif;
 }
-
-html.lenis {
-  scroll-behavior: auto;
-}
-
-.lenis.lenis-smooth {
-  scroll-behavior: auto;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
-}
-
 ::selection {
   background-color: var(--color-primary);
   color: white;

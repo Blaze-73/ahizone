@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
 export default function Button({ children, to, href, onClick, variant = 'primary', className = '', size = 'md', ...rest }) {
-  const base = 'relative inline-flex items-center justify-center font-body font-medium tracking-wide transition-all duration-500 cursor-pointer overflow-hidden group'
+  const base = 'relative inline-flex items-center justify-center font-body font-medium tracking-wide transition-colors duration-500 cursor-pointer overflow-hidden group'
 
   const sizes = {
     sm: 'px-5 py-2.5 text-sm',

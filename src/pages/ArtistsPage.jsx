@@ -65,7 +65,7 @@ export default function ArtistsPage() {
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSpecialty('all')}
-                className={`px-4 py-2 rounded-full text-sm font-body transition-all ${
+                className={`px-4 py-2 rounded-full text-sm font-body transition-colors ${
                   specialty === 'all' ? 'bg-primary text-secondary' : 'bg-ivory dark:bg-charcoal text-stone dark:text-mist border border-stone/20 dark:border-white/10'
                 }`}
               >
@@ -75,7 +75,7 @@ export default function ArtistsPage() {
                 <button
                   key={s}
                   onClick={() => setSpecialty(s)}
-                  className={`px-4 py-2 rounded-full text-sm font-body transition-all ${
+                  className={`px-4 py-2 rounded-full text-sm font-body transition-colors ${
                     specialty === s ? 'bg-primary text-secondary' : 'bg-ivory dark:bg-charcoal text-stone dark:text-mist border border-stone/20 dark:border-white/10'
                   }`}
                 >
@@ -104,7 +104,7 @@ export default function ArtistsPage() {
                         style={{ backgroundColor: '#2C1810' }}
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                      <div className="absolute bottom-5 left-5 right-5 opacity-0 group-hover:opacity-100 transition-all duration-500 translate-y-2 group-hover:translate-y-0">
+                      <div className="absolute bottom-5 left-5 right-5 opacity-0 group-hover:opacity-100 transition-[opacity,transform] duration-500 translate-y-2 group-hover:translate-y-0">
                         <span className="text-white text-sm font-body">{t('artists.viewProfile')}</span>
                       </div>
                     </div>
