@@ -108,9 +108,9 @@ export default function ArtistsPage() {
                         <span className="text-white text-sm font-body">{t('artists.viewProfile')}</span>
                       </div>
                     </div>
-                    <h3 className="font-display text-xl font-semibold text-secondary dark:text-white group-hover:text-primary transition-colors">
+                    <h2 className="font-display text-xl font-semibold text-secondary dark:text-white group-hover:text-primary transition-colors">
                       {artist.name}
-                    </h3>
+                    </h2>
                     <p className="text-sm text-mist mt-1">{artist.nationality} — {artist.specialty}</p>
                     <p className="text-sm text-stone dark:text-mist mt-3 line-clamp-2 leading-relaxed">
                       {artist.biography}

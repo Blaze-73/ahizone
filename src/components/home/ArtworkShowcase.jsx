@@ -20,7 +20,7 @@ export default function ArtworkShowcase() {
     : galleryData.filter((img) => img.category === activeCategory)
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse overflow-x-hidden">
+    <section ref={ref} className="content-visibility-auto relative py-20 md:py-32 bg-white dark:bg-eclipse overflow-x-hidden">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -58,12 +58,15 @@ export default function ArtworkShowcase() {
               <motion.div
                 key={img.id}
                 layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
                 transition={{ duration: 0.4 }}
-                className="break-inside-avoid group relative overflow-hidden rounded-xl cursor-pointer"
-                onClick={() => setLightboxIndex(i)}
+                  className="break-inside-avoid group relative overflow-hidden rounded-xl cursor-pointer"
+                  onClick={() => setLightboxIndex(i)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setLightboxIndex(i); } }}
               >
                 <LazyBackground
                   src={img.src}

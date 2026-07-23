@@ -60,9 +60,9 @@ const FeaturedCollections = memo(function FeaturedCollections() {
               <motion.div
                 key={collection.id}
                 layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
               >
                 <Link

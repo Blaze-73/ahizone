@@ -5,7 +5,7 @@
     "titleEn": "Selected Works",
     "description": "مجموعة من الأعمال الفنية المتنوعة التي تجمع بين أصالة الخط العربي واللمسة العصرية.",
     "descriptionEn": "A collection of diverse artworks blending the authenticity of Arabic calligraphy with a modern touch.",
-    "image": "/images/artworks/artwork-03.jpg",
+    "image": "/images/artworks/artwork-03.webp",
     "category": "calligraphy",
     "artworkCount": 15,
     "artworkLabel": "١٥ عملاً"
@@ -16,7 +16,7 @@
     "titleEn": "Selected Works 2",
     "description": "مجموعة من الأعمال الفنية المتنوعة.",
     "descriptionEn": "A collection of diverse artworks.",
-    "image": "/images/artworks/work1.png",
+    "image": "/images/artworks/work1.webp",
     "category": "calligraphy",
     "artworkCount": 15,
     "artworkLabel": "١٥ عملاً"
@@ -27,7 +27,7 @@
     "titleEn": "Selected Works 3",
     "description": "مجموعة من الأعمال الفنية المتنوعة.",
     "descriptionEn": "A collection of diverse artworks.",
-    "image": "/images/artworks/work2.png",
+    "image": "/images/artworks/work2.webp",
     "category": "calligraphy",
     "artworkCount": 15,
     "artworkLabel": "١٥ عملاً"
@@ -38,7 +38,7 @@
     "titleEn": "Selected Works 4",
     "description": "مجموعة من الأعمال الفنية المتنوعة.",
     "descriptionEn": "A collection of diverse artworks.",
-    "image": "/images/artworks/work3.png",
+    "image": "/images/artworks/work3.webp",
     "category": "calligraphy",
     "artworkCount": 15,
     "artworkLabel": "١٥ عملاً"
@@ -49,7 +49,7 @@
     "titleEn": "Selected Works 5",
     "description": "مجموعة من الأعمال الفنية المتنوعة.",
     "descriptionEn": "A collection of diverse artworks.",
-    "image": "/images/gallery/g4.png",
+    "image": "/images/gallery/g4.webp",
     "category": "calligraphy",
     "artworkCount": 15,
     "artworkLabel": "١٥ عملاً"
@@ -60,7 +60,7 @@
     "titleEn": "Selected Works 6",
     "description": "مجموعة من الأعمال الفنية المتنوعة.",
     "descriptionEn": "A collection of diverse artworks.",
-    "image": "/images/gallery/g1.png",
+    "image": "/images/gallery/g1.webp",
     "category": "calligraphy",
     "artworkCount": 15,
     "artworkLabel": "١٥ عملاً"
@@ -71,7 +71,7 @@
     "titleEn": "Personal Portraits",
     "description": "مجموعة من البورتريهات الشخصية المخصصة، حيث يتحول كل اسم إلى تحفة فنية بالخط العربي.",
     "descriptionEn": "A collection of personalized portrait canvases where every name is transformed into a calligraphic masterpiece.",
-    "image": "/images/artworks/portrait.png",
+    "image": "/images/artworks/portrait.webp",
     "category": "portraits",
     "artworkCount": 24,
     "artworkLabel": "٢٤ عملاً"
@@ -82,7 +82,7 @@
     "titleEn": "Portraits 2",
     "description": "مجموعة من البورتريهات الشخصية.",
     "descriptionEn": "A collection of personal portraits.",
-    "image": "/images/artworks/portrait2.png",
+    "image": "/images/artworks/portrait2.webp",
     "category": "portraits",
     "artworkCount": 24,
     "artworkLabel": "٢٤ عملاً"
@@ -93,7 +93,7 @@
     "titleEn": "Portraits 3",
     "description": "مجموعة من البورتريهات الشخصية.",
     "descriptionEn": "A collection of personal portraits.",
-    "image": "/images/gallery/g3.png",
+    "image": "/images/gallery/g3.webp",
     "category": "portraits",
     "artworkCount": 24,
     "artworkLabel": "٢٤ عملاً"
@@ -104,7 +104,7 @@
     "titleEn": "Portraits 4",
     "description": "مجموعة من البورتريهات الشخصية.",
     "descriptionEn": "A collection of personal portraits.",
-    "image": "/images/gallery/g5.png",
+    "image": "/images/gallery/g5.webp",
     "category": "portraits",
     "artworkCount": 24,
     "artworkLabel": "٢٤ عملاً"
@@ -115,7 +115,7 @@
     "titleEn": "Teaching Workshops",
     "description": "توثيق للملتقيات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية.",
     "descriptionEn": "Documentation of national gatherings teaching children Arabic calligraphy.",
-    "image": "/images/artworks/artwork-02.jpg",
+    "image": "/images/artworks/artwork-02.webp",
     "category": "teaching",
     "artworkCount": 18,
     "artworkLabel": "١٨ عملاً"
@@ -126,7 +126,7 @@
     "titleEn": "Teaching Workshops 2",
     "description": "توثيق للملتقيات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية.",
     "descriptionEn": "Documentation of national gatherings teaching children Arabic calligraphy.",
-    "image": "/images/artworks/artwork-03.jpg",
+    "image": "/images/artworks/artwork-03.webp",
     "category": "teaching",
     "artworkCount": 18,
     "artworkLabel": "١٨ عملاً"
@@ -137,7 +137,7 @@
     "titleEn": "Teaching Workshops 3",
     "description": "توثيق للملتقيات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية.",
     "descriptionEn": "Documentation of national gatherings teaching children Arabic calligraphy.",
-    "image": "/images/artworks/artwork-04.jpg",
+    "image": "/images/artworks/artwork-04.webp",
     "category": "teaching",
     "artworkCount": 18,
     "artworkLabel": "١٨ عملاً"
@@ -148,7 +148,7 @@
     "titleEn": "Teaching Workshops 4",
     "description": "توثيق للملتقيات الوطنية لتعليم الأطفال فنون الخط والكتابة العربية.",
     "descriptionEn": "Documentation of national gatherings teaching children Arabic calligraphy.",
-    "image": "/images/artworks/artwork-05.jpg",
+    "image": "/images/artworks/artwork-05.webp",
     "category": "teaching",
     "artworkCount": 18,
     "artworkLabel": "١٨ عملاً"
@@ -159,7 +159,7 @@
     "titleEn": "Custom Acrylic Canvases",
     "description": "لوحات أكريليك مرسومة على القماش بأحجام مختلفة، تحمل أسماء وعبارات مخصصة حسب طلب الزبائن.",
     "descriptionEn": "Custom acrylic name canvases in various sizes, carrying personalized names and phrases as requested by clients.",
-    "image": "/images/gallery/g7.png",
+    "image": "/images/gallery/g7.webp",
     "category": "mixedMedia",
     "artworkCount": 30,
     "artworkLabel": "٣٠ عملاً"
@@ -170,7 +170,7 @@
     "titleEn": "Custom Acrylic Canvases 2",
     "description": "لوحات أكريليك مرسومة على القماش بأحجام مختلفة.",
     "descriptionEn": "Custom acrylic name canvases in various sizes.",
-    "image": "/images/artworks/art1.jpg",
+    "image": "/images/artworks/art1.webp",
     "category": "mixedMedia",
     "artworkCount": 30,
     "artworkLabel": "٣٠ عملاً"
@@ -181,7 +181,7 @@
     "titleEn": "Custom Acrylic Canvases 3",
     "description": "لوحات أكريليك مرسومة على القماش بأحجام مختلفة.",
     "descriptionEn": "Custom acrylic name canvases in various sizes.",
-    "image": "/images/artworks/moonart.png",
+    "image": "/images/artworks/moonart.webp",
     "category": "mixedMedia",
     "artworkCount": 30,
     "artworkLabel": "٣٠ عملاً"
@@ -192,7 +192,7 @@
     "titleEn": "Custom Acrylic Canvases 4",
     "description": "لوحات أكريليك مرسومة على القماش بأحجام مختلفة.",
     "descriptionEn": "Custom acrylic name canvases in various sizes.",
-    "image": "/images/gallery/g2.png",
+    "image": "/images/gallery/g2.webp",
     "category": "mixedMedia",
     "artworkCount": 30,
     "artworkLabel": "٣٠ عملاً"
@@ -203,7 +203,7 @@
     "titleEn": "Custom Acrylic Canvases 5",
     "description": "لوحات أكريليك مرسومة على القماش بأحجام مختلفة.",
     "descriptionEn": "Custom acrylic name canvases in various sizes.",
-    "image": "/images/gallery/g6.png",
+    "image": "/images/gallery/g6.webp",
     "category": "mixedMedia",
     "artworkCount": 30,
     "artworkLabel": "٣٠ عملاً"

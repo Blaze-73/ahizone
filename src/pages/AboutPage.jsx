@@ -57,7 +57,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
-              <LazyBackground src="/images/exhibitions/exhibition-01.jpg" className="w-full h-full bg-cover bg-center" style={{ backgroundColor: '#2C1810' }} />
+              <LazyBackground src="/images/exhibitions/exhibition-01.webp" className="w-full h-full bg-cover bg-center" style={{ backgroundColor: '#2C1810' }} />
             </div>
           </div>
 

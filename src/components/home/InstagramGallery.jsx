@@ -11,7 +11,7 @@ export default function InstagramGallery() {
   const images = galleryData.slice(0, 8)
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="content-visibility-auto relative py-20 md:py-32 bg-white dark:bg-eclipse">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
@@ -36,6 +36,7 @@ export default function InstagramGallery() {
             href="https://instagram.com/ahizoune_art"
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={t('instagram.follow')}
             initial={{ opacity: 0 }}
             animate={isVisible ? { opacity: 1 } : {}}
             transition={{ duration: 0.5, delay: i * 0.05 }}

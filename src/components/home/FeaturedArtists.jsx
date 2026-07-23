@@ -54,9 +54,9 @@ const FeaturedArtists = memo(function FeaturedArtists() {
             animate={isVisible ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 1, delay: 0.2, ease: [0.25, 0.1, 0.25, 1] }}
           >
-            <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
+            <h3 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold leading-tight text-secondary dark:text-white">
               {artist.name}
-            </h2>
+            </h3>
             <p className="mt-2 text-primary/80 font-display italic text-lg">{artist.nationality} — {artist.specialty}</p>
             <div className="w-12 md:w-16 h-px bg-primary my-6 md:my-8" />
             <div className="relative pl-6 border-l-2 border-primary/30">

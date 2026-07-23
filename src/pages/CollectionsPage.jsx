@@ -47,8 +47,9 @@ export default function CollectionsPage() {
         </Container>
       </section>
 
-      <section ref={ref} className="py-16 bg-white dark:bg-eclipse">
+      <section ref={ref} className="py-16 bg-white dark:bg-eclipse" aria-labelledby="collections-grid-heading">
         <Container>
+          <h2 id="collections-grid-heading" className="sr-only">{t('collections.title')}</h2>
           <div className="flex flex-wrap gap-3 mb-12">
             {categories.map((cat) => (
               <button
@@ -71,11 +72,14 @@ export default function CollectionsPage() {
                 <motion.div
                   key={collection.id}
                   layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
                   transition={{ duration: 0.5, delay: i * 0.1 }}
                   onClick={() => setLightboxIndex(i)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setLightboxIndex(i); } }}
                   className="group relative aspect-[4/5] rounded-2xl overflow-hidden cursor-pointer"
                 >
                   <LazyBackground

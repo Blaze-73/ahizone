@@ -10,12 +10,12 @@ export default function HeroSection() {
   return (
     <section className="relative h-dvh min-h-[500px] md:min-h-[700px] bg-eclipse">
       <Helmet>
-        <link rel="preload" as="image" href="/images/hero/hero-bg.jpg" />
+        <link rel="preload" as="image" href="/images/hero/hero-bg.webp" />
       </Helmet>
       <div className="absolute inset-0">
         <div
           className="w-full h-full bg-cover bg-center"
-          style={{ backgroundImage: 'url(/images/hero/hero-bg.jpg)', backgroundColor: '#2C1810' }}
+          style={{ backgroundImage: 'url(/images/hero/hero-bg.webp)', backgroundColor: '#2C1810' }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-eclipse via-eclipse/30 to-transparent" />
       </div>

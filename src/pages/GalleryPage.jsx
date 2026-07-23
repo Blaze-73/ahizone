@@ -42,8 +42,9 @@ export default function GalleryPage() {
         </Container>
       </section>
 
-      <section className="py-12 bg-white dark:bg-eclipse">
+      <section className="py-12 bg-white dark:bg-eclipse" aria-labelledby="gallery-grid-heading">
         <Container>
+          <h2 id="gallery-grid-heading" className="sr-only">{t('gallery.title')}</h2>
           <div className="flex flex-wrap gap-3 mb-12">
             {categories.map((cat) => (
               <button
@@ -66,12 +67,15 @@ export default function GalleryPage() {
                 <motion.div
                   key={img.id}
                   layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
                   transition={{ duration: 0.4 }}
                   className="break-inside-avoid group relative overflow-hidden rounded-xl cursor-pointer"
                   onClick={() => setLightboxIndex(i)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); setLightboxIndex(i); } }}
                 >
                   <LazyBackground
                     src={img.src}

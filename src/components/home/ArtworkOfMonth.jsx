@@ -12,7 +12,7 @@ export default function ArtworkOfMonth() {
   const artwork = artworksData.find((a) => a.id === 7) || artworksData[0]
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-eclipse text-white">
+    <section ref={ref} className="content-visibility-auto relative py-20 md:py-32 bg-eclipse text-white">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 lg:gap-20 items-center">

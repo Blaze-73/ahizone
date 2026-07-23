@@ -21,7 +21,7 @@ const Newsletter = memo(function Newsletter() {
   }
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-eclipse text-white overflow-hidden">
+    <section ref={ref} className="content-visibility-auto relative py-20 md:py-32 bg-eclipse text-white overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
       <Container className="relative z-10">
         <motion.div
@@ -41,7 +41,9 @@ const Newsletter = memo(function Newsletter() {
             <form onSubmit={handleSubmit} className="mt-8 md:mt-10 max-w-md mx-auto">
             <div className="flex flex-col sm:flex-row gap-3">
               <div className="flex-1 relative">
+                <label htmlFor="newsletter-email" className="sr-only">{t('newsletter.placeholder')}</label>
                 <input
+                  id="newsletter-email"
                   type="email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}

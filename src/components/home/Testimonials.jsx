@@ -13,7 +13,7 @@ const Testimonials = memo(function Testimonials() {
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-ivory dark:bg-charcoal">
+    <section ref={ref} className="content-visibility-auto relative py-20 md:py-32 bg-ivory dark:bg-charcoal">
       <Container>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

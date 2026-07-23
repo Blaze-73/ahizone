@@ -46,7 +46,7 @@ const AboutSection = memo(function AboutSection() {
           >
             <div className="aspect-[4/5] rounded-2xl overflow-hidden">
               <LazyBackground
-                src="/images/artworks/culture.png"
+                src="/images/artworks/culture.webp"
                 className="w-full h-full bg-cover bg-center"
                 style={{ backgroundColor: '#2C1810' }}
               />

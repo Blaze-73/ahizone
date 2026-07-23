@@ -134,9 +134,9 @@ export default function ContactPage() {
               className="lg:col-span-2 space-y-8"
             >
               <div>
-                <h3 className="font-display text-xl font-semibold text-secondary dark:text-white mb-6">
+                <h2 className="font-display text-xl font-semibold text-secondary dark:text-white mb-6">
                   {t('contactPage.info')}
-                </h3>
+                </h2>
                 <div className="space-y-5">
                   <div className="flex items-start gap-4">
                     <HiOutlineLocationMarker className="w-5 h-5 text-primary mt-0.5 shrink-0" />

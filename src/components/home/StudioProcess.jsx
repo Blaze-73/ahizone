@@ -8,15 +8,15 @@ import { useScrollAnimation } from '../../hooks/useScrollAnimation'
 export default function StudioProcess() {
   const { t } = useTranslation()
   const studioImages = [
-    { src: '/images/gallery/g1.png', label: t('studio.labels.0') },
-    { src: '/images/gallery/g2.png', label: t('studio.labels.1') },
-    { src: '/images/gallery/g3.png', label: t('studio.labels.2') },
-    { src: '/images/gallery/g4.png', label: t('studio.labels.3') },
+    { src: '/images/gallery/g1.webp', label: t('studio.labels.0') },
+    { src: '/images/gallery/g2.webp', label: t('studio.labels.1') },
+    { src: '/images/gallery/g3.webp', label: t('studio.labels.2') },
+    { src: '/images/gallery/g4.webp', label: t('studio.labels.3') },
   ]
   const { ref, isVisible } = useScrollAnimation({ threshold: 0.1 })
 
   return (
-    <section ref={ref} className="relative py-20 md:py-32 bg-white dark:bg-eclipse">
+    <section ref={ref} className="content-visibility-auto relative py-20 md:py-32 bg-white dark:bg-eclipse">
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 lg:gap-20 items-center">
           <motion.div

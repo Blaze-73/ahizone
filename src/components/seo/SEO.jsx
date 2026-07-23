@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import { useTranslation } from 'react-i18next'
 
 const SITE_URL = 'https://ahizoune.art'
-const DEFAULT_IMAGE = '/images/og-default.jpg'
+const DEFAULT_IMAGE = '/images/og-default.webp'
 const LOCALES = { ar: 'ar_SA', en: 'en_US', fr: 'fr_FR', es: 'es_ES' }
 
 export default function SEO({
