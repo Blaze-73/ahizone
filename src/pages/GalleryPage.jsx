@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
 import Container from '../components/ui/Container'
 import Lightbox from '../components/ui/Lightbox'
+import LazyBackground from '../components/ui/LazyBackground'
 import galleryData from '../data/gallery.json'
 
 const categories = ['all', 'calligraphy', 'portrait', 'teaching', 'mural', 'mixedMedia']
